@@ -1,0 +1,952 @@
+Requirement Text,Kategori
+"The system can file, store and retrieve information across courses.",BWR
+The system must allow a student to be tracked by the UEID provided by LMS core system provided.,BWR
+"The system must support management of access, views, functionality and security roles such as student, instructor, program administrator, and technical administrator.",BWR
+"The system must associate CBT, WBT, and e-Learning webinars to an instructor led training course.",BWR
+The system must associate test and examinations to courses and curriculum.,BWR
+The system must store and manage training materials electronically and in print form for the following assets: a) Job Aids b) Instructor Manuals  c) User Manuals d)Instructor-Led Presentations e) CBTs/WBTs,BWR
+"The system must upload certificates of completion, course registration sheets, and evaluations",BWR
+The system must associate classes with instructor names for specific sessions.,BWR
+The system must connect training material to a course.,BWR
+"The system must create course specific instructions and data such as parking, training module completion requirements, and unique instructions.",BWR
+The system must manage course registration.,BWR
+The system must prevent enrollment in a course when the student is not enrolled in a prerequisite.,BWR
+The system must provide the instructor the ability to post course completion to a student's transcript.,BWR
+The system must support and track webinars.,BWR
+The system must allow the students to self-register into classes available via the course catalog.,BWR
+The system must build a course catalog from the inventory of courses available in the system.,BWR
+The system must define prerequisites for courses in the course catalog.,BWR
+The system must store and archive training modules and artifacts.,BWR
+The system must build a course catalog from the inventory of courses available in the system.,BWR
+The system must define prerequisites for courses in the course catalog.,BWR
+The system must store and archive training modules and artifacts.,BWR
+The system must flag mandated training.,BWR
+"The system must notify students and managers of compliance status. For example, a student is 3 months away from no longer being compliant with the Sexual Harassment Prevention Training mandate.",BWR
+"The system must send 'reminder emails' to participants scheduled for a class. For example, supervisor training is 2 weeks away.",BWR
+"The system must send confirmation and status emails to students, managers, and/or training approver/s.",BWR
+"The system must send notifications of 'change in student status' to students, managers, and/or approvers.",BWR
+"The system must send notifications to students, managers, and/or approvers when an employee does not show up for a class.",BWR
+"The system must support sending a 'change in class status' message. This includes the ability to generate emails to students, managers, and instructors. Changes in class status such as location, start times, and instructor must generate a pre-formatted email.",BWR
+The system must allow the administrator to monitor student progress towards curriculum and certification completion,BWR
+"The system must create and produce student reports and work lists based on selected data elements including name, address, and student identification number.",BWR
+The system must generate individual student transcripts.,BWR
+The system must track and produce an attendance report by course.,BWR
+The system must support a notification of compliance and non-compliance with mandated training.,BWR
+The system must track On-the-Job Training activity.,BWR
+The system must track the student's successful completion of a course.,BWR
+The system must verify that a student is not enrolled in the same class offering twice to avoid duplicate registration.,BWR
+The system must produce an exception report when a student’s information is not uploaded properly.,BWR
+The system must have the ability to determine that an employee no longer exists based upon absence from ECR REST API data feed and/or flat file and will deactivate that employee record within LMS.,BWR
+The system must not allow updates to the employee fields which are imported from the ECR core system.,BWR
+"The system must import data by calling the REST API with LMS Product, Agency Code and LMS core system's UEID to get an employee's training history.",BWR
+The system must have unique course numbers.,BWR
+The system must relate a set of courses that belong together in a series with a unique identifier.,BWR
+"The system must import LMS core system reference table fields for drop down lists through REST API and/or sFTP flat file at a minimum of daily interval for a student, series, course and class.",BWR
+"Contractor must comply with the IFB terms and conditions, including, but not limited to, the Department of General Services’ Cloud Computing Special Provisions SaaS and California State Administrative Manual (SAM) policy.",BWR
+The system must provide reports upon request and detailed results of import and export activities.,BWR
+"Students can choose courses, attend lectures, take exams, view their attendance records, progress reports, etc. as per their convenience.",BWR
+Attend lectures either at the scheduled time or on request to view the lecture at a later time.,BWR
+"Faculties can take lectures, upload assignments, announcements, evaluate answer sheets, and upload lectures and other discussions in various formats such as videos, PowerPoint presentations, etc.",BWR
+"Upload and download of various assignments, college notices, student notices, journals, videos.",BWR
+"Administrators can generate reports, log files, and perform backup/recovery of data at any time.",BWR
+Shared documents and media library that can help in active learning of a student.,BWR
+"One-to-many, many-to-one, and many-to-many information sharing.",BWR
+Provisions of resources to arouse the interest of students in extracurricular activities like public speaking and grasp the chance to enhance their personalities.,BWR
+Students can take up various quizzes which can help them realize their inbuilt talents in various fields.,BWR
+The system supports mass notifications for users during emergencies,BWR
+The students can take their mock test of their course and evaluate themselves.,BWR
+The faculties can upload lectures on the site.,BWR
+Users should be able to register for an account.,BWR
+Users can review a course.,BWR
+Teachers should be able to build and add content to a course.,BWR
+There should be a secure payment gateway for users to buy a course.,BWR
+The system shall save the current version of the whiteboard in long term storage.,BWR
+The system shall save the history of the whiteboard in long term storage.,BWR
+The system will create event work spaces where users can collaborate on specific events or to develop training materials.,BWR
+The system shall support content development and storage for online and classroom training.,BWR
+The system shall allow content developers or instructors to sequence modules.,BWR
+The system shall have a calendar feature for scheduling online and classroom-based courses.,BWR
+The system shall have a calendar feature for tracking online and classroom-based courses.,BWR
+The system shall have a calendar feature for scheduling instructor availability.,BWR
+The system shall have a calendar feature for tracking instructor availability.,BWR
+The system shall provide for real-time video streaming using built-in tools.,BWR
+The system shall have a recording feature that will allow participants to playback content at a later time.,BWR
+The system shall have a recording feature that will allow content developers to playback content at a later time.,BWR
+The system shall allow the participant to pause the training and continue from where they left off at a later time.,BWR
+The system shall provide for participants and instructors to maintain an online journal during training.,BWR
+The system provides a point of contact for any training course questions.,BWR
+"The system shall have ""knowledge check"" features and/or support external tools for knowledge check (e.g. Menti).",BWR
+The system shall allow a participant to review the completion status of any content being worked on for any module or course.,BWR
+"The LMS shall be able to display different media file formats, such as MS Word, Power Point, jpeg, etc",BWR
+The LMS shall maintain a training profile for each participant.,BWR
+The system shall provide version control media used by content developers.,BWR
+"The system shall tag content development according to INSEP-specified parameters (e.g. draft, Master, cleared for release, etc.).",BWR
+"The system shall maintain a list of email addresses for a participant to contact an instructor, or content developer, or course administrator.",BWR
+"The system shall save, store and allow for query of evaluation data from online and classroom trainings.",BWR
+"The system shall save and store chats, discussion boards, and Q&A information for each training course.",BWR
+The system will allow rules-based file downloads.,BWR
+"The LMS shall allow for uploads and downloads of multiple documents, images, and other media.",BWR
+"The system shall have data sorting features based on a range of INSEP-specified variables (e.g. region, country, topic, etc.).",BWR
+The system shall allow authorized users to create data tables.,BWR
+The system shall allow authorized users to create data fields.,BWR
+The system shall allow authorized users to customize data tables.,BWR
+The system shall allow authorized users to customize data fields.,BWR
+The system will generate or print any report on demand,BWR
+The system shall produce customized reports,BWR
+"The system shall display a summary of the statistics for asynchronous course (training material, who has completed, who is still working",BWR
+The system shall provide for roles-based access.,BWR
+The system can be accessed only by authorized users.,BWR
+"LMS shall enforce access, viewing/exploring restrictions on foreign national content developers.",BWR
+The system shall operate world-wide without restriction.,BWR
+LMS shall flag and collect any system issues raised by participants and/or other users.,BWR
+"System software updates shall be made only on the server, or shall be pushed to users when they log in to the LMS.",BWR
+The system shall provide 24/7 technical support.,BWR
+The LMS shall offer plans for either active users or unlimited/enterprise users.,BWR
+The LMS vendor shall provide product support.,BWR
+The system shall NOT save the history of each whiteboard.,BWR
+"The system shall allow discussion boards to have an internal structure (i.e., sub-boards).",BWR
+The system shall allow discussion boards to be linked to instructional courses/activities.,BWR
+The system shall provide an optional moderator function.,BWR
+The system shall allow moderators to hide posts.,BWR
+The system shall allow moderators to prevent specific users from creating posts.,BWR
+The system shall allow moderators to review posts before they appear to all users.,BWR
+The system shall provide for an optional moderator function for approving uploads.,BWR
+"The system will provide access to the group space based on the following student profile attributes: User name, Course enrollment, Country of origin, Region of origin.",BWR
+The system shall allow for an administrator to limit the size of a community uploaded asset.,BWR
+"The system shall provide data analytics and reporting: User name, Content list of assets uploaded, Platform (mobile/computer/tablet) used to access community, Time spent in community space.",BWR
+The system shall provide a secure exchange location/drop box.,BWR
+"The system shall allow the user to limit the scope of access based on the following user attributes: User name, Course enrollment, Country of origin, Region of origin.",BWR
+The system shall provide for an optional moderator function for approving file exchange.,BWR
+The system shall support upload/download of any approved file type.,BWR
+The system shall allow file shares to have an expiration date.,BWR
+"Allows teachers to upload lesson plans linked to curriculum by standard or topic, course, and unit.",BWR
+Provides the ability to roll content over from year to year,BWR
+Ability for teachers to copy district or school approved instructional materials and make their own modifications,BWR
+Provides the ability to create discussion/communication area for teacher teams,BWR
+"Provides ability to create a lesson plan based on an existing unit by selecting a set of activities and assigning to an individual student, a group of students, or entire class for a particular timeframe",BWR
+Tracks lessons assigned to each student over the course of the student’s enrollment in the district,BWR
+The system has the ability to release course content and assessments on a schedule or preprogramed basis for easy student access.,BWR
+"The system has a process of creating, updating, assigning and sharing badges.",BWR
+The system has a process that will allow teachers to create their own test bank and share with colleagues at the site or district level.,BWR
+"Provides workflow ability for appropriate personnel or curriculum reviewers to approve instructional materials submitted by teachers for inclusion in a school, district, region, state, or national pool/repository",BWR
+Provides ability for administrators or curriculum reviewers to exchange commentary on submitted instructional materials to the creator of the materials from within the application,BWR
+"Provides ability for teachers to view the status (submitted, pending, or approved) of instructional materials (units, activities, resources) that have been submitted for district approval",BWR
+"Provides workflow ability for teachers to submit their instructional materials (units, activities, assessments, and resources) for approval and possible inclusion in a school wide repository of instructional materials",BWR
+"Provides workflow ability for appropriate school role to view the status (submitted, pending, approved) of instructional materials (units, activities, assessments, and resources) that have been submitted for district approval",BWR
+"Provides workflow ability for users in the appropriate school role to submit their teachers’ instructional materials (units, activities, assessments, and resources) to a district or state-wide pool/repository of instructional materials (units, activities, assessments, and resources)",BWR
+"Provides ability for administrators or curriculum reviewers to manage commentary on submitted instructional materials (units, activities, assessments, and resources) to the creator of the materials from within the application",BWR
+The system provides for a formal review process of teacher-designed lesson plans using workflow for review by the curriculum development team,BWR
+"The system features, processes and controls of automated selective release of modules and assignments based on scores, dates and completion.",BWR
+"Provides for automatic notification of learners to important information such as add or drop confirmation, changes of class meeting time and place, and uncompleted work.",BWR
+"Ability to control the progression of a class or specify the date and duration of the release of course content, resources, tests, discussions, etc. based on user, performance, or other prerequisite criteria.",BWR
+"Provides conflict identification and resolution – multiple enrollments in the same coursework is flagged, especially after successful completion by the participant.",BWR
+The system has a process upon which term and final grades will be uploaded into the SIS,BWR
+The system has the process of setting grading periods at the district or site level.,BWR
+The system has the ability to remove a student from a course even if they have existing grades but will retain the information within the system until the contract for service terminates.,BWR
+Provides individual professional growth plans that include: a. alignment to content standards b. alignment to professional teaching standards or school executive standards c. links to district initiatives or other identified individual needs d. links to the school improvement plan e. Permission to update objectives by end user with supervisor approval process f. ability to track date of objective creation or modification g. accommodates career ladder opportunities h. links to student assessment data i. other staff personal and emergency information,BWR
+Provides for an individual professional growth plan approval process that: a. allows employees to submit professional growth plans online b. enables reviewers to approve plans online c. provides a process to make modifications d. provides the capacity to archive plans e. provides alerts/notifications of deadlines f. allows employees to view status of plans g. generates reports on plan status,BWR
+"Provides a waiting list for each staff development program that includes: a. auto-registration and email notification once an opening becomes available (first come, first served) b. administrative waitlist management c. instructor can manage wait list and add/delete individuals to the class; including manual override of maximum session attendance",BWR
+"Manage class session attendance and results including the capacity to: a.  view roster of all registered participants b.  print pre-formatted scannable sign-in sheet c.  add walk-in attendees d.  submit session attendance online e.  submit final assessment results f.  batch enrollment by user profile characteristics (e.g., grade level, subject taught, employee classification) g.  Assign proficiency levels based upon competency attainment",BWR
+"Provides the ability to schedule courses including: a.  multiple sessions of the same activity b.  easy assignment of locations and instructors without retyping c. assignment of pre-approved instructors to a course or session d.  management of a list of pre-approved staff development locations e. block scheduling of training rooms/facilities f.  capacity to identify and track substitute costs for staff development requests g.  capacity for approver to execute batch approvals h.  capacity to track proficiencies, credits, and/or seat time i.  links to an accounts payable module for staff development related costs j.  alignment to strategic goals and student learning targets.",BWR
+Provides the ability to create staff development assessment activities for each course or activity with the following question types: a.  single line of text b.  multiple lines of text c.  multiple choice by drop down d.  rating scale by drop down e.  project rubric,BWR
+Authorizes payments to providers who have course in the system,BWR
+Includes the ability to evaluate the PD (e.g. survey or other data collection function),BWR
+Tracks proficiencies required and suggests professional development opportunities to address,BWR
+Provides standard pre-formatted reports for: a.  proficiency acquisition by staff members b.  registration tracking by activity section c.  activity participation summary by school district (broken out by individual) d.  activity participation summary by school e.  individual user staff development f.  staff development request g. staff development participation h.  individual staff proficiency attainment summary i.  staff development evaluation and summary j. total planned track of courses over several years and show current status against this plan k. under enrolled courses l. high demand courses m. frequently enrolled courses,BWR
+Provides the ability to print and produce electronic transcripts and CEU certificates,BWR
+"Maintains performance and/or supervision and evaluation history, including: a. workflow b. tools c. forms",BWR
+Allows for unlimited entries of performance history data,BWR
+Provides templates for evidence of impact of professional development in classrooms,BWR
+"Ability for teachers to view a variety of classroom-level assessments reports for their students: a. Tracking tools which give the instructor reports such as how frequently students are logging in, what pages the student has viewed, and what tasks have been completed b. content standards mastery – assessment results by student by standard for a particular time period c. item analysis – assessment results by student by item (including distracter choice)",BWR
+Provides ability for the teacher to view assessment results by proficiency levels on the sections and subsections by: a. student b. class section c. aggregate class comparison data,BWR
+The system provides learning analytics and in-depth data gathering / reporting to monitor learning outcomes.  ,BWR
+Provides all reports and data points previously defined for teachers rolled up to building and/or district level as appropriate.,BWR
+"Provides for an ad hoc reporting tool for ""power users"" to create custom reports, dashboards and other data analysis tools",BWR
+The system has the ability to track and report student success based on specific learning competencies or outcomes,BWR
+"The system has the ability to generate certificates based on outcome attainment, and provides tools to manage, deliver, and track certificates.",BWR
+Provides for archiving LMS 'best practices' documents or other electronic media,BWR
+Provides professional training for staff and other key players in the rollout/implementation to meet the District’s project timeline / plan.,BWR
+Provides comprehensive remote training and full knowledge transfer to appropriate District staff to manage the system.,BWR
+Provides training description and syllabi for all training courses as well as flowchart showing recommended sequence and prerequisites,BWR
+Provides onsite training on various LMS modules organized around district roles or job functions ,BWR
+"Provides the option to train all district users, providing materials available to do each task",BWR
+Provides training on LMS best practices,BWR
+Provides an evaluation component with data reported,BWR
+Permits the district to edit training videos for internal district use ,BWR
+Provides LMS training through company interactive webinars at regularly scheduled intervals,BWR
+Allows customers to archive vendor provided LMS training for later re-broadcast within the district for the purposes of training district personnel,BWR
+Provides Knowledge Base and FAQ related to End User support,BWR
+"Work flow processes are provided by the vendor and defined and embedded in the system design, documentation and training.  Process documentation adheres to a standard, such as Business Process Modeling Notation (BPMN), XML Process Definition Language (XPDL), or other well-defined industry standard.",BWR
+Workflows and rules can be assigned within the system to ensure prerequisite steps and review processes take place before a user is allowed to move to the next stage,BWR
+"There is an overall process framework (e.g., map) provided, documented, and diagrammed by the vendor for the LMS that defines the major processes, sub-processes and their relation to each other. The behavior of the system is determined by the process framework.",BWR
+All process linkages and dependencies with other process are defined and visible in the framework.,BWR
+"Specific excerpts are provided from the process documentation to explain how to perform the following tasks: (This list may be expanded during the evaluation process.) a. develop, vet and load a set of non-secure assessment items b. develop, vet and load a set of instructional resources c. select, compile, deliver, score and assess formative assessments and benchmark assessments d. create, retrieve, update, delete, and execute a workflow process definition.",BWR
+"The LMS is capable of controlling adds/changes and deletes to the data element level such that it can ensure data imported from authoritative source systems is not overwritten, deleted or added in LMS data entry interfaces. ",BWR
+Supports user definable metadata schemas based on the LRMI and/or CEDS schema and user definable workflows for publishing and content review.,BWR
+Learning objects may align to multiple standards,BWR
+Provides a year-end rollover process that advances students and preps data structures for the new school year (including year round schools) without wiping out the previous year's data ,BWR
+Provides an online drop down list of all valid values for each validated field,BWR
+"Provides data validation features prior to data loading that includes: verification, range checks, table of valid entries, and allowances for online editing/validation of all update transactions.  To a large extent, these features are embedded in the database as integrity constraints.",BWR
+Supports automatic insertion of calculated fields based on user-defined formulas that are dynamically at run-time.,BWR
+The system must support a SSO.,COM
+The LMS must provide interoperability that will utilize the LMS core system’s Unique Employee Identifier (UEID) to track a student throughout the LMS system and data exchanges,COM
+The LMS system must call APIs and/or send flat files with the department’s agency code and the identified LMS product name.,COM
+The system must associate and track a student and all associated data that is imported from the LMS core system using the UEID.,COM
+The system must import LMS core system employee and/or training information through REST API and/or sFTP flat file at a minimum of daily interval.,COM
+The system must have the ability to call REST API with LMS Product and Agency Code and/or identify LMS Product and Agency Code within a flat file during data exchanges.,COM
+The system must have the ability to import LMS core system records for all employees that have changed since the last ECR REST API data feed and/or flat file for a given agency code.,COM
+"The system must update fields through the import process (ECR REST API data feed and/or flat file) from the LMS core system, pertaining to the employee.",COM
+"The system must export student training information through REST API and/or flat file exports. It will only include records that are new, updated or deleted since the last data exchange. This must be accomplished once a day at a minimum.",COM
+The system must import the data elements from the LMS core system by calling the API with LMS Product and Agency Code of the client department and/or exporting a flat file that identifies the LMS Product and Agency Code of the client department.,COM
+"The LMS must have the ability to consume and publish specified catalog and event driven data (e.g. addition and removal of employees, completion of training classes, listing of training providers) via secure REST API to and from the LMS Core System.",COM
+"The LMS must have the ability to publish and consume via batch file specified catalog and event driven data (e.g. addition and removal of employees, completion of training classes, listing of training providers) in the format prescribed by the ECR System.",COM
+"The system must accept training material in the following file types: Microsoft supported product formats for Word, Excel and PowerPoint; Adobe Acrobat Reader (PDF); Standard video file formats (e.g. vob, wmv, mp4); Standard image formats (e.g. png, jpg, gif).",COM
+The system must integrate with 3rd party authentication such as O-Auth or direct usage.,COM
+The system must accept Single Sign On (SSO) tokens.,COM
+"The system must meet the Section 508 and WCAG 2.0, A and AA most current requirements.",COM
+"The system must support Mobility (e.g., phones and tablets).",COM
+"The system must support all current versions and any previous supported versions of modern web browsers including Internet Explorer, Firefox, Chrome and Safari.",COM
+The system must integrate with 3rd party authentication such as O-Auth or direct usage.,COM
+The system must accept Single Sign On (SSO) tokens.,COM
+"The system must support Mobility (e.g., phones and tablets).",COM
+"The system must support all current versions and any previous supported versions of modern web browsers including Internet Explorer, Firefox, Chrome and Safari.",COM
+"HTTPS enables access to web application to secure access of confidential data (student information). Database Access There will be no external access to the database, except through the XML protocol. Administrators of the system will have full database administration rights and Lecturers may have access to a copy of parts of the VCS database, for editing purposes.",COM
+Ability to use mobile devices to access course content and all course tools are available in the mobile client,COM
+Available tools in the mobile client have the same functionality as the web version,COM
+The LMS is mobile-ready when using the web version through smartphones,COM
+The Online Student Information Management System is also supported on mobile devices such as cell phones,COM
+The system shall allow the users to access the system from the Internet using HTML or it’s derivative technologies. The system uses a web browser as an interface.,COM
+The system shall provide for simultaneous translation.,COM
+"The LMS shall be compatible with the following operating systems: Windows, OSX, LINUX, Android, and iOS.",COM
+The system will support 3rd party software.,COM
+"The LMS shall be able to display content for 3rd party vendors such as MS Teams, Zoom, Bluejeans, Skype.",COM
+The LMS shall support the surveys from 3rd party vendors.,COM
+The LMS shall work with the existing INSEP databases.,COM
+The LMS shall access multiple databases.,COM
+The system shall be compatible with Sharable Content Object Reference Model.,COM
+The system shall be compatible with Learning Tools Interoperability.,COM
+All components in this section are available on multiple web browsers.,COM
+The system provides a process in which a teacher grades student course submissions via multiple devices and multiple operating systems. This should include the required apps and platform requirements.,COM
+Integrates seamlessly with the Internet to allow access to online software and support services such as: a. the capability to submit questions related to the software b. to inquire about the status of current calls c. to receive software and documentation updates,COM
+The LMS components are built around a common data model and aligned to the U.S. Department of Education's Common Education Data Standards (CEDS),COM
+Data integration across components is assured by having developed each component within the common database schema.,COM
+"Provides the capability to read and write commonly accepted imaging standards (for example .jpeg, .epi, .eps, .tif, .gif, .png) to capture and retrieve graphics and photos for use in assessment items and activities.",COM
+"Content modules support .mov, .wmv, .mp3, .mp4, .wav, .wma",COM
+Meets current HTML5 standards for audio and video,COM
+Does not require reliance on any client side software other than an HTML 5 capable browser in order to display any and all LMS presentations.,COM
+Hardware Requirements a. Supports virtualization,COM
+"The LMS delivers all of its functionality through a web browser.  The LMS is expected to run well on major   HTML5-compatible browsers on the current release and past two releases and require no additional browser helpers or plugins for full accessibility and functionality.  These browsers shall include but not be limited to the following list:  Internet Explorer, Firefox, Safari, and Chrome.  ",COM
+"The LMS runs well on a wide variety of mainstream hardware platforms that use the aforementioned browser technologies described in 9.1.2.a.  These hardware platforms shall include but not be limited to Microsoft Windows and Mac OS desktops laptops and netbooks, Apple iOS devices, Android devices, as well as other tablets, smart phones, and eReaders.",COM
+Provides the ability to define defaults for creating fields and pre-populates them at record creation time.,COM
+Fully SQL compliant (ANSI standard version SQL 2012 as a minimum),COM
+"Provides for multiple domains including live, test and training environments",COM
+The system must have the ability to authenticate upon REST API call.,PE
+A public cloud-based environment is required for this LMS solution.,PE
+Planned system downtime must be scheduled at least 24 hours in advance.,PE
+The system must allow failovers to occur without disruption to service.,PE
+"Planned system updates, patches and support must occur without service disruption.",PE
+The system must have the ability to store and retrieve 5 years of employee training history within a maximum of 48 hours.,PE
+The system must have the ability to expand capacity with workforce as additional departments are on boarded.,PE
+Less response time should be there so that student and faculty should feel good while using this virtual classroom system,PE
+24 X 7 availability should be there so that student can use it at any time according to  his convenience.,PE
+"Number of users supported in the class will mainly depend on the server load, server processing capacity and its memory. It should scale maximum number of users",PE
+"Detailed student system tracking available (log in, log out, last accessed, IP address)",PE
+Detailed student tracking available for each course tool (How many discussion posts were read; how long they spent on each question),PE
+Concurrent user capabilities,PE
+The LMS must be easily scalable to handle increasing numbers of users and content to keep in step with the growth of the organization,PE
+The application should be able to operate on all major web-browsers with all of its fundamental functions . It should not slow-down the system even at peak hours without affecting the quality of service of the system,PE
+The system is available 100% for the user and is used 24 hrs a day and 365 days a year.,PE
+The system shall be operational 24 hours a day and 7 days a week.,PE
+The system will be developed in such a way that it may fail once in a year.,PE
+"Even if the system fails, the system will be recovered back up within an hour or less.",PE
+The system shall provide 100% access reliability.,PE
+The Splash Page or Information page should be able to be downloaded within a minute using a 56K modem.,PE
+The information is refreshed every two minutes.,PE
+The access time for a mobile device should be less than a minute.,PE
+The system shall respond to the member in not less than two seconds from the time of the request submittal.,PE
+The system shall be allowed to take more time when doing large processing jobs.,PE
+The system shall take as less time as possible to provide service to the administrator or the librarian.,PE
+The system is capable of handling 250 users at a time.,PE
+The system response time for every instruction conducted by the user must not exceed more than a minimum of 10 seconds.,PE
+The system should have a high performance rate when executing user input.,PE
+"The system should be able to provide a response within a short time span, usually 50 seconds for highly complicated tasks and 20 to 25 seconds for less complicated tasks.",PE
+The system shall provide asynchronous training 24/7 with the exception of maintenance periods.,PE
+The system shall have an availability level of 99 percent.,PE
+The system shall support multiple resolutions to accommodate various bandwidth limitations.,PE
+The system shall maintain adequate non-volatile storage for recorded videos.,PE
+"Stores any original statistics and calculates new statistics for each item: a. IRT discrimination (difficulty, pseudo-guessing, DIF (item bias), b. p-value (probability).",PE
+Supports the storage of artifacts related to multi-year projects (e.g. high school project),PE
+Provides storage capacity sufficient per class/student to manage a K-12 work sample repository,PE
+"Data movement to and from the LMS accommodates various periodicities including, at least, monthly, weekly, daily, and real-time. ",PE
+"Allows for one central software and system design that can accommodate more than 10,000 active users without detrimental impact to performance response time remains less than 15 seconds and users are not exited from the system.",PE
+The field to field on screen data entry response time will be less than .5 seconds.,PE
+Allows data fields on input forms to use input into other fields on the form to control the options they display. ,PE
+Provides a trainer with educational experience and in-depth knowledge of the system,U
+"Provides LMS training videos that are produced using professional tools such as Camtasia, Robohelp, or Flash",U
+Provides LMS training that satisfies federal 508 compliance such as videos with sub-titles and audios with transcripts,U
+Offers support to regular end-users ,U
+Provides opportunity for users to get real-time support through online chat,U
+"Provides professional help desk software for: a. problems with the LMS system b. automatically receiving notification of logged problem c. notification of temporary software fixes d. final resolution of software problems e. provides a formal system to track, report, and manage end-user software problem reports f. allows the customer the ability to escalate LMS problem resolution based upon the urgency of the customer software problem g. ability to integrate with other help desk software",U
+Provides a direct support representative(s) that the District can contact without going through call center or complex phone menu to reach the support representative.,U
+"A consistent look and feel is provided such that controls for similar functions across components are located, accessed, and operated the same within each component.  User views follow existing conventions where these make sense.",U
+User interface can support or be translated into different languages (specify languages).,U
+The process documentation is used for user training.,U
+System is ADA/Section 508 compliant / Responsive Web Design,U
+Supports the APIP Accessible Content Standards,U
+Assessment delivery system provides the following optional elements: a. audio directions b. tactile graphics c. American Sign Language d. Signed English e. alternate language (specify languages) f. keyword(s) or concept(s) highlighting g. keyword(s) or concept(s) translation (specify languages) h. flagging i. guided reader,U
+"Supports error messages that are easily understood by the user with online, error-resolution help screens. ",U
+"Requires only basic mouse and keyboard skills, and familiarity with standard web browser controls.",U
+The system must allow changes to user information not associated to ECR.,UInR
+The system must provide the ability to preview content prior to being published.,UInR
+"The system must allow downloadable content for users in various types of media (i.e. PowerPoint, MS Word, PDF) from a computer or mobile device.",UInR
+"The system must stream CBT, WBT and webinars from the student’s profile or account.",UInR
+"The system must receive and upload CBT, WBT and Webinar courses.",UInR
+The system must allow data to be extracted and imported through user interface.,UInR
+The system must present and export a course roster.,UInR
+The system must supports multi-search criteria by course attributes.,UInR
+The system must accept batch uploads of data.,UInR
+The system must be able to track interest in a course by the LMS core system's UEID.,UInR
+The system must track and display student information including the UEID provided by the LMS Core System.,UInR
+The system must be able to import and support UEIDs.,UInR
+The system must be able to import and support UEIDs.,UInR
+"Real-time collaboration among users via chat rooms, shared and interactive whiteboards.",UInR
+"Asynchronous communication in the form of emails, discussion boards that enable communication to occur at ""convenient times"" that suit student schedules and are not accessed at simultaneous or prearranged times.",UInR
+"There can be forums, blogs, etc. to discuss various queries and to put up suggestions posted both by students and teachers.",UInR
+Availability of a voice mailbox to allow faculties to get the descriptive messages left by the students.,UInR
+"Ability to provide a variety of feedback types (e.g., text, audio, video) for assignments, discussions, and other student activities",UInR
+"Help Desk options available for students such as email, chat, etc.",UInR
+The application should have a responsive interface.,UInR
+Users will be able to enroll in a course.,UInR
+"The system shall have a white board feature for participants and instructors to interact with each other via diagrams, equations, and written notes.",UInR
+The system shall have a discussion forum for participants to interact with instructors and each other.,UInR
+The system shall have a mechanism for posting questions.,UInR
+The system shall have a mechanism for posting responses to questions.,UInR
+The system shall provide a live chat feature to allow participants to communicate with each other.,UInR
+The system shall provide a live chat feature to allow the instructor to communicate with the participants.,UInR
+The system will include collaboration tools that allow content developers to work together to develop or adapt training materials.,UInR
+"The system shall provide training materials development tools such as text editors, graphics production, video editing, etc.",UInR
+The system shall provide templates that can be used by course developers.,UInR
+The system shall provide drag-and-drop capability for both Windows and OSX operating systems when working with the training databases.,UInR
+The system shall assist users who are having difficulty with the LMS interface.,UInR
+The system shall allow for individuals and groups to create whiteboards for sharing ideas in real-time.,UInR
+"The system shall allow users to save, recall, and edit individual whiteboards.",UInR
+The system shall allow users to resume work on a previously saved whiteboard.,UInR
+The system shall support the streaming of live videos.,UInR
+The system shall allow the user to move back in the video timeline when streaming a stored video.,UInR
+The system shall allow the user to move forward in the video timeline when streaming a stored video.,UInR
+The system shall prevent the user from moving past an unviewed portion of the timeline when streaming a stored video.,UInR
+The system shall allow the user to pause playback when streaming a stored video.,UInR
+The system shall prevent the user from pausing playback when streaming a live video.,UInR
+The system shall prevent the user from moving back in the timeline of a live video.,UInR
+The system shall support the streaming of recorded videos stored in the following formats (TBD).,UInR
+The system shall allow instructor and administrators to create discussion boards.,UInR
+The system shall allow instructors/administrators to post prompts.,UInR
+The system shall allow students to respond to posted prompts.,UInR
+The system shall notify students when instructors have posted prompts.,UInR
+The system shall notify users when other users have responded to them.,UInR
+The system shall notify users when other users have mentioned them by name.,UInR
+The system shall allow for keyword searches of prompts and responses and discussion board titles.,UInR
+The system shall provide community spaces within which students can collaborate on group projects.,UInR
+The system shall allow students to upload the following types of content to the group space (TBD).,UInR
+The system shall warn students if clicking on a link will take them to an external site.,UInR
+The system shall support file exchange among users.,UInR
+The system shall support drag-and-drop upload and download from/to a user’s local system.,UInR
+The system shall allow a user to upload/download multiple files within a single operation.,UInR
+The system shall indicate file upload/download progress.,UInR
+The system shall warn the user if attempting to upload a non-supported file type.,UInR
+"On mobile platforms, the system shall launch native file sharing apps when users select links for those services.",UInR
+The system shall allow an interrupted file upload to be resumed.,UInR
+"Provides the ability for users to create instructional materials (units, activities, assessments, and resources) : a. with ability to attach a file (graphic, chart, spreadsheet, map), b. allowing for streaming video",UInR
+Provides the ability to duplicate lesson plan for multiple class sections,UInR
+Permits teachers to schedule either an assignment or assessment into their and their students’ individual calendars,UInR
+The system has a process for searching within a course and all administrative courses for content.,UInR
+Permits instructors to give feedback to a whole group as well as individuals in the group,UInR
+The system has the ability of notifying student and teacher of submissions that need to be graded and/or reviewed after being graded.,UInR
+Provides a mechanism for instructor to provide feedback on student assignments,UInR
+Allows teachers to review and rate materials as they use them with the ability to turn off portions of this by the system administrator as necessary,UInR
+The system has a process of creating and using a checklist and any additional functionality.,UInR
+"The system has the ability to produce and deliver surveys, polls, questionnaires.",UInR
+"Provides a student search tool that allows users to find course material based on keyword, learning target/object, or any other learning object metatag",UInR
+The system has the ability for teachers to post announcements using a variety of communication formats and delivery methods.,UInR
+Allows students and/or teachers to change the status of their group from private to public when ready to share,UInR
+"Supports and captures real-time chat such as Internet Relay Chat (IRC), instant messenger, or similar text exchanges",UInR
+Supports the ability for students taking the online assessment to change answers for each section of the assessment before submitting the test.,UInR
+"The system has the ability to enter grades and grade comments/feedback by teachers and students to communicate via type written, video and audio means.",UInR
+Allows assessment author to specifically order questions on the assessment.,UInR
+"Provides the ability to search, filter, and view staff development offerings whether offered by the school district or other organizations",UInR
+Supports the ability to automatically suggest professional development to a teacher when that teacher’s students are performing below standard on a particular learning objective.,UInR
+Allows students to: a. enter and modify information into their own work samples repository b. export and store artifacts to external medium c. interact with students based on what the students have entered and provide feedback d. view and/or enter student work samples or exemplars e. view and/or enter their own professional learning artifacts f. remove material entered by students (based upon acceptable use policy),UInR
+Provides for class specific information that optionally permits: a. class announcements b. teacher phone and e-mail contacts c. class syllabus d. course of study e. homework assignments f. reading lists,UInR
+Provides for access to classroom specific web pages that optionally permits: a. class announcements b. teacher phone and e-mail contacts c. class syllabus d. homework assignments e. homework lockbox for student submission of work f. links to videos and Podcasts,UInR
+"Provides end-users (students, parents, teachers, and administrators) online help within the application that is context sensitive and is searchable with predictive searching: a. keyword(s), concept(s), metatag, or phase b. index or table of contents c. procedural help with specific tasks d. media type e. roll-over",UInR
+"Provides end-users (students, parents, teachers, and administrators) with online tutorials that are of a procedural nature in the use of all LMS system components",UInR
+"Provides users the ability to subscribe, unsubscribe, and receive notifications of: a. best practices documents b. LMS procedural documents c. function updates d. security updates e. emergency notifications",UInR
+"Tracks usage statistics for online help, especially FAQs, which include a ""Was this helpful?"" component",UInR
+Provides 'quick-start' procedural sheets to aid users in getting started using the LMS,UInR
+Provides a demonstration environment with hands-on experience,UInR
+Manages end-user registration with reminder notification and addition to personal calendar,UInR
+Provides the ability to view on-demand videos of LMS training on a modular basis,UInR
+Provides the ability to view on-demand videos on effective practice,UInR
+Manages end-user registration with reminder notification and addition to personal calendar,UInR
+"Provides features to minimize data entry effort by reusing data previously entered, where appropriate. ",UInR
+"Provides ""preview"" of data prior to import or export",UInR
+Allows the user to identify any data element that must be tracked for changes,UInR
+Capable of editing and validating dates at the time of data entry or ingestion.,UInR
+"Provides the ability to track administrator, teacher, student, and parent use of system",UInR
+Accommodates associating multiple parent/guardian accounts with a given student account. ,UInR
+The system must support custom fields.,UIR
+The system must provide rich text editor with html capabilities.,UIR
+The system must display unique ID numbers for courses and events.,UIR
+The LMS must present course completion certificates.,UIR
+"The system must display all enrollees in a course by status in class offerings; For example, approved or pending approval.",UIR
+The system must display and print reports that present the progress of the student in a training curriculum.,UIR
+The system must present a course enrollment status which includes number of students enrolled.,UIR
+The system must manage and display individual student transcripts.,UIR
+Ability to add audio/video components to quizzes or exams,UIR
+The site will provide course study material to the students in electronic form.,UIR
+"All the information including course details, fee structure and notices for students will also be displayed on the site.",UIR
+"The site will be used by three different types of users: Students, Faculties, and the administrators having different interface for each type of user.",UIR
+The system shall have the capability of customizing the LMS user interface to accommodate different languages.,UIR
+"The system shall allow for creation of customized dashboards for different types of users (e.g. content developers, instructors, project leads, trainees).",UIR
+The system shall support programmatic branding options for all types of training.,UIR
+The system shall display when it is not available due to backup/maintenance schedules.,UIR
+The system shall provide an interface for viewing every type of upload it allows.,UIR
+Provides a spelling checker while in authoring mode.,UIR
+Provides a grammar checker while in authoring mode.,UIR
+The system has contextually appropriate help resources that are accessible from all pages and provide end-user specific assistance.,UIR
+"Contextually appropriate help files are accessible from all pages and provide assistance for students, faculty, and system administrators as appropriate.",UIR
+Accommodates template/wizard driven creation of teacher websites within the system,UIR
+"Allows for ""Announcement"" mechanism as students log into system or course to provide: a. textual and audio announcements, b. video links, c. multi-media, d. interactive learning objects",UIR
+"Provides virtual tools required for student response to questions (e.g., rulers, protractors, etc.).",UIR
+"The system has a process of bookmarking within a course, which allows students to return to the last assessed portion of the course.",UIR
+Provides ability for administrators to export staff development results to Microsoft Excel for analysis,UIR
+"Provides online and print versions of documentation with internal hotlinks to include: a. LMS modular description b. FAQs c. procedural ""how to"" documentation, step by step manual d. administrator's user guide e. Quick Start user guide",UIR
+Provides personalized user interface views based on individual or group (role) settings,UIR
+Provides “spell checking” ability for narrative fields,UIR
+Allows for customization of secure login screen to local layout standards and to integrate with local directory services to facilitate single sign-on.,UIR
+The system is capable of allowing the user to customize their profile and instructor level controls concerning the profile.,UIR
+Uses techniques such as drop down lists to minimize data input errors.,UIR
+Allows data fields on input forms to be designated as required or optional.,UIR
+Users must be able to access the LMS system and its features via a mobile friendly browser based interface or a mobile application.,U
+The system must provide contextual On- Line Help,U
+The system must support closed- captioning for computer based training,U
+"The system must meet the Section 508 and WCAG 2.0, A and AA most current requirements.",U
+The system must support closed- captioning for computer based training,U
+The video quality should be clear and good .The audio could be heard well. The video and audio of lectures should be synchronised well,U
+The language used in the interface should be formal and polite.,U
+"Ability to set different assessment time frames for individual students (e.g., students with disabilities who need more time)",U
+Ability to add captions to assessments,U
+"Learners must be able to access the LMS and its content in their native language, and learner interface must be available in multiple languages",U
+The LMS must support specific country regulations related to security and accessibility,U
+"Since all users are familiar with the general usage of browsers, no specific training is required",U
+The system is user friendly and self-explanatory,U
+There should be a Content Management System (CMS) for content providers.,U
+The system provides a help and support menu in all interfaces for the user to interact with the system.,U
+The user can use the system by reading help and support.,U
+The system shall have a tutorial for system familiarization training.,U
+System is pre-loaded with wizards and template for rapid content development,U
+"Provides the ability to ""rate"" instructional content and enter reviews and comments as part of the vetting process by teacher or district",U
+Allows staff to create items on the fly by copying and pasting from word processing documents or other files,U
+System accommodates customizable layout and design,U
+System utilizes drag and drop content creation and management,U
+The system provides comprehensive support features and resources customized for each end user.,U
+"The system has a process of creating, updating, and sharing journals, blogs, discussion boards or forums for asynchronous discussions",U
+Supports social networking collaboration tools for information sharing,U
+"Allows question text to be enhanced with underline, bold, italics, superscripts, subscripts, fractions, etc.",U
+"Provides accessibility options to meet presentation accommodations including, but not limited to: a. ability to self-select print size or magnification b. provides graphics and text-based user interfaces c. minimize scrolling difficulties d. minimize negative effects of magnification on graphics and tables e. ability to self-select audio (screen reader), alternate language, or signed versions of instructions and test items, where appropriate f. ability to use color contrast for background and overlying text (high contrast resolution).",U
+"Provides a calendar view (month, week, day) for lessons, assignments, assessments for teachers and students",U
+If projected  the data must be readable.  On a 10x10 projection screen  90% of viewers must be able to read Event / Activity data from a viewing distance of 30,U
+If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100,U
+The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.,U
+The system shall be used by realtors with no training.,U
+The system shall be intuitive and self explanatory.,U
+The product shall be easy for a realtor to learn.,U
+The product shall use symbols and words that are naturally understandable by the realtor community.,U
+The product shall be installed by an untrained realtor without recourse to separately-printed instructions.,U
+90% of untrained realtors shall be able to install the product on their device without printed instructions,U
+The system shall be easy to use by the Program Administrators/Nursing Staff Members.,U
+All of the users shall be able to use the system after one day of training.,U
+The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.,U
+The number of mistakes noted by the students shall be decreased by 50% in the first year.,U
+The system shall be intuitive to the Program Administrators/Nursing Staff Members.,U
+2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.,U
+The system shall use symbols and words that are naturally understandable by the user community.,U
+The verbiage used within the system shall be consistent with Standard English and the terminology of the national Nursing Community.,U
+The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.,U
+100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.,U
+100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.,U
+100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.,U
+The product shall be easy to use by Adjusters and Collision Estimators.  95% of Adjusters and Collision Estimators shall find the product easy to use.,U
+The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.,U
+Users shall feel satisfied using the product.  85% of all users will be satisfied with the product.,U
+The product shall be easy to learn by Adjusters and Collision Estimators.  The product shall be learned with two days onsite training,U
+The user shall easily locate instructions while using the product.  User help can be found within 90% of the system.,U
+The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.,U
+The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.,U
+The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.,U
+The product shall allow the user to select a chosen language from one of the target market countries.,U
+The product shall allow for customization of start page and views preferences.,U
+An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.,U
+The product shall use a standard navigation menu familiar to most web users.,U
+The product shall allow for intuitive searching of available conference rooms.,U
+The product shall conform to the Americans with Disabilities Act.,U
+A new user must be able to be added to the system within 10 minutes. 90% of new users are able to log into the system within 10 minutes.,U
+Every registered user will have access to the product\92s support site via the Internet.  70% of registered users shall find a solution to their problem within 5 minutes of using the support site.,U
+The product shall be translated into foreign languages other than the target market countries\92 languages in future releases.  For each emerging target market  it shall take no more than 5 days to configure the product for that market\92s language.,U
+The product shall be able to display calendar dates and times according to the user\92s locale.  90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.,U
+The product should be able to be used by 90% of novice users on the Internet.,U
+Users should only have to navigate through a maximum of 4 pages  to create an account with the website.,U
+Users should be able to access their streaming movies in under 2 clicks after logging into the website.,U
+An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.,U
+An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.,U
+The product shall retain the customer\92s buying preferences and information.,U
+The product shall be easy for customers with novice skills on the  Internet to purchase and watch streaming movies.  Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,U
+The product shall use symbols and words that are naturally understandable by users familiar with websites,U
+The website will use standard Internet conventions when interacting with the user.,U
+The website will provide a help section with answers and solutions to common problems.,U
+The product shall be intuitive and self-explanatory.  Nine out ten users shall be able to successfully complete a game with no training.,U
+The product shall be available to players who understand English  Spanish and French.  The product shall allow the user to select the language upon accessing the product.,U
+The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.,U
+The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.,U
+The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.,U
+The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.,U
+The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators),U
+The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard,U
+The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.,U
+Reports must be easy to generate. Reports must be generated within one button click and exported within one button click (after selecting the report),U
+A user shall be able to use the system without instruction after a short amount of time. After one use a user should understand and remember 90% of the system usage and navigation.,U
+All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available),U
+The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.,U
+A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.,U
+Users shall be able to reach the \91add\92  \91drop\92  and \91trade player\92 pages with one click from the team owner\92s page.,U
+Users shall be able to view at least 25 NFL player statistics and points on each page.,U
+The application shall ask the user to confirm dropping a player or trading a player before performing the action.,U
+The users should be able to easily use the system to successfully complete their budgets  within the stipulated time for completion. With a week of training prior to product implementation  98% of the users shall complete their budgets within the stipulated time.,U
+The system shall have a help system that offers tips and explanation for each screen and each item on the screens upon demand.,U
+The system must be easy to use by both managers and chefs such that they do not need to read an extensive amount of manuals.,U
+The system must be quickly accessible by both managers and chefs.,U
+The system must be intuitive and simple in the way it displays all relevant data and relationships.,U
+The menus of the system must be easily navigable by the users with buttons that are easy to understand.,U
+95% of users will not need to read the user manual to be able to use the application.,U
+The system shall allow the user to scroll the campus map from the campus map tab.,U
+The system shall provide a way to return to the startup screen.,U
+The system should need to be entirely self-supporting since the users would be using it only to register courses.,U
+The system shall provide a digital image for each product in the product catalog.,U
+The system shall provide use of icons and toolbars.,U
+The system shall provide handicap access.,U
+The system shall provide multi language support.,U
+The system shall confirm all transactions with the customer's web browser.,U
+The user interface of the system should be very user friendly.,U
+It should not take more than 120 seconds for a new user to register for an account.,U
+It should not take more than 90 seconds for a registered user to place an order.,U
+The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout,U
+The system shall able to operate within a business office environment typical of the Nursing Department at DePaul University.,U
+The system shall be used within the specifications defined by the computers used by the Program Administrators/Nursing Staff Members.,U
+The system shall operate within the Windows XP Professional operating system.,U
+The system shall interface with CampusConnect\92s central server,U
+The system shall interface with the faculty central server.,U
+The system shall interface with the student master server.,U
+We must be able to interface with any HTML browser.,U
+The Disputes application shall be available 24x7x365 with the exception of the following scheduled maintenance windows. Monday \96 Saturday 3:00am to 4:00am EST Sunday 1:00amd to 5:00am EST,U
+The Disputes application shall interface with the Statement Database. The Statement Database provides the transaction details to the Disputes System. All transaction details must be obtained from the Statement Database,U
+The Disputes application shall interface with the Cardmember Information Database. The Cardmember Information Database provides detailed information with regard to a cardmember. All cardmember detail information must be obtained from the Cardmember Information Database.,U
+The Disputes applications shall interface with the Merchant Information Database. The Merchant Information Database provides detailed information with regard to the merchant. All merchant detail information shall be obtained from the Merchant Information Database.,U
+The Disputes application shall interface with the Letters application. This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.,U
+The Disputes application shall interface with the Cardmember Posting and Billing System. This will allow the Disputes application to request adjustments to cardmember and merchant\92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.,U
+The product must support Internet Explorer 5.5 and above.,U
+The product must support Mozilla Firefox 1.0 and above.,U
+The product shall interface with the Choice Parts System. This provides the feed of recycled parts data.,U
+The product shall run on the existing hardware for all environments.,U
+The product shall adhere to the corporate Architecture guidelines,U
+For estimators the product shall be able to be operated in a repair facility during dirty and noisy conditions.,U
+The product shall interface with the ChoiceParts system once per day at approximately 1:00 AM.,U
+The maintenance of the product will fall within the established corporate maintenance windows.,U
+The product shall be supported using the corporate support center.,U
+Product installations and upgrades shall be handled by the middleware technology team within established launch time frames.,U
+The product must work with most database management systems (DBMS) on the market whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.,U
+The product will function alongside server software on any operating system where the Java runtime can be installed.,U
+The product will require collaboration with a database management system (DBMS). The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.,U
+The product must make use of web/application server technology. Open source examples include Apache web server Tomcat and the JBoss application server.,U
+A database management system such as Oracle DB2 MySql or HSQL will need to be integrated with the product.,U
+The product shall be used in office environments.,U
+The product must be able to interface with any HTML browser. The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).,U
+The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.,U
+The product must be able to interface with various email servers. The product shall be able to send email.,U
+The product shall be available for distribution via the Internet as a binary or ZIP file.,U
+The product shall be available for distribution as a packaged CD.,U
+The product will be available for licensing as a one-server two-five servers or five-or-more servers license.,U
+The product is expected to integrate with multiple database management systems. The product will operate with Oracle SQL Server DB2 MySQL HSQL and MS Access.,U
+The product shall be able to be installed in any operating environment within 2 days.,U
+The product must be developed with the J2SE/J2EE programming language libraries,U
+The System shall utilize currently owned computer equipment.,U
+The System shall be able to automatically backup business data and restore them on demand.,U
+The System shall not require additional third party licenses resulting in royalty fees.,U
+All aspects of the website shall be accessed by a web browser over the Internet.,U
+The same hardware supporting the current website will be used to support the new system.,U
+We must be able to interface with the following browsers: IE 5.X 6.0 Netscape 6.x 7.x 8.x and Firefox 1.0.,U
+Website must interface with the CyberSource API to process credit card transactions.,U
+Website must be fully operational with MSN TV2.,U
+Movies shall be encoded and streamed via Windows Media Player 9.0.,U
+Movies shall be encoded for 56k and 256k streams.,U
+The product shall be able to be installed in the specified environment within 1 working day.,U
+The website should use Flash to provide animation on the home page.,U
+The lead washing process will operate within the established physical web service structure.,U
+The washing process must use a non binding neutral data format such as xml when receiving and processing lead data.,U
+The product shall be platform independent.The product shall enable access to any type of development environment and platform.,U
+The product shall interface CSR and Datastream.The product shall exchange messages between CSR and EAM on a real time basis without any direct interfaces between two systems.,U
+The WCS system shall be run in a Windows environment. The WCS shall be accessed by users through the Internet on an IBM computer running a Windows 2000 or above operating system.,U
+The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats). Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.,U
+The application shall run on a web application server.,U
+A primary database will be used to store cached data for active users.,U
+A secondary database will be used to store historical statistics and data.,U
+98% of the user workstations shall meet the minimum hardware requirements prior to implementation. Minimum Hard Disk Space: 400MB.,U
+98% of the user workstations shall meet the minimum software requirements prior to implementation: Microsoft Internet Explorer 5.0. Microsoft .NET Framework 1.1. Microsoft Internet Explorer Web Controls,U
+The RFS system should be able to easily interface with the BDW environment in order to load the data. \95 7 data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process every year. The data will be as of October month-end. Test files (7) shall be loaded up to 5 times throughout the year from the BDW.,U
+"The system shall be evoked by typing ""pine"" into a command or shell prompt.",U
+The system shall use the SMTP mail protocol.,U
+The meeting scheduler shall be accessed from the Web.,U
+All data entry forms for the application should match their Microsoft Excel hardcopy counterparts as closely as possible. Hardcopies of these forms were provided to the design team during the second requirements interview.,U
+The system shall utilise periodic 30-second keep-alive messages between tablets and the server to monitor tablet operational status.,U
+Flea Market system will interface with the web server and RDBMS software using APIs provided by the implementation language,U
+It must only update the parts that have changed when connecting to the server.,U
+It must be able to change and update information on the server.,U
+The system should have to keep the location where the doughnut will be send.,U
+The system provides storage of all databases on redundant computers with automatic switchover.,U
+The system should be able to manage all the information incoming from the database and the catalogue.,U
+For the system to successfully operate the registration system should be integrated with other IT services and the portal.,U
+The available server must be reliable and the network connectivity in the supermarket should be proper for smooth flow of all operations and data.,U
+The system shall be compatible with the Microsoft Windows Operating System.,U
+The product shall be based on web and has to be run from a web server.,U
+The system shall refresh the display every 60 seconds.,PE
+The product shall respond fast to keep up-to-date data in the display.,PE
+The product shall produce search results in an acceptable time,PE
+The search results shall be returned no later 30 seconds after the user has entered the search criteria,PE
+The product shall generate a CMA report in an acceptable time.,PE
+The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.,PE
+The product shall synchronize contacts and appointments in an acceptable time.,PE
+The product shall synchronize with the office system every hour.,PE
+Staff members shall be able to complete a set of tasks in a timely manner.,PE
+The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.,PE
+The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.,PE
+The Disputes application shall support 350 concurrent users without any degradation of performance in the application.,PE
+The search for recycled parts shall take no longer than 15 seconds. The search results shall be returned in under 15 seconds.,PE
+The search for the preferred repair facility shall take no longer than 8 seconds. The preferred repair facility is returned within 8 seconds,PE
+The recycled parts audit report shall be returned to the user within 10 seconds. The audit report shall be returned within 10 seconds.,PE
+The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.,PE
+The response shall be fast enough to avoid interrupting the user\92s flow of thought. 90% of tasks shall complete within 5 seconds. 98% of tasks shall complete within 8 seconds.,PE
+Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,PE
+The System shall allow for a minimum of 6 users to work at the same time.,PE
+Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.,PE
+Customer shall be able to check the status of their prepaid card by entering in the PIN number in under 5 seconds.,PE
+System shall let customers register on the website as a \93pay as you go\94 user in under 5 minutes.,PE
+System shall let customers register on the website as a \93unlimited movie subscriber\94 user in under 10 minutes.,PE
+System shall let existing customers log into the website with their email address and password in under 5 seconds.,PE
+System shall let customers cancel their account process shall take no longer than 2 minutes. Database will mark the account as inactive and user will not be able to log into the website.,PE
+System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.,PE
+System shall let administrator add/remove movies on the website in under 5 minutes. Entered movie information will be stored in the database and will now be available on the website.,PE
+System shall let the administrator add/remove categories on the website in under 5 minutes.,PE
+System shall let Izogn Manager access sales and usage statistics in under 2 minutes.,PE
+System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.,PE
+Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below.,PE
+When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds.,PE
+When streaming a movie the buffering time should take no longer than 10 seconds (plus any latency on the user\92s connection.),PE
+While streaming a movie buffering should only occur if there is latency in the user\92s connection.,PE
+Izogn Administrator must be able to update the category listings on the website within 2 minutes.,PE
+Izogn Administrator must be able to add new products to the website within 2 minutes.,PE
+Total lead cycle time must be completed in 5 minutes for 90% of lead volume between the business hours of 8AM CST to 8PM CST; then 3 minutes for 99% of lead volume during off business hours.,PE
+No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.,PE
+For leads that process longer than 25 seconds the system will record the event and duration,PE
+The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.,PE
+The product shall able to handle a large number of games simultaneously.,PE
+The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,PE
+The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.,PE
+The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,PE
+The system shall be responsive. At the DePaul TeleServices Center when a supervisor uses the system to view a callers schedule the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.,PE
+On a 56k connection the system response time for all operations must be no more than 6 seconds 90% of the time.,PE
+On a 112k connection or faster the system response time for all operations must be no more than 3 seconds 90% of the time.,PE
+The product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications,PE
+The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.,PE
+The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds,PE
+The product shall poll the system for messages every second.The product shall poll the system for new messages at a maximum of every 1 second.,PE
+The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.,PE
+The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.,PE
+The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time the response time should not be more than 10 seconds.not be more than 10 seconds.,PE
+All Web pages generated by the system shall be fully downloadable in no more than 10 seconds over a 40KBps modem connection.,PE
+Responses to queries shall take no longer than 7 seconds to load onto the screen after the user submits the query.,PE
+The system shall display confirmation messages to users within 4 seconds after the user submits information to the system.,PE
+Responses to view information shall take no longer than 5 seconds to appear on the screen.,PE
+High level of performance requires high speed network and high level of connectivity.,PE
+The system is expected to have reasonable short time response. The voter should be able to login and should be able to get response for his requests in 2-3 seconds.,PE
+The web application shall add no more than 5 seconds of perceivable overhead time to any necessary web and database transaction time.,PE
+The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.,PE
+The performance shall depend upon hardware components of the client/customer.,PE
+Any page of the application should not take more than 6 seconds to load on a DSL broadband connection.,PE
+The system may be throttled or slowed down on heavy loads to ensure service for everybody. By throttling is meant that certain functionality may be unavailable during heavy server load.,PE
+The application should be able to support 100 concurrent users without any performance degradation.,PE
+The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.,PE
+The system shall have a MDI form that allows for the viewing of the graph and the data table.,UIR
+The system shall display Events in a vertical table by time.,UIR
+The system shall display the Events in a graph by time.,UIR
+The system shall display Events or Activities.,UIR
+The display shall have two regions: left 2/3 of the display is graphical right 1/3 of the display is a data table,UIR
+The system shall color code events according to their variance from current time.,UIR
+The system shall allow modification of the display.,UIR
+The system shall offer a display of all the Events in the exercise.,UIR
+The system shall display the local and exercise time in separate clocks,UIR
+The system shall display clear property images in the search results,UIR
+The system shall be able to display a printable summary for individual cohorts which will include the students enlisted the Program of study sequence of classes cohort progress through the program and timeline of completion.,UIR
+The system shall be able to display a printable summary for individual clinical sites which will include information on labs being held at that site for the given quarter (Clinical site general information on labs held at that location dates and times of all labs held there).,UIR
+The system shall be able to display a printable summary for individual clinical labs which will include (but not be limited to) class name class number lab section listing of students enrolled instructor day(s) time and location.,UIR
+A list of all disputes cases that meet the entered search criteria must be provided to the user. The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list. For example all open cases will be yellow and all closed cases will be gray.,UIR
+The audit report shall be displayed to the user.,UIR
+The product shall display a map of the company building showing conference room locations.,UIR
+The product shall display room equipment according to search parameters.,UIR
+The product shall display conference rooms according to search parameters.,UIR
+The product shall have a customizable Look and Feel.,UIR
+The product shall have an intuitive user interface.,UIR
+The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.,UIR
+viewing a movie details the website will display the movies description actor and director entered in by the administrator.,UIR
+Once a game is initiated the product shall display a defensive grid to each player,UIR
+Once a game is initiated the product shall display an offensive grid to each player.,UIR
+The system shall display and embed in each message a date/timestamp of when the message was sent.,UIR
+All information must be viewable on the website.,UIR
+All information must be updatable on the website.,UIR
+The font will be larger enough for easy reading.,UIR
+Icons will clearly illustrate the feature it represents.,UIR
+Basic Patient information is showed first.,UIR
+Customized information is displayed.,UIR
+Each entry is shown in full.,UIR
+The text and time/date of a note that has been entered is displayed starting with most recent.,UIR
+The system shall show the meetings to the user in ascending time order by default.,UIR
+The system shall display all the products that can be configured.,UIR
+The system shall allow user to select the product to configure.,UIR
+The system shall display all the available components of the product to configure.,UIR
+The system shall display detailed information of the selected products.,UIR
+The system shall provide browsing options to see product details.,UIR
+The system shall display detailed product categorization to the user.,UIR
+The system shall enable user to enter the search text on the screen.,UIR
+The system shall enable user to select multiple options on the screen to search.,UIR
+The system shall display all the matching products based on the search.,UIR
+The system shall display only 10 matching result on the current screen.,UIR
+The system shall enable user to navigate between the search results.,UIR
+The system shall notify the user when no matching product is found on the search.,UIR
+The system shall display both the active and completed order history in the customer profile.,UIR
+The system shall display the detailed information about the selected order.,UIR
+The system shall display the most frequently searched items by the user in the profile.,UIR
+The system shall display the customer support contact numbers on the screen.,UIR
+The system shall display the online help upon request.,UIR
+The system shall display the FAQ's upon request.,UIR
+The system shall display detailed invoice for current order once it is confirmed.,UIR
+The system shall display different shipping options provided by shipping department.,UIR
+The system shall display the shipping charges.,UIR
+The system shall display tentative duration for shipping.,UIR
+The system shall display the current tracking information about the order.,UIR
+The system shall display tax information for the order.,UIR
+The system shall display available payment methods for payment.,UIR
+The system shall display the orders that are eligible to change.,UIR
+The system shall display all the available financing options.,UIR
+The system shall allow user to view detailed sitemap.,UIR
+The system shall display all the available promotions to the user.,UIR
+The product shall allow the user to save the property search results.,UInR
+The system shall allow a user to define the time segments,UInR
+The system shall offer the ability to pause and resume the refresh of data.,UInR
+The user shall be able to get driving directions to a selected property,UInR
+The user shall be able to download appointments and contact information for clients,UInR
+The system shall notify the realtor when a seller or buyer responds to an appointment request,UInR
+Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes,UInR
+Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.,UInR
+A staff member shall have the ability to manage the progress of a part time student which includes modifying their sequence of classes and timeline of classes.,UInR
+The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.,UInR
+The Disputes System must provide Search functionality. The search method must include the ability to search by (1) the dispute case number (2) the merchant account number (3) the cardmember account number and (4) the issuer number. In addition to the above criteria the search functionality must further allow the user to limit the results of the search by a date range the type of dispute (ticket retrieval request or chargeback notification) the case status (open closed or all) and the dispute reason code.,UInR
+The user shall search for the preferred repair facility using vehicle vehicle location and radius in miles,UInR
+The system shall locate the preferred repair facility with the highest ratings for the input criteria,UInR
+The estimator shall search for available recycled parts using damaged vehicle parts information.,UInR
+The estimator shall search for available recycled parts using a list of preferred parts suppliers.,UInR
+The system shall search for available recycled parts for the supplied vehicle parts and suppliers.,UInR
+The estimator shall search by zipcode with a radius of 30 miles if no parts are found for the preferred parts suppliers,UInR
+The system shall retain the available recycled parts and suppliers returned from the search.,UInR
+The estimator shall apply selected recycled parts to the collision estimate.,UInR
+The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.,UInR
+The user shall select to view the preferred repair facility ratings.,UInR
+The current repair facility ratings shall be displayed to the user.,UInR
+The system will display a blank set of ratings if there are not ratings yet defined.,UInR
+The user shall enter new ratings based on the audit report,UInR
+The ratings shall be from a scale of 1-10,UInR
+The ratings shall include categories for attempted use of recycled parts and actual use of recycled parts,UInR
+The user shall select to save the preferred repair facility ratings.,UInR
+The preferred repair facility ratings shall be saved by the system.,UInR
+The product shall allow an organizer to invite other employees to meetings.,UInR
+The product shall allow a user to remove himself or herself from the list of players at any time.,UInR
+The product shall make inactive players unavailable for selection from the list of players.,UInR
+The product shall remove players who have been inactive for 24 hours from the list of players.,UInR
+Once a game is initiated the product shall allow each player to position their 5 ships on their respective defensive grids.,UInR
+The product shall allow a player to position ships horizontally on their grid.,UInR
+The product shall allow the player to position ships vertically on their grid.,UInR
+The product shall allow the player to position ships diagonally on their grid,UInR
+The product shall prevent the player from overlapping ships on their grid.,UInR
+The system shall allow a text search that users may use to find mail messages.,UInR
+The system search feature should support the use of regular expressions in search.,UInR
+The system shall provide an option to withdraw money.,UInR
+The system shall query the user for the amount of money.,UInR
+The system shall query the user for the account type.,UInR
+Enable a user to view questions and their corresponding answers.,UInR
+Enable a logged in user to ask questions.,UInR
+Enable a logged in user to post answers.,UInR
+Enable a logged in user to up vote and down vote answers.,UInR
+The user must be able to set an option to hide information based on who has tagged it.,UInR
+The user must be able to add photos from his/her photo library to his/her medical record.,UInR
+A list of available patients is displayed after login.,UInR
+An error message alerts when an invalid patient is entered.,UInR
+Backspace/reset capability is implemented for typing errors.,UInR
+Selected or specified patient's information is loaded.,UInR
+Return to List is available if the patient loaded is not correct.,UInR
+Navigation to each selected tab.,UInR
+New and Delete buttons will allow the physician/pharmacist to add a notation to the patient's file.,UInR
+A description and time/date of each prescription that has been ordered or given is displayed starting with most recent.,UInR
+The system shall allow the user to view their schedule.,UInR
+The system shall notify the user of any schedule changes.,UInR
+The system shall allow users to send and receive messages.,UInR
+The system shall request a user response to initiator or mediator messages.,UInR
+The system shall allow the user to modify the date preference set of an already submitted meeting response.,UInR
+The system shall allow the user to modify the location preference set of an already submitted meeting response.,UInR
+The system shall allow the user to modify the equipment requirement set of an already submitted meeting response.,UInR
+The system shall allow the user to modify the date exclusion set of an already submitted meeting response.,UInR
+The system shall allow the user to view past attended meetings.,UInR
+The system shall allow the user to view pending meetings.,UInR
+The system shall enable user to add one or more component to the configuration.,UInR
+The system shall notify the user about any conflict in the current configuration.,UInR
+The system shall allow user to confirm the completion of current configuration.,UInR
+The system shall allow user to select the support type he wants.,UInR
+The system shall allow user to enter the customer and product information for the support.,UInR
+The system shall allow user to enter the contact number for support personnel to call.,UInR
+The system shall enable user to select the shipping method during payment process.,UInR
+The system shall allow user to enter the order information for tracking.,UInR
+The system shall allow user to select the payment method for order.,UInR
+The system shall allow user to select the order to be changed.,UInR
+The system shall allow user to cancel the order.,UInR
+The system shall notify the user about any changes made to the order.,UInR
+The system shall enable the user to enter their reviews and ratings.,UInR
+The system shall allow user to select the financing option.,UInR
+The system shall notify the use about the financing request.,UInR
+The system shall allow user to select available promotion.,UInR
+The system shall allow user to confirm the purchase.,UInR
+The system shall enable user to enter the payment information.,UInR
+Registered User must be able to maintain his/her session information for at least 60 minutes of inactive session before the system prompts him to log out of the system. The registered user must be provided with all the options of the E-store regardless of the time when he/she logs in.,UInR
+The system shall allow user to choose filling that they want.,UInR
+The system shall allow user to choose their preferable topping.,UInR
+The system shall allow user to decorate their doughnut.,UInR
+The system shall give the user an opportunity for the user to choose the selection of doughnut provided.,UInR
+The system should take the customer name.,UInR
+The system should keep the customer contact number.,UInR
+The system should keep the customer email.,UInR
+The system should ask the user to key in the pickup date.,UInR
+The system shall provide shopping cart during online purchase.,UInR
+The system shall allow user to add/remove products in the shopping cart.,UInR
+Once a game has been initiated the product shall make the players assigned to the game unavailable for selection from the list of players.,BWR
+The product shall allow a player to initiate a game by selecting another available player from the list of players.,BWR
+The product shall prevent a player from viewing the offensive or defensive grids of the other player.,BWR
+The system shall filter data by: Venues and Key Events.,BWR
+The system shall provide charts for the Activity or Event actual versus assumed time.,BWR
+The system shall provide a history report of changes made to the Activity or Event data,BWR
+The system shall allow a real estate agent to query MLS information,BWR
+The system shall update or create new property listings in the MLS,BWR
+Realtor shall be able to generate a CMA report based on property criteria,BWR
+The system shall be able to call the seller or buyer to schedule an appointment,BWR
+The realtor shall be notified of new client appointments after automatic synchronization with office system,BWR
+The realtor shall be able to retrieve a map showing property locations for a specified area,BWR
+Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.,BWR
+Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort,BWR
+Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.,BWR
+The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\92 planning purposes.,BWR
+The report of needed classes shall include (but not be limited to) classes to be offered number of sections needed number of labs needed and room types needed.,BWR
+Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.,BWR
+Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.,BWR
+The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.,BWR
+The system shall allow a Program Administrator/Nursing Staff Member to move a student from one clinical lab section to another clinical lab section corresponding to the same clinical class.,BWR
+The system will notify affected parties when changes occur affecting classes including but not limited to class cancellations class section detail changes and changes to class offerings for a given quarter.,BWR
+The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.,BWR
+The Disputes System must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant.,BWR
+The Disputes System must allow the user to create three unique types of ticket retrieval requests. The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.,BWR
+The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.,BWR
+The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions. The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.,BWR
+The system shall resolve the zipcode for the street address city and state if zipcode is unknown.,BWR
+The recycled parts search results provided to the estimator shall be retrieved by the system.,BWR
+The system shall generate an audit report based on the available recycled parts and the collision estimate.,BWR
+The audit report shall include the total number of recycled parts used in the estimate.,BWR
+The audit report shall include the number of available recycled parts from the original search results.,BWR
+The audit report shall include the percentage of available recycled parts used in the estimate,BWR
+The audit report shall include the total score of the audit which sums the indivual line items.,BWR
+The product shall record meeting entries.,BWR
+The product will notify employees of meeting invitations.,BWR
+The product shall have the ability to send meeting reminders to employees.,BWR
+The product shall assign the organizers contact information to each meeting they create.,BWR
+The product will record meeting acknowledgements.,BWR
+Each time a conference room is reserved the conference room schedule shall be updated to reflect the time and date of the reservation.,BWR
+The product shall record updated meeting agendas.,BWR
+The product shall send a meeting confirmation to the meeting organizer.,BWR
+The product shall record different meeting types.,BWR
+The product shall record all the equipment that has been reserved.,BWR
+The product shall notify building personnel of equipment transport requests.,BWR
+The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.,BWR
+The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.,BWR
+Website shall request and authorize credit card payment before allowing a user to stream a movie.,BWR
+System will allow customers to pay for a streaming movie with a pre-paid card.,BWR
+Website shall allow customers to purchase pre-paid cards of $5 $10 or $20 value either by credit card or mail-in payment option.,BWR
+System shall automatically update the main page of the website every Friday and show the 4 latest movies that have been added to the website.,BWR
+System shall allow users to update their billing and contact information via the \93My Account\94 section of the website.,BWR
+Pre-paid cards shall be distributed via email or via a printed paper card.,BWR
+Movies can only be streamed if the customer has purchased a movie and is within the 2-day time period to stream the movie.,BWR
+Website must be able to support free trial periods with various parameters set by the Izogn Manager.,BWR
+All streaming movie sales will be logged in the database and accessible by the administrator.,BWR
+All registered customer information shall be stored and maintained in the database even after the customer cancels their account.,BWR
+Daily usage statistics should be logged and accessible by the administrator.,BWR
+When both players have positioned their 5 ships on their defensive grids the product shall define the status of each player for the first turn.,BWR
+For each turn the product shall identify one player as offensive status and one player as defensive status.,BWR
+The product shall maintain the status of each player for a turn either offensive or defensive.,BWR
+At the start of each turn the product shall notify each player of his or her status.,BWR
+For each turn the product shall allow the offensive player to define a shot.,BWR
+For each shot the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.,BWR
+For each shot the product shall notify the players whether the shot was a hit or miss.,BWR
+For each shot the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.,BWR
+For each shot the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.,BWR
+When the hit results in sinking a ship the product shall notify the players that the ship was sunk.,BWR
+When the hit results in sinking a ship the product shall mark the ship as sunk on the defensive grid of the defensive player.,BWR
+When the hit results in sinking a ship the product shall indicate the type of ship sunk on the defensive grid of the defensive player.,BWR
+When the hit results in sinking a ship the product shall mark the ship as sunk on the offensive grid of the offensive player.,BWR
+If the shot was marked as a hit the product shall allow the offensive player to define a shot.,BWR
+If the shot was marked as a miss the product shall change the status of the offensive player to defensive,BWR
+If the shot was marked as a miss the product shall change the status of the defensive player to offensive,BWR
+The product shall continue to assign turns until the game is ended.,BWR
+The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player\92s ships which had not been previously marked as sunk.,BWR
+The product shall allow a player to end a game at any time during the game.,BWR
+When a game is ended the product shall notify the players that the game is ended.,BWR
+The notification of the game ending will include the reason the game is ended (i.e. a player has won the game or a player has ended the game).,BWR
+When a game is ended the product shall allow each player to identify himself or herself as an available player in the list of players.,BWR
+When a game is ended the product shall allow each player to remove himself or herself from the list of players.,BWR
+The meeting scheduler system shall be able to select a participant as an important participant.,BWR
+The meeting scheduler system shall cancel a meeting due to canceling of an important participant.,BWR
+The meeting scheduler system shall reschedule a meeting to support conflict resolutions.,BWR
+The meeting scheduler system may (optionally) automatically propose another meeting if current meeting is canceled by an important participant.,BWR
+"The meeting scheduler system may provide the ""meeting initiator"" a summary of the scan of ""potential meeting participants"" showing available ""time slots"" and schedule conflicts as a means of informing the ""meeting initiator"" of the overall results of the system.",BWR
+The meeting scheduler system may be able to include an agenda for a meeting proposal.,BWR
+"The meeting scheduler system may suggest a ""virtual meeting"" for available ""time slots"" if no location is available or feasible for the meeting.",BWR
+The meeting scheduler system may be able to include a list of required equipment for a meeting proposal.,BWR
+"A meeting scheduler system will temporarily reserve the ""time slots"" for the proposed meeting.",BWR
+"A meeting scheduler system will inform the ""potential meeting participant"" of the meeting.",BWR
+Provide an interface for the admin to approve posts so that posts are not visible without admin approval.,BWR
+Enable the admin to generate reports which contains all the posts and their corresponding replies.,BWR
+Most of the system functions will be controlled using the administrative interface.,BWR
+Information should be tagged according to who is entering the data.,BWR
+Can purchase any product through valid credit card.,BWR
+Can give feedback to the 24X7 Customer Care Service center about their impression for the site and services.,BWR
+Can consult with the Administrator regarding product's quality and advertisements.,BWR
+Responsible for managing stocks of each product items.,BWR
+Keep track of all the payment transactions made by the customers and update the payment information.,BWR
+Responsible for contacting the banks for the validation of the a/c number provided by the customer while purchasing and make the transaction from the given a/c.,BWR
+Consult with the Administrator about the payment details of the customers for the updating of the database.,BWR
+Provide feasible solutions to the customers on their complaints and queries.,BWR
+The system shall give the mediator privileges to schedule location and equipment resources.,BWR
+The system shall allow the mediator to negotiate a meeting date.,BWR
+The system shall allow the mediator to solve a date conflict.,BWR
+The system shall allow the mediator to negotiate a location / equipment.,BWR
+The system shall allow the mediator to solve a location conflict.,BWR
