@@ -1,0 +1,24 @@
+2025-03-28 10:04:44,733 - INFO - Intra-class Cosine Similarity: 0.8005
+
+2025-03-28 20:43:14,702 - INFO - Intra-class Cosine Similarity: 0.8005
+
+2025-03-29 07:15:15,285 - INFO - Intra-class Cosine Similarity: 0.8005
+
+2025-03-29 07:28:14,873 - INFO - 
+Final Intra-class Cosine Similarity: 0.8005
+2025-03-29 07:28:14,873 - INFO - Training completed successfully
+
+(Iteration 1)
+2025-03-28 02:20:35,770 - INFO - Epoch 1 Loss: 0.3165
+2025-03-28 05:59:35,592 - INFO - Epoch 2 Loss: 0.2029
+2025-03-28 09:51:31,690 - INFO - Epoch 3 Loss: 0.1622
+
+(Iteration 2)
+2025-03-28 13:36:03,821 - INFO - Epoch 1 Loss: 0.1453
+2025-03-28 17:03:38,844 - INFO - Epoch 2 Loss: 0.1452
+2025-03-28 20:30:11,467 - INFO - Epoch 3 Loss: 0.1450
+
+(Iteration 3)
+2025-03-29 00:08:32,791 - INFO - Epoch 1 Loss: 0.1449
+2025-03-29 03:34:57,724 - INFO - Epoch 2 Loss: 0.1452
+2025-03-29 07:02:02,569 - INFO - Epoch 3 Loss: 0.1451

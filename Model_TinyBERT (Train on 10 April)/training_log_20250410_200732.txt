@@ -1,0 +1,44 @@
+2025-04-10 20:07:32,674 - INFO - Using device: cuda
+2025-04-10 20:07:32,675 - INFO - GPU: Tesla P100-PCIE-16GB
+2025-04-10 20:07:32,677 - INFO - Loading ALL pseudo-labeled data...
+2025-04-10 20:07:32,783 - INFO - 
+=== Class Distribution ===
+2025-04-10 20:07:32,786 - INFO - Label 0: 'F' - 95080 samples (65.6%)
+2025-04-10 20:07:32,788 - INFO - Label 1: 'US' - 37622 samples (25.9%)
+2025-04-10 20:07:32,789 - INFO - Label 2: 'SE' - 9425 samples (6.5%)
+2025-04-10 20:07:32,789 - INFO - Label 3: 'PO' - 1501 samples (1.0%)
+2025-04-10 20:07:32,790 - INFO - Label 4: 'A' - 1397 samples (1.0%)
+2025-04-10 20:07:32,851 - WARNING - Data leakage detected! 21688 overlapping samples
+2025-04-10 20:07:33,547 - INFO - Data loaded - Train: 116020, Val: 29005, Unlabeled: 1017953
+2025-04-10 20:07:33,548 - INFO - Initializing model...
+2025-04-10 20:07:37,314 - INFO - 
+=== Iteration 1 ===
+2025-04-10 20:31:39,594 - INFO - Epoch 1 Loss: 0.0833
+2025-04-10 20:33:30,581 - INFO - Metrics - Intra: 0.9054 | Inter: -0.1786 | Separation: 1.0840
+2025-04-10 20:57:22,788 - INFO - Epoch 2 Loss: 0.0154
+2025-04-10 20:58:57,521 - INFO - Metrics - Intra: 0.9386 | Inter: -0.1852 | Separation: 1.1238
+2025-04-10 21:22:36,644 - INFO - Epoch 3 Loss: 0.0049
+2025-04-10 21:24:13,236 - INFO - Metrics - Intra: 0.9590 | Inter: -0.1875 | Separation: 1.1465
+2025-04-10 21:24:13,923 - INFO - Model saved to saved_models/iter_1 (Iteration 1)
+2025-04-10 21:24:13,924 - INFO - 
+=== Iteration 2 ===
+2025-04-10 21:49:12,747 - INFO - Epoch 1 Loss: 0.0024
+2025-04-10 21:50:50,429 - INFO - Metrics - Intra: 0.9590 | Inter: -0.1875 | Separation: 1.1465
+2025-04-10 22:14:23,408 - INFO - Epoch 2 Loss: 0.0021
+2025-04-10 22:15:59,015 - INFO - Metrics - Intra: 0.9590 | Inter: -0.1875 | Separation: 1.1465
+2025-04-10 22:39:31,089 - INFO - Epoch 3 Loss: 0.0023
+2025-04-10 22:41:06,332 - INFO - Metrics - Intra: 0.9590 | Inter: -0.1875 | Separation: 1.1465
+2025-04-10 22:41:06,955 - INFO - Model saved to saved_models/iter_2 (Iteration 2)
+2025-04-10 22:41:06,955 - INFO - 
+=== Iteration 3 ===
+2025-04-10 23:04:32,066 - INFO - Epoch 1 Loss: 0.0022
+2025-04-10 23:06:06,611 - INFO - Metrics - Intra: 0.9590 | Inter: -0.1875 | Separation: 1.1465
+2025-04-10 23:29:37,804 - INFO - Epoch 2 Loss: 0.0023
+2025-04-10 23:31:12,134 - INFO - Metrics - Intra: 0.9590 | Inter: -0.1875 | Separation: 1.1465
+2025-04-10 23:55:17,382 - INFO - Epoch 3 Loss: 0.0023
+2025-04-10 23:56:52,281 - INFO - Metrics - Intra: 0.9590 | Inter: -0.1875 | Separation: 1.1465
+2025-04-10 23:56:52,901 - INFO - Model saved to saved_models/iter_3 (Iteration 3)
+2025-04-10 23:58:27,613 - INFO - 
+Final Metrics - Intra: 0.9590 | Inter: -0.1875 | Separation: 1.1465
+2025-04-10 23:58:28,238 - INFO - Model saved to saved_models/final_model (Iteration final)
+2025-04-10 23:58:28,238 - INFO - Training completed successfully

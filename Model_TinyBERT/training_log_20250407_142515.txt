@@ -1,0 +1,30 @@
+2025-04-07 14:25:15,506 - INFO - Using device: cuda
+2025-04-07 14:25:15,511 - INFO - GPU: Tesla P40
+2025-04-07 14:25:15,514 - INFO - Loading pseudo-labeled data...
+2025-04-07 14:25:19,173 - WARNING - Data leakage between train and val! 16681 overlapping samples
+2025-04-07 14:25:19,220 - WARNING - Data leakage between train and test! 16668 overlapping samples
+2025-04-07 14:25:19,239 - WARNING - Data leakage between val and test! 5448 overlapping samples
+2025-04-07 14:25:19,240 - INFO - Data loaded - Train: 102579, Val: 21981, Test: 21982, Unlabeled: 1017953
+2025-04-07 14:25:19,244 - INFO - Label distribution: {0: 95645, 1: 38454, 2: 10668, 4: 1136, 3: 639}
+2025-04-07 14:25:19,245 - INFO - Initializing model...
+2025-04-07 14:25:25,675 - INFO - 
+=== Iteration 1 ===
+2025-04-07 14:38:59,507 - INFO - Epoch 1 Loss: 0.0889
+2025-04-07 14:52:07,816 - INFO - Epoch 2 Loss: 0.0162
+2025-04-07 15:04:58,411 - INFO - Epoch 3 Loss: 0.0060
+2025-04-07 15:06:06,606 - INFO - Validation Intra-class Cosine Similarity: 0.9521
+2025-04-07 15:06:06,607 - INFO - 
+=== Iteration 2 ===
+2025-04-07 15:18:32,554 - INFO - Epoch 1 Loss: 0.0030
+2025-04-07 15:31:19,953 - INFO - Epoch 2 Loss: 0.0030
+2025-04-07 15:43:41,498 - INFO - Epoch 3 Loss: 0.0031
+2025-04-07 15:44:38,749 - INFO - Validation Intra-class Cosine Similarity: 0.9521
+2025-04-07 15:44:38,750 - INFO - 
+=== Iteration 3 ===
+2025-04-07 15:55:54,390 - INFO - Epoch 1 Loss: 0.0032
+2025-04-07 16:06:58,675 - INFO - Epoch 2 Loss: 0.0032
+2025-04-07 16:18:38,477 - INFO - Epoch 3 Loss: 0.0030
+2025-04-07 16:19:36,673 - INFO - Validation Intra-class Cosine Similarity: 0.9521
+2025-04-07 16:20:35,561 - INFO - 
+Final Test Set Intra-class Cosine Similarity: 0.9562
+2025-04-07 16:20:35,562 - INFO - Training completed successfully

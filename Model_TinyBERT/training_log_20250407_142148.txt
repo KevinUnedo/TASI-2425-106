@@ -1,0 +1,11 @@
+2025-04-07 14:21:48,679 - INFO - Using device: cuda
+2025-04-07 14:21:48,684 - INFO - GPU: Tesla P40
+2025-04-07 14:21:48,688 - INFO - Loading pseudo-labeled data...
+2025-04-07 14:21:52,116 - WARNING - Data leakage between train and val! 16681 overlapping samples
+2025-04-07 14:21:52,161 - WARNING - Data leakage between train and test! 16668 overlapping samples
+2025-04-07 14:21:52,179 - WARNING - Data leakage between val and test! 5448 overlapping samples
+2025-04-07 14:21:52,180 - INFO - Data loaded - Train: 102579, Val: 21981, Test: 21982, Unlabeled: 1017953
+2025-04-07 14:21:52,184 - INFO - Label distribution: {0: 95645, 1: 38454, 2: 10668, 4: 1136, 3: 639}
+2025-04-07 14:21:52,184 - INFO - Initializing model...
+2025-04-07 14:21:58,658 - INFO - 
+=== Iteration 1 ===
