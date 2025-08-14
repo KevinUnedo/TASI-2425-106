@@ -1,0 +1,1325 @@
+2025-07-10 11:06:19,341 - ERROR - Seed words file not found at ../../datasets/seed_words.csv
+2025-07-10 11:06:30,673 - INFO - Successfully loaded seed words from ../../../datasets/seed_words.csv
+2025-07-10 11:07:40,944 - INFO - Loading saved models
+2025-07-10 11:07:40,944 - ERROR - Failed to load model files: [Errno 2] No such file or directory: 'models/standard_lda_model'
+2025-07-10 11:07:58,883 - INFO - Loading saved models
+2025-07-10 11:07:58,884 - ERROR - Failed to load model files: [Errno 2] No such file or directory: '../models/standard_lda_model'
+2025-07-10 11:08:17,687 - INFO - Loading saved models
+2025-07-10 11:08:17,834 - WARNING - older version of FrozenPhrases loaded without corpus_word_count
+2025-07-10 11:08:17,834 - WARNING - setting corpus_word_count to 0, do not use it in your scoring function
+2025-07-10 11:08:17,834 - INFO - Loaded LDA model, dictionary, and bigram model
+2025-07-10 11:08:26,729 - INFO - Loading new dataset
+2025-07-10 11:08:26,730 - ERROR - Failed to load dataset ../../datasets/review_test.csv: [Errno 2] No such file or directory: '../../datasets/review_test.csv'
+2025-07-10 11:08:52,173 - INFO - Loading new dataset
+2025-07-10 11:08:52,289 - INFO - Loaded new dataset
+2025-07-10 11:09:02,899 - INFO - Preprocessing new dataset
+2025-07-10 11:09:08,480 - INFO - Filtered to 70412 valid reviews
+2025-07-10 11:09:15,162 - INFO - Creating BoW corpus
+2025-07-10 11:09:15,530 - INFO - Created BoW corpus
+2025-07-10 11:09:39,198 - INFO - Inferring topics
+2025-07-10 11:09:49,540 - INFO - Completed topic inference
+2025-07-10 11:10:13,080 - INFO - Started computing C_v coherence scores for multiple topn values
+2025-07-10 11:10:13,084 - INFO - Computing C_v coherence for topn=10
+2025-07-10 11:10:28,526 - INFO - Topic #0 (Topic_0): C_v Score = 0.4714 (topn=10)
+2025-07-10 11:10:28,526 - INFO - Topic #1 (Topic_1): C_v Score = 0.4902 (topn=10)
+2025-07-10 11:10:28,526 - INFO - Topic #2 (Topic_2): C_v Score = 0.5134 (topn=10)
+2025-07-10 11:10:28,527 - INFO - Topic #3 (Topic_3): C_v Score = 0.7128 (topn=10)
+2025-07-10 11:10:28,527 - INFO - Topic #4 (Topic_4): C_v Score = 0.4893 (topn=10)
+2025-07-10 11:10:28,527 - INFO - Topic #5 (Topic_5): C_v Score = 0.3984 (topn=10)
+2025-07-10 11:10:28,527 - INFO - Topic #6 (Topic_6): C_v Score = 0.2854 (topn=10)
+2025-07-10 11:10:28,527 - INFO - Overall C_v Coherence Score (topn=10): 0.4801
+2025-07-10 11:10:28,527 - INFO - Computing C_v coherence for topn=20
+2025-07-10 11:10:46,626 - INFO - Topic #0 (Topic_0): C_v Score = 0.4628 (topn=20)
+2025-07-10 11:10:46,626 - INFO - Topic #1 (Topic_1): C_v Score = 0.4454 (topn=20)
+2025-07-10 11:10:46,626 - INFO - Topic #2 (Topic_2): C_v Score = 0.4062 (topn=20)
+2025-07-10 11:10:46,626 - INFO - Topic #3 (Topic_3): C_v Score = 0.7278 (topn=20)
+2025-07-10 11:10:46,627 - INFO - Topic #4 (Topic_4): C_v Score = 0.3980 (topn=20)
+2025-07-10 11:10:46,627 - INFO - Topic #5 (Topic_5): C_v Score = 0.3619 (topn=20)
+2025-07-10 11:10:46,627 - INFO - Topic #6 (Topic_6): C_v Score = 0.2181 (topn=20)
+2025-07-10 11:10:46,627 - INFO - Overall C_v Coherence Score (topn=20): 0.4314
+2025-07-10 11:10:46,627 - INFO - Computing C_v coherence for topn=30
+2025-07-10 11:11:04,721 - INFO - Topic #0 (Topic_0): C_v Score = 0.4812 (topn=30)
+2025-07-10 11:11:04,721 - INFO - Topic #1 (Topic_1): C_v Score = 0.4626 (topn=30)
+2025-07-10 11:11:04,722 - INFO - Topic #2 (Topic_2): C_v Score = 0.4323 (topn=30)
+2025-07-10 11:11:04,722 - INFO - Topic #3 (Topic_3): C_v Score = 0.7643 (topn=30)
+2025-07-10 11:11:04,722 - INFO - Topic #4 (Topic_4): C_v Score = 0.4392 (topn=30)
+2025-07-10 11:11:04,722 - INFO - Topic #5 (Topic_5): C_v Score = 0.3812 (topn=30)
+2025-07-10 11:11:04,722 - INFO - Topic #6 (Topic_6): C_v Score = 0.2612 (topn=30)
+2025-07-10 11:11:04,722 - INFO - Overall C_v Coherence Score (topn=30): 0.4603
+2025-07-10 11:11:04,722 - INFO - Computing C_v coherence for topn=40
+2025-07-10 11:11:22,280 - INFO - Topic #0 (Topic_0): C_v Score = 0.5063 (topn=40)
+2025-07-10 11:11:22,284 - INFO - Topic #1 (Topic_1): C_v Score = 0.4549 (topn=40)
+2025-07-10 11:11:22,284 - INFO - Topic #2 (Topic_2): C_v Score = 0.4131 (topn=40)
+2025-07-10 11:11:22,284 - INFO - Topic #3 (Topic_3): C_v Score = 0.7630 (topn=40)
+2025-07-10 11:11:22,284 - INFO - Topic #4 (Topic_4): C_v Score = 0.4815 (topn=40)
+2025-07-10 11:11:22,284 - INFO - Topic #5 (Topic_5): C_v Score = 0.3763 (topn=40)
+2025-07-10 11:11:22,285 - INFO - Topic #6 (Topic_6): C_v Score = 0.2491 (topn=40)
+2025-07-10 11:11:22,285 - INFO - Overall C_v Coherence Score (topn=40): 0.4634
+2025-07-10 11:11:22,285 - INFO - Computing C_v coherence for topn=50
+2025-07-10 11:11:39,216 - INFO - Topic #0 (Topic_0): C_v Score = 0.5044 (topn=50)
+2025-07-10 11:11:39,217 - INFO - Topic #1 (Topic_1): C_v Score = 0.4730 (topn=50)
+2025-07-10 11:11:39,217 - INFO - Topic #2 (Topic_2): C_v Score = 0.4028 (topn=50)
+2025-07-10 11:11:39,217 - INFO - Topic #3 (Topic_3): C_v Score = 0.7779 (topn=50)
+2025-07-10 11:11:39,217 - INFO - Topic #4 (Topic_4): C_v Score = 0.5007 (topn=50)
+2025-07-10 11:11:39,217 - INFO - Topic #5 (Topic_5): C_v Score = 0.3670 (topn=50)
+2025-07-10 11:11:39,217 - INFO - Topic #6 (Topic_6): C_v Score = 0.2569 (topn=50)
+2025-07-10 11:11:39,218 - INFO - Overall C_v Coherence Score (topn=50): 0.4689
+2025-07-10 11:11:39,218 - INFO - Computing C_v coherence for topn=60
+2025-07-10 11:11:58,197 - INFO - Topic #0 (Topic_0): C_v Score = 0.4989 (topn=60)
+2025-07-10 11:11:58,197 - INFO - Topic #1 (Topic_1): C_v Score = 0.4813 (topn=60)
+2025-07-10 11:11:58,197 - INFO - Topic #2 (Topic_2): C_v Score = 0.3953 (topn=60)
+2025-07-10 11:11:58,197 - INFO - Topic #3 (Topic_3): C_v Score = 0.7727 (topn=60)
+2025-07-10 11:11:58,197 - INFO - Topic #4 (Topic_4): C_v Score = 0.4761 (topn=60)
+2025-07-10 11:11:58,197 - INFO - Topic #5 (Topic_5): C_v Score = 0.3651 (topn=60)
+2025-07-10 11:11:58,198 - INFO - Topic #6 (Topic_6): C_v Score = 0.2690 (topn=60)
+2025-07-10 11:11:58,198 - INFO - Overall C_v Coherence Score (topn=60): 0.4655
+2025-07-10 11:11:58,198 - INFO - Completed computing C_v coherence scores for multiple topn values
+2025-07-10 11:11:58,216 - INFO - Verifying Seed Word Probabilities and Ranks in Standard LDA Model
+2025-07-10 11:11:58,217 - INFO - Seed Words: F (Mapped to ID: 0)
+2025-07-10 11:11:58,217 - INFO -   - Seed Word 'player'
+2025-07-10 11:11:58,237 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1578
+2025-07-10 11:11:58,237 - INFO -   - Seed Word 'display'
+2025-07-10 11:11:58,254 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0002, Rank = 414
+2025-07-10 11:11:58,254 - INFO -   - Seed Word 'meeting'
+2025-07-10 11:11:58,270 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0001, Rank = 668
+2025-07-10 11:11:58,290 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 848
+2025-07-10 11:11:58,303 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1945
+2025-07-10 11:11:58,303 - INFO -   - Seed Word 'dispute'
+2025-07-10 11:11:58,323 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 992
+2025-07-10 11:11:58,323 - INFO -   - Seed Word 'program'
+2025-07-10 11:11:58,340 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0043, Rank = 50
+2025-07-10 11:11:58,355 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0009, Rank = 184
+2025-07-10 11:11:58,372 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0009, Rank = 283
+2025-07-10 11:11:58,386 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0007, Rank = 329
+2025-07-10 11:11:58,405 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0015, Rank = 127
+2025-07-10 11:11:58,405 - INFO -   - Seed Word 'clinical'
+2025-07-10 11:11:58,423 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0015, Rank = 156
+2025-07-10 11:11:58,423 - INFO -   - Seed Word 'member'
+2025-07-10 11:11:58,450 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0003, Rank = 483
+2025-07-10 11:11:58,450 - INFO -   - Seed Word 'staff'
+2025-07-10 11:11:58,474 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0014, Rank = 156
+2025-07-10 11:11:58,496 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0006, Rank = 380
+2025-07-10 11:11:58,515 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 726
+2025-07-10 11:11:58,515 - INFO -   - Seed Word 'student'
+2025-07-10 11:11:58,532 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0014, Rank = 152
+2025-07-10 11:11:58,548 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0025, Rank = 91
+2025-07-10 11:11:58,566 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0010, Rank = 162
+2025-07-10 11:11:58,585 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0019, Rank = 126
+2025-07-10 11:11:58,601 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0034, Rank = 44
+2025-07-10 11:11:58,601 - INFO -   - Seed Word 'lab'
+2025-07-10 11:11:58,619 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0022, Rank = 110
+2025-07-10 11:11:58,632 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0036, Rank = 55
+2025-07-10 11:11:58,632 - INFO -   - Seed Word 'view'
+2025-07-10 11:11:58,653 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0011, Rank = 209
+2025-07-10 11:11:58,673 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 716
+2025-07-10 11:11:58,691 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0029, Rank = 56
+2025-07-10 11:11:58,707 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0018, Rank = 109
+2025-07-10 11:11:58,707 - INFO -   - Seed Word 'list'
+2025-07-10 11:11:58,723 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0002, Rank = 527
+2025-07-10 11:11:58,740 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0007, Rank = 342
+2025-07-10 11:11:58,741 - INFO -   - Seed Word 'site'
+2025-07-10 11:11:58,757 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0007, Rank = 250
+2025-07-10 11:11:58,775 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0003, Rank = 611
+2025-07-10 11:11:58,793 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1253
+2025-07-10 11:11:58,793 - INFO -   - Seed Word 'cohort'
+2025-07-10 11:11:58,802 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0001, Rank = 751
+2025-07-10 11:11:58,810 - INFO -   - Seed Word 'order'
+2025-07-10 11:11:58,825 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0006, Rank = 314
+2025-07-10 11:11:58,841 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0020, Rank = 117
+2025-07-10 11:11:58,856 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0013, Rank = 182
+2025-07-10 11:11:58,856 - INFO -   - Seed Word 'game'
+2025-07-10 11:11:58,873 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 988
+2025-07-10 11:11:58,889 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0037, Rank = 49
+2025-07-10 11:11:58,889 - INFO -   - Seed Word 'section'
+2025-07-10 11:11:58,905 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0025, Rank = 89
+2025-07-10 11:11:58,905 - INFO -   - Seed Word 'location'
+2025-07-10 11:11:58,920 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1308
+2025-07-10 11:11:58,936 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0001, Rank = 758
+2025-07-10 11:11:58,936 - INFO -   - Seed Word 'defensive'
+2025-07-10 11:11:58,936 - INFO -   - Seed Word 'change'
+2025-07-10 11:11:58,951 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0041, Rank = 45
+2025-07-10 11:11:58,960 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0009, Rank = 287
+2025-07-10 11:11:58,982 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 611
+2025-07-10 11:11:58,983 - INFO -   - Seed Word 'notify'
+2025-07-10 11:11:59,000 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 746
+2025-07-10 11:11:59,000 - INFO -   - Seed Word 'date'
+2025-07-10 11:11:59,010 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0004, Rank = 365
+2025-07-10 11:11:59,031 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0006, Rank = 408
+2025-07-10 11:11:59,045 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 821
+2025-07-10 11:11:59,073 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0008, Rank = 210
+2025-07-10 11:11:59,073 - INFO -   - Seed Word 'status'
+2025-07-10 11:11:59,090 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 765
+2025-07-10 11:11:59,109 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 1872
+2025-07-10 11:11:59,109 - WARNING - Seed Word 'recycled' for topic 'F' was not in the final dictionary.
+2025-07-10 11:11:59,109 - INFO -   - Seed Word 'room'
+2025-07-10 11:11:59,127 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 467
+2025-07-10 11:11:59,127 - INFO -   - Seed Word 'ship'
+2025-07-10 11:11:59,144 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0000, Rank = 1031
+2025-07-10 11:11:59,144 - INFO -   - Seed Word 'grid'
+2025-07-10 11:11:59,163 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1232
+2025-07-10 11:11:59,163 - INFO -   - Seed Word 'enable'
+2025-07-10 11:11:59,177 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0004, Rank = 522
+2025-07-10 11:11:59,177 - INFO -   - Seed Word 'contact'
+2025-07-10 11:11:59,197 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0004, Rank = 414
+2025-07-10 11:11:59,216 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0008, Rank = 206
+2025-07-10 11:11:59,216 - INFO -   - Seed Word 'equipment'
+2025-07-10 11:11:59,234 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1572
+2025-07-10 11:11:59,253 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1331
+2025-07-10 11:11:59,253 - INFO - Seed Words: FT (Mapped to ID: 0)
+2025-07-10 11:11:59,253 - INFO -   - Seed Word 'fault'
+2025-07-10 11:11:59,270 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 925
+2025-07-10 11:11:59,270 - INFO -   - Seed Word 'failure'
+2025-07-10 11:11:59,288 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1095
+2025-07-10 11:11:59,302 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 2580
+2025-07-10 11:11:59,302 - WARNING - Seed Word 'database' for topic 'FT' was not in the final dictionary.
+2025-07-10 11:11:59,302 - INFO -   - Seed Word 'reliability'
+2025-07-10 11:11:59,323 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1332
+2025-07-10 11:11:59,323 - INFO -   - Seed Word 'tablet'
+2025-07-10 11:11:59,345 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1635
+2025-07-10 11:11:59,345 - INFO -   - Seed Word 'loss'
+2025-07-10 11:11:59,364 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 846
+2025-07-10 11:11:59,380 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0000, Rank = 949
+2025-07-10 11:11:59,380 - WARNING - Seed Word 'filesystems' for topic 'FT' was not in the final dictionary.
+2025-07-10 11:11:59,380 - INFO -   - Seed Word 'continue'
+2025-07-10 11:11:59,392 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0051, Rank = 39
+2025-07-10 11:11:59,415 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0026, Rank = 87
+2025-07-10 11:11:59,434 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2162
+2025-07-10 11:11:59,450 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 2181
+2025-07-10 11:11:59,461 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0009, Rank = 197
+2025-07-10 11:11:59,461 - INFO -   - Seed Word 'robust'
+2025-07-10 11:11:59,482 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0001, Rank = 665
+2025-07-10 11:11:59,500 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 834
+2025-07-10 11:11:59,500 - INFO -   - Seed Word 'crash'
+2025-07-10 11:11:59,516 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0004, Rank = 368
+2025-07-10 11:11:59,531 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1047
+2025-07-10 11:11:59,531 - INFO -   - Seed Word 'malicious'
+2025-07-10 11:11:59,552 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0000, Rank = 1317
+2025-07-10 11:11:59,552 - INFO -   - Seed Word 'tolerance'
+2025-07-10 11:11:59,571 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2133
+2025-07-10 11:11:59,572 - INFO -   - Seed Word 'transmission'
+2025-07-10 11:11:59,590 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2186
+2025-07-10 11:11:59,607 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 650
+2025-07-10 11:11:59,607 - INFO -   - Seed Word 'saved'
+2025-07-10 11:11:59,621 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 801
+2025-07-10 11:11:59,640 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 1898
+2025-07-10 11:11:59,640 - INFO -   - Seed Word 'retain'
+2025-07-10 11:11:59,656 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0006, Rank = 304
+2025-07-10 11:11:59,670 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0001, Rank = 538
+2025-07-10 11:11:59,690 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 1656
+2025-07-10 11:11:59,690 - WARNING - Seed Word 'maintained' for topic 'FT' was not in the final dictionary.
+2025-07-10 11:11:59,690 - INFO -   - Seed Word 'period'
+2025-07-10 11:11:59,704 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0007, Rank = 273
+2025-07-10 11:11:59,725 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0017, Rank = 114
+2025-07-10 11:11:59,725 - INFO -   - Seed Word 'previous'
+2025-07-10 11:11:59,740 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0012, Rank = 171
+2025-07-10 11:11:59,762 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0028, Rank = 68
+2025-07-10 11:11:59,780 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0010, Rank = 189
+2025-07-10 11:11:59,780 - INFO -   - Seed Word 'compensatory'
+2025-07-10 11:11:59,780 - WARNING - Seed Word 'disassociate' for topic 'FT' was not in the final dictionary.
+2025-07-10 11:11:59,780 - INFO -   - Seed Word 'mode'
+2025-07-10 11:11:59,794 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0006, Rank = 266
+2025-07-10 11:11:59,794 - INFO -   - Seed Word 'pillar'
+2025-07-10 11:11:59,810 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0000, Rank = 1822
+2025-07-10 11:11:59,830 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0000, Rank = 873
+2025-07-10 11:11:59,830 - INFO -   - Seed Word 'unexpected'
+2025-07-10 11:11:59,846 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 830
+2025-07-10 11:11:59,864 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1956
+2025-07-10 11:11:59,880 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 1799
+2025-07-10 11:11:59,880 - INFO -   - Seed Word 'non'
+2025-07-10 11:11:59,898 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0002, Rank = 583
+2025-07-10 11:11:59,912 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 888
+2025-07-10 11:11:59,930 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0021, Rank = 99
+2025-07-10 11:11:59,930 - INFO -   - Seed Word 'reflect'
+2025-07-10 11:11:59,947 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0008, Rank = 256
+2025-07-10 11:11:59,967 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0003, Rank = 626
+2025-07-10 11:11:59,967 - WARNING - Seed Word 'restoring' for topic 'FT' was not in the final dictionary.
+2025-07-10 11:11:59,967 - INFO -   - Seed Word 'mean'
+2025-07-10 11:11:59,982 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0001, Rank = 702
+2025-07-10 11:12:00,000 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0007, Rank = 326
+2025-07-10 11:12:00,016 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 894
+2025-07-10 11:12:00,016 - INFO -   - Seed Word 'remain'
+2025-07-10 11:12:00,037 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 751
+2025-07-10 11:12:00,051 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 921
+2025-07-10 11:12:00,051 - INFO -   - Seed Word 'problem'
+2025-07-10 11:12:00,072 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0040, Rank = 33
+2025-07-10 11:12:00,090 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0023, Rank = 84
+2025-07-10 11:12:00,091 - INFO -   - Seed Word 'send'
+2025-07-10 11:12:00,108 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0003, Rank = 393
+2025-07-10 11:12:00,120 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0002, Rank = 507
+2025-07-10 11:12:00,120 - INFO - Seed Words: PE (Mapped to ID: 0)
+2025-07-10 11:12:00,120 - INFO -   - Seed Word 'second'
+2025-07-10 11:12:00,141 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0008, Rank = 189
+2025-07-10 11:12:00,162 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0024, Rank = 95
+2025-07-10 11:12:00,183 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 612
+2025-07-10 11:12:00,183 - INFO -   - Seed Word 'response'
+2025-07-10 11:12:00,222 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 444
+2025-07-10 11:12:00,223 - INFO -   - Seed Word 'minute'
+2025-07-10 11:12:00,243 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0002, Rank = 510
+2025-07-10 11:12:00,269 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0008, Rank = 252
+2025-07-10 11:12:00,292 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0004, Rank = 552
+2025-07-10 11:12:00,312 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0003, Rank = 412
+2025-07-10 11:12:00,312 - INFO -   - Seed Word 'load'
+2025-07-10 11:12:00,330 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0004, Rank = 556
+2025-07-10 11:12:00,349 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 559
+2025-07-10 11:12:00,349 - WARNING - Seed Word 'website' for topic 'PE' was not in the final dictionary.
+2025-07-10 11:12:00,349 - INFO -   - Seed Word 'take'
+2025-07-10 11:12:00,363 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0080, Rank = 19
+2025-07-10 11:12:00,384 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0111, Rank = 10
+2025-07-10 11:12:00,405 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0030, Rank = 77
+2025-07-10 11:12:00,420 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0035, Rank = 43
+2025-07-10 11:12:00,440 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0025, Rank = 71
+2025-07-10 11:12:00,440 - INFO -   - Seed Word 'longer'
+2025-07-10 11:12:00,460 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0017, Rank = 135
+2025-07-10 11:12:00,460 - INFO -   - Seed Word 'application'
+2025-07-10 11:12:00,474 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0038, Rank = 37
+2025-07-10 11:12:00,496 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0014, Rank = 137
+2025-07-10 11:12:00,496 - INFO -   - Seed Word 'connection'
+2025-07-10 11:12:00,514 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0004, Rank = 402
+2025-07-10 11:12:00,533 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0003, Rank = 679
+2025-07-10 11:12:00,550 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 721
+2025-07-10 11:12:00,551 - INFO -   - Seed Word 'movie'
+2025-07-10 11:12:00,564 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0002, Rank = 632
+2025-07-10 11:12:00,564 - INFO -   - Seed Word 'fast'
+2025-07-10 11:12:00,586 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0007, Rank = 215
+2025-07-10 11:12:00,605 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0026, Rank = 81
+2025-07-10 11:12:00,605 - INFO -   - Seed Word 'complete'
+2025-07-10 11:12:00,623 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0048, Rank = 44
+2025-07-10 11:12:00,641 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0012, Rank = 195
+2025-07-10 11:12:00,661 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0030, Rank = 76
+2025-07-10 11:12:00,675 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0052, Rank = 23
+2025-07-10 11:12:00,690 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0007, Rank = 316
+2025-07-10 11:12:00,710 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0025, Rank = 81
+2025-07-10 11:12:00,724 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0014, Rank = 139
+2025-07-10 11:12:00,724 - INFO -   - Seed Word 'performance'
+2025-07-10 11:12:00,746 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0011, Rank = 215
+2025-07-10 11:12:00,746 - WARNING - Seed Word 'processing' for topic 'PE' was not in the final dictionary.
+2025-07-10 11:12:00,746 - INFO -   - Seed Word 'task'
+2025-07-10 11:12:00,760 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0010, Rank = 253
+2025-07-10 11:12:00,780 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 712
+2025-07-10 11:12:00,780 - INFO -   - Seed Word 'generate'
+2025-07-10 11:12:00,793 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1224
+2025-07-10 11:12:00,814 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1075
+2025-07-10 11:12:00,814 - INFO -   - Seed Word 'preferred'
+2025-07-10 11:12:00,832 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 491
+2025-07-10 11:12:00,851 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1047
+2025-07-10 11:12:00,851 - INFO -   - Seed Word 'high'
+2025-07-10 11:12:00,869 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0002, Rank = 496
+2025-07-10 11:12:00,884 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0009, Rank = 231
+2025-07-10 11:12:00,904 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0032, Rank = 72
+2025-07-10 11:12:00,920 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0013, Rank = 198
+2025-07-10 11:12:00,932 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0017, Rank = 121
+2025-07-10 11:12:00,932 - INFO -   - Seed Word 'account'
+2025-07-10 11:12:00,953 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0015, Rank = 128
+2025-07-10 11:12:00,953 - WARNING - Seed Word 'paid' for topic 'PE' was not in the final dictionary.
+2025-07-10 11:12:00,953 - INFO -   - Seed Word 'enough'
+2025-07-10 11:12:00,973 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0011, Rank = 176
+2025-07-10 11:12:00,990 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0024, Rank = 100
+2025-07-10 11:12:01,001 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0051, Rank = 25
+2025-07-10 11:12:01,022 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0016, Rank = 137
+2025-07-10 11:12:01,022 - INFO -   - Seed Word 'pin'
+2025-07-10 11:12:01,043 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0000, Rank = 1341
+2025-07-10 11:12:01,043 - WARNING - Seed Word 'pre' for topic 'PE' was not in the final dictionary.
+2025-07-10 11:12:01,043 - INFO -   - Seed Word 'acceptable'
+2025-07-10 11:12:01,064 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0000, Rank = 878
+2025-07-10 11:12:01,081 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 966
+2025-07-10 11:12:01,082 - INFO -   - Seed Word 'repair'
+2025-07-10 11:12:01,100 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2594
+2025-07-10 11:12:01,101 - INFO -   - Seed Word 'balancing'
+2025-07-10 11:12:01,118 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0003, Rank = 387
+2025-07-10 11:12:01,118 - INFO -   - Seed Word 'facility'
+2025-07-10 11:12:01,133 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0000, Rank = 1344
+2025-07-10 11:12:01,150 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0001, Rank = 669
+2025-07-10 11:12:01,150 - INFO -   - Seed Word 'flow'
+2025-07-10 11:12:01,170 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0007, Rank = 204
+2025-07-10 11:12:01,188 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0004, Rank = 507
+2025-07-10 11:12:01,206 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0002, Rank = 489
+2025-07-10 11:12:01,225 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0013, Rank = 147
+2025-07-10 11:12:01,225 - INFO -   - Seed Word 'asynchronous'
+2025-07-10 11:12:01,245 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2664
+2025-07-10 11:12:01,245 - INFO -   - Seed Word 'maintain'
+2025-07-10 11:12:01,260 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0002, Rank = 562
+2025-07-10 11:12:01,280 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1433
+2025-07-10 11:12:01,293 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0004, Rank = 324
+2025-07-10 11:12:01,299 - INFO - Seed Words: PO (Mapped to ID: 0)
+2025-07-10 11:12:01,299 - INFO -   - Seed Word 'window'
+2025-07-10 11:12:01,313 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0002, Rank = 481
+2025-07-10 11:12:01,320 - INFO -   - Seed Word 'web'
+2025-07-10 11:12:01,334 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0027, Rank = 83
+2025-07-10 11:12:01,350 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2565
+2025-07-10 11:12:01,370 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0088, Rank = 17
+2025-07-10 11:12:01,370 - INFO -   - Seed Word 'operating'
+2025-07-10 11:12:01,383 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0010, Rank = 174
+2025-07-10 11:12:01,383 - INFO -   - Seed Word 'environment'
+2025-07-10 11:12:01,404 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0006, Rank = 326
+2025-07-10 11:12:01,420 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 492
+2025-07-10 11:12:01,438 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0011, Rank = 213
+2025-07-10 11:12:01,456 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0009, Rank = 191
+2025-07-10 11:12:01,473 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0008, Rank = 212
+2025-07-10 11:12:01,473 - INFO -   - Seed Word 'platform'
+2025-07-10 11:12:01,490 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0013, Rank = 167
+2025-07-10 11:12:01,508 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0017, Rank = 142
+2025-07-10 11:12:01,522 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0094, Rank = 20
+2025-07-10 11:12:01,522 - INFO -   - Seed Word 'compatible'
+2025-07-10 11:12:01,543 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0001, Rank = 574
+2025-07-10 11:12:01,543 - INFO -   - Seed Word 'browser'
+2025-07-10 11:12:01,560 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 913
+2025-07-10 11:12:01,560 - INFO -   - Seed Word 'portable'
+2025-07-10 11:12:01,577 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0000, Rank = 1061
+2025-07-10 11:12:01,577 - INFO -   - Seed Word 'therefore'
+2025-07-10 11:12:01,591 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 757
+2025-07-10 11:12:01,612 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 471
+2025-07-10 11:12:01,626 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 840
+2025-07-10 11:12:01,626 - INFO -   - Seed Word 'hardware'
+2025-07-10 11:12:01,645 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0004, Rank = 367
+2025-07-10 11:12:01,660 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 723
+2025-07-10 11:12:01,660 - INFO -   - Seed Word 'usable'
+2025-07-10 11:12:01,682 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0003, Rank = 404
+2025-07-10 11:12:01,683 - INFO -   - Seed Word 'several'
+2025-07-10 11:12:01,695 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0007, Rank = 262
+2025-07-10 11:12:01,716 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0019, Rank = 121
+2025-07-10 11:12:01,730 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0012, Rank = 201
+2025-07-10 11:12:01,735 - INFO -   - Seed Word 'various'
+2025-07-10 11:12:01,751 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0005, Rank = 341
+2025-07-10 11:12:01,770 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0043, Rank = 34
+2025-07-10 11:12:01,785 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0019, Rank = 103
+2025-07-10 11:12:01,806 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0019, Rank = 106
+2025-07-10 11:12:01,806 - INFO -   - Seed Word 'either'
+2025-07-10 11:12:01,820 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0013, Rank = 211
+2025-07-10 11:12:01,841 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 638
+2025-07-10 11:12:01,841 - INFO -   - Seed Word 'independence'
+2025-07-10 11:12:01,855 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2184
+2025-07-10 11:12:01,855 - INFO -   - Seed Word 'function'
+2025-07-10 11:12:01,875 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0010, Rank = 266
+2025-07-10 11:12:01,893 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0004, Rank = 483
+2025-07-10 11:12:01,893 - INFO -   - Seed Word 'end'
+2025-07-10 11:12:01,912 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0022, Rank = 102
+2025-07-10 11:12:01,931 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 962
+2025-07-10 11:12:01,947 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0050, Rank = 27
+2025-07-10 11:12:01,966 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 625
+2025-07-10 11:12:01,986 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0022, Rank = 90
+2025-07-10 11:12:01,986 - INFO -   - Seed Word 'since'
+2025-07-10 11:12:02,000 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0014, Rank = 159
+2025-07-10 11:12:02,021 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0007, Rank = 269
+2025-07-10 11:12:02,042 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0034, Rank = 48
+2025-07-10 11:12:02,063 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0010, Rank = 242
+2025-07-10 11:12:02,063 - INFO -   - Seed Word 'palm'
+2025-07-10 11:12:02,084 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0000, Rank = 1591
+2025-07-10 11:12:02,084 - INFO -   - Seed Word 'mobile'
+2025-07-10 11:12:02,109 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 837
+2025-07-10 11:12:02,109 - INFO -   - Seed Word 'goal'
+2025-07-10 11:12:02,131 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0005, Rank = 343
+2025-07-10 11:12:02,153 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0007, Rank = 321
+2025-07-10 11:12:02,170 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0004, Rank = 335
+2025-07-10 11:12:02,170 - WARNING - Seed Word 'linux' for topic 'PO' was not in the final dictionary.
+2025-07-10 11:12:02,170 - INFO -   - Seed Word 'via'
+2025-07-10 11:12:02,190 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0003, Rank = 352
+2025-07-10 11:12:02,212 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0007, Rank = 362
+2025-07-10 11:12:02,212 - INFO -   - Seed Word 'used'
+2025-07-10 11:12:02,232 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0010, Rank = 191
+2025-07-10 11:12:02,250 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0006, Rank = 230
+2025-07-10 11:12:02,270 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0028, Rank = 67
+2025-07-10 11:12:02,285 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0053, Rank = 23
+2025-07-10 11:12:02,306 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0032, Rank = 63
+2025-07-10 11:12:02,306 - WARNING - Seed Word 'unix' for topic 'PO' was not in the final dictionary.
+2025-07-10 11:12:02,306 - INFO -   - Seed Word 'apache'
+2025-07-10 11:12:02,326 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0003, Rank = 376
+2025-07-10 11:12:02,326 - INFO -   - Seed Word 'wide'
+2025-07-10 11:12:02,340 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0024, Rank = 87
+2025-07-10 11:12:02,340 - INFO -   - Seed Word 'variety'
+2025-07-10 11:12:02,361 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0006, Rank = 403
+2025-07-10 11:12:02,382 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0012, Rank = 154
+2025-07-10 11:12:02,396 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0015, Rank = 135
+2025-07-10 11:12:02,396 - INFO -   - Seed Word 'popular'
+2025-07-10 11:12:02,416 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0007, Rank = 331
+2025-07-10 11:12:02,416 - INFO -   - Seed Word 'android'
+2025-07-10 11:12:02,430 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 923
+2025-07-10 11:12:02,430 - INFO - Seed Words: SC (Mapped to ID: 0)
+2025-07-10 11:12:02,430 - INFO -   - Seed Word 'simultaneous'
+2025-07-10 11:12:02,451 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2199
+2025-07-10 11:12:02,451 - INFO -   - Seed Word 'number'
+2025-07-10 11:12:02,470 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0011, Rank = 232
+2025-07-10 11:12:02,486 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0006, Rank = 409
+2025-07-10 11:12:02,486 - INFO -   - Seed Word 'capable'
+2025-07-10 11:12:02,500 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0003, Rank = 445
+2025-07-10 11:12:02,521 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 774
+2025-07-10 11:12:02,521 - INFO -   - Seed Word 'server'
+2025-07-10 11:12:02,541 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 776
+2025-07-10 11:12:02,560 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0000, Rank = 944
+2025-07-10 11:12:02,560 - INFO -   - Seed Word 'handle'
+2025-07-10 11:12:02,576 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0009, Rank = 206
+2025-07-10 11:12:02,590 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0004, Rank = 415
+2025-07-10 11:12:02,590 - INFO -   - Seed Word 'transaction'
+2025-07-10 11:12:02,611 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 703
+2025-07-10 11:12:02,612 - INFO -   - Seed Word 'process'
+2025-07-10 11:12:02,630 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0009, Rank = 213
+2025-07-10 11:12:02,648 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0008, Rank = 198
+2025-07-10 11:12:02,660 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0011, Rank = 241
+2025-07-10 11:12:02,680 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0046, Rank = 31
+2025-07-10 11:12:02,701 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0008, Rank = 200
+2025-07-10 11:12:02,701 - INFO -   - Seed Word 'hour'
+2025-07-10 11:12:02,715 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 431
+2025-07-10 11:12:02,715 - INFO -   - Seed Word 'per'
+2025-07-10 11:12:02,738 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0009, Rank = 275
+2025-07-10 11:12:02,738 - INFO -   - Seed Word 'streaming'
+2025-07-10 11:12:02,757 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1384
+2025-07-10 11:12:02,757 - INFO -   - Seed Word 'concurrent'
+2025-07-10 11:12:02,757 - INFO -   - Seed Word 'next'
+2025-07-10 11:12:02,770 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0110, Rank = 11
+2025-07-10 11:12:02,791 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0010, Rank = 258
+2025-07-10 11:12:02,791 - INFO -   - Seed Word 'market'
+2025-07-10 11:12:02,805 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0003, Rank = 517
+2025-07-10 11:12:02,826 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0016, Rank = 141
+2025-07-10 11:12:02,826 - INFO -   - Seed Word 'state'
+2025-07-10 11:12:02,847 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0005, Rank = 353
+2025-07-10 11:12:02,861 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 910
+2025-07-10 11:12:02,881 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 622
+2025-07-10 11:12:02,881 - INFO -   - Seed Word 'united'
+2025-07-10 11:12:02,895 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0008, Rank = 215
+2025-07-10 11:12:02,895 - WARNING - Seed Word 'scheduling' for topic 'SC' was not in the final dictionary.
+2025-07-10 11:12:02,895 - INFO -   - Seed Word 'handling'
+2025-07-10 11:12:02,910 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0014, Rank = 140
+2025-07-10 11:12:02,910 - INFO -   - Seed Word 'target'
+2025-07-10 11:12:02,930 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0001, Rank = 568
+2025-07-10 11:12:02,951 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 591
+2025-07-10 11:12:02,951 - INFO -   - Seed Word 'country'
+2025-07-10 11:12:02,972 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0012, Rank = 197
+2025-07-10 11:12:02,972 - INFO -   - Seed Word 'request'
+2025-07-10 11:12:02,985 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0004, Rank = 535
+2025-07-10 11:12:03,000 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0002, Rank = 433
+2025-07-10 11:12:03,000 - INFO -   - Seed Word 'nursing'
+2025-07-10 11:12:03,020 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0003, Rank = 399
+2025-07-10 11:12:03,020 - INFO -   - Seed Word 'maximum'
+2025-07-10 11:12:03,034 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 713
+2025-07-10 11:12:03,034 - INFO -   - Seed Word 'minimum'
+2025-07-10 11:12:03,055 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0001, Rank = 615
+2025-07-10 11:12:03,070 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 732
+2025-07-10 11:12:03,070 - INFO -   - Seed Word 'increase'
+2025-07-10 11:12:03,090 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0017, Rank = 131
+2025-07-10 11:12:03,103 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0006, Rank = 380
+2025-07-10 11:12:03,103 - WARNING - Seed Word 'number_increase_least' for topic 'SC' was not in the final dictionary.
+2025-07-10 11:12:03,103 - WARNING - Seed Word 'average_number_recycled' for topic 'SC' was not in the final dictionary.
+2025-07-10 11:12:03,103 - WARNING - Seed Word 'multiple_remote' for topic 'SC' was not in the final dictionary.
+2025-07-10 11:12:03,103 - INFO - Seed Words: SE (Mapped to ID: 0)
+2025-07-10 11:12:03,103 - INFO -   - Seed Word 'access'
+2025-07-10 11:12:03,126 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0015, Rank = 148
+2025-07-10 11:12:03,143 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0008, Rank = 314
+2025-07-10 11:12:03,163 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 609
+2025-07-10 11:12:03,163 - INFO -   - Seed Word 'customer'
+2025-07-10 11:12:03,180 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0035, Rank = 58
+2025-07-10 11:12:03,180 - INFO -   - Seed Word 'password'
+2025-07-10 11:12:03,200 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1802
+2025-07-10 11:12:03,201 - INFO -   - Seed Word 'authorized'
+2025-07-10 11:12:03,218 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0000, Rank = 929
+2025-07-10 11:12:03,218 - INFO -   - Seed Word 'ensure'
+2025-07-10 11:12:03,236 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0002, Rank = 407
+2025-07-10 11:12:03,250 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0006, Rank = 383
+2025-07-10 11:12:03,250 - INFO -   - Seed Word 'login'
+2025-07-10 11:12:03,270 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1783
+2025-07-10 11:12:03,270 - INFO -   - Seed Word 'security'
+2025-07-10 11:12:03,284 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0015, Rank = 164
+2025-07-10 11:12:03,284 - INFO -   - Seed Word 'log'
+2025-07-10 11:12:03,304 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 897
+2025-07-10 11:12:03,304 - INFO -   - Seed Word 'secure'
+2025-07-10 11:12:03,320 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0002, Rank = 441
+2025-07-10 11:12:03,320 - INFO -   - Seed Word 'role'
+2025-07-10 11:12:03,340 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0017, Rank = 131
+2025-07-10 11:12:03,363 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0008, Rank = 203
+2025-07-10 11:12:03,363 - WARNING - Seed Word 'encrypted' for topic 'SE' was not in the final dictionary.
+2025-07-10 11:12:03,363 - INFO -   - Seed Word 'supervisor'
+2025-07-10 11:12:03,385 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1595
+2025-07-10 11:12:03,385 - INFO -   - Seed Word 'computer'
+2025-07-10 11:12:03,402 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0018, Rank = 125
+2025-07-10 11:12:03,415 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0103, Rank = 16
+2025-07-10 11:12:03,415 - INFO -   - Seed Word 'company'
+2025-07-10 11:12:03,436 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0019, Rank = 105
+2025-07-10 11:12:03,436 - WARNING - Seed Word 'secured' for topic 'SE' was not in the final dictionary.
+2025-07-10 11:12:03,436 - WARNING - Seed Word 'stored' for topic 'SE' was not in the final dictionary.
+2025-07-10 11:12:03,436 - INFO -   - Seed Word 'card'
+2025-07-10 11:12:03,450 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0002, Rank = 415
+2025-07-10 11:12:03,450 - INFO -   - Seed Word 'prevent'
+2025-07-10 11:12:03,467 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0003, Rank = 503
+2025-07-10 11:12:03,471 - INFO -   - Seed Word 'policy'
+2025-07-10 11:12:03,485 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0006, Rank = 414
+2025-07-10 11:12:03,500 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0004, Rank = 315
+2025-07-10 11:12:03,500 - INFO -   - Seed Word 'level'
+2025-07-10 11:12:03,520 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0019, Rank = 119
+2025-07-10 11:12:03,533 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0082, Rank = 19
+2025-07-10 11:12:03,550 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0023, Rank = 97
+2025-07-10 11:12:03,568 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0039, Rank = 36
+2025-07-10 11:12:03,569 - INFO -   - Seed Word 'credit'
+2025-07-10 11:12:03,582 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0004, Rank = 520
+2025-07-10 11:12:03,589 - INFO -   - Seed Word 'require'
+2025-07-10 11:12:03,603 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0010, Rank = 265
+2025-07-10 11:12:03,624 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0005, Rank = 431
+2025-07-10 11:12:03,624 - WARNING - Seed Word 'authenticated' for topic 'SE' was not in the final dictionary.
+2025-07-10 11:12:03,624 - INFO -   - Seed Word 'update'
+2025-07-10 11:12:03,643 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0012, Rank = 218
+2025-07-10 11:12:03,663 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 921
+2025-07-10 11:12:03,681 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0003, Rank = 361
+2025-07-10 11:12:03,681 - INFO -   - Seed Word 'assigned'
+2025-07-10 11:12:03,693 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1030
+2025-07-10 11:12:03,714 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 1727
+2025-07-10 11:12:03,714 - WARNING - Seed Word 'ssl' for topic 'SE' was not in the final dictionary.
+2025-07-10 11:12:03,714 - WARNING - Seed Word 'containing' for topic 'SE' was not in the final dictionary.
+2025-07-10 11:12:03,714 - WARNING - Seed Word 'cooky' for topic 'SE' was not in the final dictionary.
+2025-07-10 11:12:03,714 - INFO -   - Seed Word 'never'
+2025-07-10 11:12:03,730 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0079, Rank = 21
+2025-07-10 11:12:03,742 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0015, Rank = 163
+2025-07-10 11:12:03,762 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0018, Rank = 130
+2025-07-10 11:12:03,762 - INFO -   - Seed Word 'accessible'
+2025-07-10 11:12:03,783 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0006, Rank = 300
+2025-07-10 11:12:03,801 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0021, Rank = 105
+2025-07-10 11:12:03,820 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0005, Rank = 434
+2025-07-10 11:12:03,832 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0007, Rank = 240
+2025-07-10 11:12:03,838 - INFO - Seed Words: US (Mapped to ID: 0)
+2025-07-10 11:12:03,838 - INFO -   - Seed Word 'training'
+2025-07-10 11:12:03,852 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0008, Rank = 263
+2025-07-10 11:12:03,873 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0011, Rank = 156
+2025-07-10 11:12:03,890 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0006, Rank = 399
+2025-07-10 11:12:03,901 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0013, Rank = 178
+2025-07-10 11:12:03,922 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0027, Rank = 70
+2025-07-10 11:12:03,922 - INFO -   - Seed Word 'page'
+2025-07-10 11:12:03,942 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0007, Rank = 343
+2025-07-10 11:12:03,957 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0001, Rank = 529
+2025-07-10 11:12:03,957 - INFO -   - Seed Word 'report'
+2025-07-10 11:12:03,970 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0007, Rank = 211
+2025-07-10 11:12:03,970 - INFO -   - Seed Word 'intuitive'
+2025-07-10 11:12:03,991 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0019, Rank = 118
+2025-07-10 11:12:04,010 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0011, Rank = 225
+2025-07-10 11:12:04,012 - INFO -   - Seed Word 'language'
+2025-07-10 11:12:04,030 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0138, Rank = 6
+2025-07-10 11:12:04,047 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0051, Rank = 46
+2025-07-10 11:12:04,047 - INFO -   - Seed Word 'realtor'
+2025-07-10 11:12:04,047 - INFO -   - Seed Word 'estimator'
+2025-07-10 11:12:04,047 - INFO -   - Seed Word 'service'
+2025-07-10 11:12:04,061 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1444
+2025-07-10 11:12:04,081 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0019, Rank = 104
+2025-07-10 11:12:04,081 - INFO -   - Seed Word 'screen'
+2025-07-10 11:12:04,095 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0007, Rank = 351
+2025-07-10 11:12:04,095 - INFO -   - Seed Word 'click'
+2025-07-10 11:12:04,116 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 729
+2025-07-10 11:12:04,116 - INFO -   - Seed Word 'collision'
+2025-07-10 11:12:04,130 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0000, Rank = 1236
+2025-07-10 11:12:04,130 - INFO -   - Seed Word 'interface'
+2025-07-10 11:12:04,151 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0023, Rank = 83
+2025-07-10 11:12:04,151 - INFO -   - Seed Word 'standard'
+2025-07-10 11:12:04,169 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 459
+2025-07-10 11:12:04,188 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0007, Rank = 216
+2025-07-10 11:12:04,189 - WARNING - Seed Word 'internet' for topic 'US' was not in the final dictionary.
+2025-07-10 11:12:04,189 - INFO -   - Seed Word 'community'
+2025-07-10 11:12:04,207 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0003, Rank = 427
+2025-07-10 11:12:04,224 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0015, Rank = 157
+2025-07-10 11:12:04,241 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 701
+2025-07-10 11:12:04,241 - INFO -   - Seed Word 'understandable'
+2025-07-10 11:12:04,261 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0067, Rank = 28
+2025-07-10 11:12:04,262 - INFO -   - Seed Word 'self'
+2025-07-10 11:12:04,276 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0005, Rank = 319
+2025-07-10 11:12:04,297 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0014, Rank = 164
+2025-07-10 11:12:04,310 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 502
+2025-07-10 11:12:04,331 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 627
+2025-07-10 11:12:04,331 - WARNING - Seed Word 'caller' for topic 'US' was not in the final dictionary.
+2025-07-10 11:12:04,331 - INFO -   - Seed Word 'find'
+2025-07-10 11:12:04,345 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0014, Rank = 161
+2025-07-10 11:12:04,360 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0018, Rank = 126
+2025-07-10 11:12:04,380 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0050, Rank = 26
+2025-07-10 11:12:04,400 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0013, Rank = 189
+2025-07-10 11:12:04,400 - INFO -   - Seed Word 'instruction'
+2025-07-10 11:12:04,415 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0020, Rank = 113
+2025-07-10 11:12:04,435 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0010, Rank = 255
+2025-07-10 11:12:04,457 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 618
+2025-07-10 11:12:04,457 - INFO -   - Seed Word 'easily'
+2025-07-10 11:12:04,476 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0014, Rank = 160
+2025-07-10 11:12:04,491 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0071, Rank = 27
+2025-07-10 11:12:04,512 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0009, Rank = 271
+2025-07-10 11:12:04,525 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1311
+2025-07-10 11:12:04,525 - INFO -   - Seed Word 'upon'
+2025-07-10 11:12:04,546 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0004, Rank = 560
+2025-07-10 11:12:04,560 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0010, Rank = 236
+2025-07-10 11:12:04,560 - INFO -   - Seed Word 'navigation'
+2025-07-10 11:12:04,581 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1544
+2025-07-10 11:12:04,600 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0002, Rank = 478
+2025-07-10 11:12:04,600 - INFO -   - Seed Word 'activity'
+2025-07-10 11:12:04,616 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 747
+2025-07-10 11:12:04,630 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 779
+2025-07-10 11:12:04,650 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 954
+2025-07-10 11:12:04,674 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 832
+2025-07-10 11:12:04,675 - WARNING - Seed Word 'adjuster' for topic 'US' was not in the final dictionary.
+2025-07-10 11:12:04,675 - INFO -   - Seed Word 'representative'
+2025-07-10 11:12:04,695 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 1683
+2025-07-10 11:12:04,713 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0000, Rank = 1222
+2025-07-10 11:12:04,713 - INFO -   - Seed Word 'naturally'
+2025-07-10 11:12:04,730 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0002, Rank = 591
+2025-07-10 11:12:04,748 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0000, Rank = 741
+2025-07-10 11:12:04,748 - INFO -   - Seed Word 'button'
+2025-07-10 11:12:04,761 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 782
+2025-07-10 11:12:04,761 - INFO -   - Seed Word 'room'
+2025-07-10 11:12:04,782 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 467
+2025-07-10 11:12:04,782 - INFO -   - Seed Word 'read'
+2025-07-10 11:12:04,800 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0010, Rank = 196
+2025-07-10 11:12:04,817 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0006, Rank = 301
+2025-07-10 11:12:04,831 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0041, Rank = 32
+2025-07-10 11:12:04,851 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1285
+2025-07-10 11:12:04,862 - INFO - Started getting topic distributions
+2025-07-10 11:12:18,844 - INFO - Average topic entropy: 0.6172, Std: 0.4440
+2025-07-29 16:03:48,530 - INFO - Successfully loaded seed words from ../../../datasets/seed_words.csv
+2025-07-29 16:03:48,625 - INFO - Loading saved models
+2025-07-29 16:03:48,847 - WARNING - older version of FrozenPhrases loaded without corpus_word_count
+2025-07-29 16:03:48,847 - WARNING - setting corpus_word_count to 0, do not use it in your scoring function
+2025-07-29 16:03:48,847 - INFO - Loaded LDA model, dictionary, and bigram model
+2025-07-29 16:03:48,858 - INFO - Loading new dataset
+2025-07-29 16:03:49,001 - INFO - Loaded new dataset
+2025-07-29 16:03:49,014 - INFO - Preprocessing new dataset
+2025-07-29 16:03:56,067 - INFO - Filtered to 70412 valid reviews
+2025-07-29 16:03:56,080 - INFO - Creating BoW corpus
+2025-07-29 16:03:56,570 - INFO - Created BoW corpus
+2025-07-29 16:03:56,581 - INFO - Inferring topics
+2025-07-29 16:04:08,757 - INFO - Completed topic inference
+2025-07-29 16:04:08,777 - INFO - Started computing C_v coherence scores for multiple topn values
+2025-07-29 16:04:08,781 - INFO - Computing C_v coherence for topn=10
+2025-07-29 16:04:30,334 - INFO - Topic #0 (Topic_0): C_v Score = 0.4714 (topn=10)
+2025-07-29 16:04:30,334 - INFO - Topic #1 (Topic_1): C_v Score = 0.4902 (topn=10)
+2025-07-29 16:04:30,335 - INFO - Topic #2 (Topic_2): C_v Score = 0.5134 (topn=10)
+2025-07-29 16:04:30,335 - INFO - Topic #3 (Topic_3): C_v Score = 0.7128 (topn=10)
+2025-07-29 16:04:30,335 - INFO - Topic #4 (Topic_4): C_v Score = 0.4893 (topn=10)
+2025-07-29 16:04:30,335 - INFO - Topic #5 (Topic_5): C_v Score = 0.3984 (topn=10)
+2025-07-29 16:04:30,335 - INFO - Topic #6 (Topic_6): C_v Score = 0.2854 (topn=10)
+2025-07-29 16:04:30,335 - INFO - Overall C_v Coherence Score (topn=10): 0.4801
+2025-07-29 16:04:30,336 - INFO - Computing C_v coherence for topn=20
+2025-07-29 16:04:50,972 - INFO - Topic #0 (Topic_0): C_v Score = 0.4628 (topn=20)
+2025-07-29 16:04:50,973 - INFO - Topic #1 (Topic_1): C_v Score = 0.4454 (topn=20)
+2025-07-29 16:04:50,973 - INFO - Topic #2 (Topic_2): C_v Score = 0.4062 (topn=20)
+2025-07-29 16:04:50,973 - INFO - Topic #3 (Topic_3): C_v Score = 0.7278 (topn=20)
+2025-07-29 16:04:50,973 - INFO - Topic #4 (Topic_4): C_v Score = 0.3980 (topn=20)
+2025-07-29 16:04:50,973 - INFO - Topic #5 (Topic_5): C_v Score = 0.3619 (topn=20)
+2025-07-29 16:04:50,974 - INFO - Topic #6 (Topic_6): C_v Score = 0.2181 (topn=20)
+2025-07-29 16:04:50,974 - INFO - Overall C_v Coherence Score (topn=20): 0.4314
+2025-07-29 16:04:50,974 - INFO - Computing C_v coherence for topn=30
+2025-07-29 16:05:11,138 - INFO - Topic #0 (Topic_0): C_v Score = 0.4812 (topn=30)
+2025-07-29 16:05:11,138 - INFO - Topic #1 (Topic_1): C_v Score = 0.4626 (topn=30)
+2025-07-29 16:05:11,138 - INFO - Topic #2 (Topic_2): C_v Score = 0.4323 (topn=30)
+2025-07-29 16:05:11,148 - INFO - Topic #3 (Topic_3): C_v Score = 0.7643 (topn=30)
+2025-07-29 16:05:11,148 - INFO - Topic #4 (Topic_4): C_v Score = 0.4392 (topn=30)
+2025-07-29 16:05:11,148 - INFO - Topic #5 (Topic_5): C_v Score = 0.3812 (topn=30)
+2025-07-29 16:05:11,148 - INFO - Topic #6 (Topic_6): C_v Score = 0.2612 (topn=30)
+2025-07-29 16:05:11,148 - INFO - Overall C_v Coherence Score (topn=30): 0.4603
+2025-07-29 16:05:11,148 - INFO - Computing C_v coherence for topn=40
+2025-07-29 16:05:28,149 - INFO - Topic #0 (Topic_0): C_v Score = 0.5063 (topn=40)
+2025-07-29 16:05:28,149 - INFO - Topic #1 (Topic_1): C_v Score = 0.4549 (topn=40)
+2025-07-29 16:05:28,149 - INFO - Topic #2 (Topic_2): C_v Score = 0.4131 (topn=40)
+2025-07-29 16:05:28,149 - INFO - Topic #3 (Topic_3): C_v Score = 0.7630 (topn=40)
+2025-07-29 16:05:28,149 - INFO - Topic #4 (Topic_4): C_v Score = 0.4815 (topn=40)
+2025-07-29 16:05:28,149 - INFO - Topic #5 (Topic_5): C_v Score = 0.3763 (topn=40)
+2025-07-29 16:05:28,149 - INFO - Topic #6 (Topic_6): C_v Score = 0.2491 (topn=40)
+2025-07-29 16:05:28,149 - INFO - Overall C_v Coherence Score (topn=40): 0.4634
+2025-07-29 16:05:28,149 - INFO - Computing C_v coherence for topn=50
+2025-07-29 16:05:46,076 - INFO - Topic #0 (Topic_0): C_v Score = 0.5044 (topn=50)
+2025-07-29 16:05:46,076 - INFO - Topic #1 (Topic_1): C_v Score = 0.4730 (topn=50)
+2025-07-29 16:05:46,076 - INFO - Topic #2 (Topic_2): C_v Score = 0.4028 (topn=50)
+2025-07-29 16:05:46,076 - INFO - Topic #3 (Topic_3): C_v Score = 0.7779 (topn=50)
+2025-07-29 16:05:46,076 - INFO - Topic #4 (Topic_4): C_v Score = 0.5007 (topn=50)
+2025-07-29 16:05:46,076 - INFO - Topic #5 (Topic_5): C_v Score = 0.3670 (topn=50)
+2025-07-29 16:05:46,076 - INFO - Topic #6 (Topic_6): C_v Score = 0.2569 (topn=50)
+2025-07-29 16:05:46,076 - INFO - Overall C_v Coherence Score (topn=50): 0.4689
+2025-07-29 16:05:46,076 - INFO - Computing C_v coherence for topn=60
+2025-07-29 16:06:04,695 - INFO - Topic #0 (Topic_0): C_v Score = 0.4989 (topn=60)
+2025-07-29 16:06:04,695 - INFO - Topic #1 (Topic_1): C_v Score = 0.4813 (topn=60)
+2025-07-29 16:06:04,695 - INFO - Topic #2 (Topic_2): C_v Score = 0.3953 (topn=60)
+2025-07-29 16:06:04,695 - INFO - Topic #3 (Topic_3): C_v Score = 0.7727 (topn=60)
+2025-07-29 16:06:04,695 - INFO - Topic #4 (Topic_4): C_v Score = 0.4761 (topn=60)
+2025-07-29 16:06:04,695 - INFO - Topic #5 (Topic_5): C_v Score = 0.3651 (topn=60)
+2025-07-29 16:06:04,695 - INFO - Topic #6 (Topic_6): C_v Score = 0.2690 (topn=60)
+2025-07-29 16:06:04,695 - INFO - Overall C_v Coherence Score (topn=60): 0.4655
+2025-07-29 16:06:04,695 - INFO - Completed computing C_v coherence scores for multiple topn values
+2025-07-29 16:06:04,715 - INFO - Verifying Seed Word Probabilities and Ranks in Standard LDA Model
+2025-07-29 16:06:04,715 - INFO - Seed Words: F (Mapped to ID: 0)
+2025-07-29 16:06:04,715 - INFO -   - Seed Word 'player'
+2025-07-29 16:06:04,736 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1578
+2025-07-29 16:06:04,737 - INFO -   - Seed Word 'display'
+2025-07-29 16:06:04,749 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0002, Rank = 414
+2025-07-29 16:06:04,749 - INFO -   - Seed Word 'meeting'
+2025-07-29 16:06:04,759 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0001, Rank = 668
+2025-07-29 16:06:04,784 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 848
+2025-07-29 16:06:04,800 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1945
+2025-07-29 16:06:04,800 - INFO -   - Seed Word 'dispute'
+2025-07-29 16:06:04,815 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 992
+2025-07-29 16:06:04,815 - INFO -   - Seed Word 'program'
+2025-07-29 16:06:04,836 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0043, Rank = 50
+2025-07-29 16:06:04,846 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0009, Rank = 184
+2025-07-29 16:06:04,866 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0009, Rank = 283
+2025-07-29 16:06:04,886 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0007, Rank = 329
+2025-07-29 16:06:04,910 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0015, Rank = 127
+2025-07-29 16:06:04,910 - INFO -   - Seed Word 'clinical'
+2025-07-29 16:06:04,930 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0015, Rank = 156
+2025-07-29 16:06:04,931 - INFO -   - Seed Word 'member'
+2025-07-29 16:06:04,951 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0003, Rank = 483
+2025-07-29 16:06:04,951 - INFO -   - Seed Word 'staff'
+2025-07-29 16:06:04,971 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0014, Rank = 156
+2025-07-29 16:06:05,006 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0006, Rank = 380
+2025-07-29 16:06:05,031 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 726
+2025-07-29 16:06:05,031 - INFO -   - Seed Word 'student'
+2025-07-29 16:06:05,051 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0014, Rank = 152
+2025-07-29 16:06:05,071 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0025, Rank = 91
+2025-07-29 16:06:05,091 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0010, Rank = 162
+2025-07-29 16:06:05,111 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0019, Rank = 126
+2025-07-29 16:06:05,132 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0034, Rank = 44
+2025-07-29 16:06:05,132 - INFO -   - Seed Word 'lab'
+2025-07-29 16:06:05,148 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0022, Rank = 110
+2025-07-29 16:06:05,171 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0036, Rank = 55
+2025-07-29 16:06:05,172 - INFO -   - Seed Word 'view'
+2025-07-29 16:06:05,186 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0011, Rank = 209
+2025-07-29 16:06:05,206 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 716
+2025-07-29 16:06:05,225 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0029, Rank = 56
+2025-07-29 16:06:05,241 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0018, Rank = 109
+2025-07-29 16:06:05,241 - INFO -   - Seed Word 'list'
+2025-07-29 16:06:05,251 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0002, Rank = 527
+2025-07-29 16:06:05,271 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0007, Rank = 342
+2025-07-29 16:06:05,271 - INFO -   - Seed Word 'site'
+2025-07-29 16:06:05,291 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0007, Rank = 250
+2025-07-29 16:06:05,311 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0003, Rank = 611
+2025-07-29 16:06:05,321 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1253
+2025-07-29 16:06:05,321 - INFO -   - Seed Word 'game'
+2025-07-29 16:06:05,351 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 988
+2025-07-29 16:06:05,369 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0037, Rank = 49
+2025-07-29 16:06:05,369 - INFO -   - Seed Word 'order'
+2025-07-29 16:06:05,380 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0006, Rank = 314
+2025-07-29 16:06:05,400 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0020, Rank = 117
+2025-07-29 16:06:05,420 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0013, Rank = 182
+2025-07-29 16:06:05,420 - INFO -   - Seed Word 'cohort'
+2025-07-29 16:06:05,432 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0001, Rank = 751
+2025-07-29 16:06:05,432 - INFO -   - Seed Word 'section'
+2025-07-29 16:06:05,452 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0025, Rank = 89
+2025-07-29 16:06:05,452 - INFO -   - Seed Word 'notify'
+2025-07-29 16:06:05,472 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 746
+2025-07-29 16:06:05,472 - INFO -   - Seed Word 'date'
+2025-07-29 16:06:05,482 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0004, Rank = 365
+2025-07-29 16:06:05,502 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0006, Rank = 408
+2025-07-29 16:06:05,522 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 821
+2025-07-29 16:06:05,536 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0008, Rank = 210
+2025-07-29 16:06:05,536 - INFO -   - Seed Word 'location'
+2025-07-29 16:06:05,556 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1308
+2025-07-29 16:06:05,576 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0001, Rank = 758
+2025-07-29 16:06:05,578 - INFO -   - Seed Word 'change'
+2025-07-29 16:06:05,596 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0041, Rank = 45
+2025-07-29 16:06:05,606 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0009, Rank = 287
+2025-07-29 16:06:05,626 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 611
+2025-07-29 16:06:05,626 - INFO -   - Seed Word 'defensive'
+2025-07-29 16:06:05,626 - INFO -   - Seed Word 'status'
+2025-07-29 16:06:05,641 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 765
+2025-07-29 16:06:05,661 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 1872
+2025-07-29 16:06:05,661 - INFO -   - Seed Word 'grid'
+2025-07-29 16:06:05,671 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1232
+2025-07-29 16:06:05,671 - INFO -   - Seed Word 'enable'
+2025-07-29 16:06:05,692 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0004, Rank = 522
+2025-07-29 16:06:05,692 - INFO -   - Seed Word 'ship'
+2025-07-29 16:06:05,713 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0000, Rank = 1031
+2025-07-29 16:06:05,713 - INFO -   - Seed Word 'room'
+2025-07-29 16:06:05,723 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 467
+2025-07-29 16:06:05,723 - WARNING - Seed Word 'recycled' for topic 'F' was not in the final dictionary.
+2025-07-29 16:06:05,723 - INFO -   - Seed Word 'equipment'
+2025-07-29 16:06:05,748 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1572
+2025-07-29 16:06:05,763 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1331
+2025-07-29 16:06:05,763 - INFO -   - Seed Word 'contact'
+2025-07-29 16:06:05,773 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0004, Rank = 414
+2025-07-29 16:06:05,793 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0008, Rank = 206
+2025-07-29 16:06:05,793 - INFO - Seed Words: FT (Mapped to ID: 0)
+2025-07-29 16:06:05,793 - INFO -   - Seed Word 'fault'
+2025-07-29 16:06:05,819 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 925
+2025-07-29 16:06:05,819 - INFO -   - Seed Word 'failure'
+2025-07-29 16:06:05,837 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1095
+2025-07-29 16:06:05,854 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 2580
+2025-07-29 16:06:05,854 - WARNING - Seed Word 'database' for topic 'FT' was not in the final dictionary.
+2025-07-29 16:06:05,854 - INFO -   - Seed Word 'reliability'
+2025-07-29 16:06:05,865 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1332
+2025-07-29 16:06:05,865 - INFO -   - Seed Word 'crash'
+2025-07-29 16:06:05,885 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0004, Rank = 368
+2025-07-29 16:06:05,905 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1047
+2025-07-29 16:06:05,905 - WARNING - Seed Word 'filesystems' for topic 'FT' was not in the final dictionary.
+2025-07-29 16:06:05,905 - INFO -   - Seed Word 'tolerance'
+2025-07-29 16:06:05,916 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2133
+2025-07-29 16:06:05,916 - INFO -   - Seed Word 'continue'
+2025-07-29 16:06:05,936 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0051, Rank = 39
+2025-07-29 16:06:05,953 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0026, Rank = 87
+2025-07-29 16:06:05,973 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2162
+2025-07-29 16:06:05,987 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 2181
+2025-07-29 16:06:06,009 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0009, Rank = 197
+2025-07-29 16:06:06,010 - INFO -   - Seed Word 'robust'
+2025-07-29 16:06:06,027 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0001, Rank = 665
+2025-07-29 16:06:06,039 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 834
+2025-07-29 16:06:06,039 - INFO -   - Seed Word 'tablet'
+2025-07-29 16:06:06,056 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1635
+2025-07-29 16:06:06,056 - INFO -   - Seed Word 'malicious'
+2025-07-29 16:06:06,076 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0000, Rank = 1317
+2025-07-29 16:06:06,076 - INFO -   - Seed Word 'loss'
+2025-07-29 16:06:06,088 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 846
+2025-07-29 16:06:06,108 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0000, Rank = 949
+2025-07-29 16:06:06,108 - WARNING - Seed Word 'disassociate' for topic 'FT' was not in the final dictionary.
+2025-07-29 16:06:06,108 - WARNING - Seed Word 'depends' for topic 'FT' was not in the final dictionary.
+2025-07-29 16:06:06,108 - INFO -   - Seed Word 'resolution'
+2025-07-29 16:06:06,118 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0000, Rank = 1442
+2025-07-29 16:06:06,138 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1166
+2025-07-29 16:06:06,154 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 1837
+2025-07-29 16:06:06,154 - INFO -   - Seed Word 'recovery'
+2025-07-29 16:06:06,174 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 1111
+2025-07-29 16:06:06,174 - WARNING - Seed Word 'restored' for topic 'FT' was not in the final dictionary.
+2025-07-29 16:06:06,174 - INFO -   - Seed Word 'retain'
+2025-07-29 16:06:06,194 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0006, Rank = 304
+2025-07-29 16:06:06,204 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0001, Rank = 538
+2025-07-29 16:06:06,224 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 1656
+2025-07-29 16:06:06,224 - INFO -   - Seed Word 'overall'
+2025-07-29 16:06:06,247 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0022, Rank = 102
+2025-07-29 16:06:06,265 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0074, Rank = 11
+2025-07-29 16:06:06,275 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0018, Rank = 116
+2025-07-29 16:06:06,295 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0039, Rank = 54
+2025-07-29 16:06:06,305 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0036, Rank = 51
+2025-07-29 16:06:06,305 - INFO -   - Seed Word 'transmission'
+2025-07-29 16:06:06,325 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2186
+2025-07-29 16:06:06,345 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 650
+2025-07-29 16:06:06,345 - INFO -   - Seed Word 'timely'
+2025-07-29 16:06:06,362 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0007, Rank = 211
+2025-07-29 16:06:06,362 - WARNING - Seed Word 'maintained' for topic 'FT' was not in the final dictionary.
+2025-07-29 16:06:06,362 - INFO -   - Seed Word 'non'
+2025-07-29 16:06:06,372 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0002, Rank = 583
+2025-07-29 16:06:06,392 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 888
+2025-07-29 16:06:06,412 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0021, Rank = 99
+2025-07-29 16:06:06,412 - INFO -   - Seed Word 'warn'
+2025-07-29 16:06:06,422 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1724
+2025-07-29 16:06:06,442 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 2538
+2025-07-29 16:06:06,442 - INFO -   - Seed Word 'unexpected'
+2025-07-29 16:06:06,467 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 830
+2025-07-29 16:06:06,480 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1956
+2025-07-29 16:06:06,500 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 1799
+2025-07-29 16:06:06,500 - INFO -   - Seed Word 'reflect'
+2025-07-29 16:06:06,518 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0008, Rank = 256
+2025-07-29 16:06:06,531 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0003, Rank = 626
+2025-07-29 16:06:06,531 - INFO -   - Seed Word 'mean'
+2025-07-29 16:06:06,551 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0001, Rank = 702
+2025-07-29 16:06:06,570 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0007, Rank = 326
+2025-07-29 16:06:06,579 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 894
+2025-07-29 16:06:06,589 - INFO -   - Seed Word 'compensatory'
+2025-07-29 16:06:06,589 - INFO -   - Seed Word 'send'
+2025-07-29 16:06:06,599 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0003, Rank = 393
+2025-07-29 16:06:06,619 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0002, Rank = 507
+2025-07-29 16:06:06,619 - INFO -   - Seed Word 'routing'
+2025-07-29 16:06:06,629 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1792
+2025-07-29 16:06:06,629 - INFO - Seed Words: PE (Mapped to ID: 0)
+2025-07-29 16:06:06,629 - INFO -   - Seed Word 'second'
+2025-07-29 16:06:06,653 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0008, Rank = 189
+2025-07-29 16:06:06,667 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0024, Rank = 95
+2025-07-29 16:06:06,690 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 612
+2025-07-29 16:06:06,690 - INFO -   - Seed Word 'response'
+2025-07-29 16:06:06,699 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 444
+2025-07-29 16:06:06,699 - INFO -   - Seed Word 'minute'
+2025-07-29 16:06:06,718 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0002, Rank = 510
+2025-07-29 16:06:06,738 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0008, Rank = 252
+2025-07-29 16:06:06,759 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0004, Rank = 552
+2025-07-29 16:06:06,776 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0003, Rank = 412
+2025-07-29 16:06:06,776 - INFO -   - Seed Word 'longer'
+2025-07-29 16:06:06,792 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0017, Rank = 135
+2025-07-29 16:06:06,792 - INFO -   - Seed Word 'take'
+2025-07-29 16:06:06,802 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0080, Rank = 19
+2025-07-29 16:06:06,822 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0111, Rank = 10
+2025-07-29 16:06:06,842 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0030, Rank = 77
+2025-07-29 16:06:06,862 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0035, Rank = 43
+2025-07-29 16:06:06,880 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0025, Rank = 71
+2025-07-29 16:06:06,880 - INFO -   - Seed Word 'load'
+2025-07-29 16:06:06,898 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0004, Rank = 556
+2025-07-29 16:06:06,910 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 559
+2025-07-29 16:06:06,910 - WARNING - Seed Word 'website' for topic 'PE' was not in the final dictionary.
+2025-07-29 16:06:06,910 - INFO -   - Seed Word 'connection'
+2025-07-29 16:06:06,934 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0004, Rank = 402
+2025-07-29 16:06:06,951 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0003, Rank = 679
+2025-07-29 16:06:06,960 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 721
+2025-07-29 16:06:06,960 - INFO -   - Seed Word 'application'
+2025-07-29 16:06:06,987 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0038, Rank = 37
+2025-07-29 16:06:06,997 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0014, Rank = 137
+2025-07-29 16:06:06,997 - INFO -   - Seed Word 'movie'
+2025-07-29 16:06:07,018 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0002, Rank = 632
+2025-07-29 16:06:07,018 - INFO -   - Seed Word 'performance'
+2025-07-29 16:06:07,037 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0011, Rank = 215
+2025-07-29 16:06:07,037 - INFO -   - Seed Word 'fast'
+2025-07-29 16:06:07,047 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0007, Rank = 215
+2025-07-29 16:06:07,067 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0026, Rank = 81
+2025-07-29 16:06:07,067 - INFO -   - Seed Word 'complete'
+2025-07-29 16:06:07,083 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0048, Rank = 44
+2025-07-29 16:06:07,103 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0012, Rank = 195
+2025-07-29 16:06:07,123 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0030, Rank = 76
+2025-07-29 16:06:07,135 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0052, Rank = 23
+2025-07-29 16:06:07,152 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0007, Rank = 316
+2025-07-29 16:06:07,172 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0025, Rank = 81
+2025-07-29 16:06:07,188 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0014, Rank = 139
+2025-07-29 16:06:07,188 - INFO -   - Seed Word 'task'
+2025-07-29 16:06:07,208 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0010, Rank = 253
+2025-07-29 16:06:07,228 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 712
+2025-07-29 16:06:07,228 - WARNING - Seed Word 'processing' for topic 'PE' was not in the final dictionary.
+2025-07-29 16:06:07,228 - INFO -   - Seed Word 'flow'
+2025-07-29 16:06:07,238 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0007, Rank = 204
+2025-07-29 16:06:07,258 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0004, Rank = 507
+2025-07-29 16:06:07,268 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0002, Rank = 489
+2025-07-29 16:06:07,284 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0013, Rank = 147
+2025-07-29 16:06:07,284 - INFO -   - Seed Word 'high'
+2025-07-29 16:06:07,304 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0002, Rank = 496
+2025-07-29 16:06:07,324 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0009, Rank = 231
+2025-07-29 16:06:07,334 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0032, Rank = 72
+2025-07-29 16:06:07,357 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0013, Rank = 198
+2025-07-29 16:06:07,374 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0017, Rank = 121
+2025-07-29 16:06:07,374 - INFO -   - Seed Word 'preferred'
+2025-07-29 16:06:07,388 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 491
+2025-07-29 16:06:07,409 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1047
+2025-07-29 16:06:07,409 - INFO -   - Seed Word 'generate'
+2025-07-29 16:06:07,419 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1224
+2025-07-29 16:06:07,439 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1075
+2025-07-29 16:06:07,439 - INFO -   - Seed Word 'account'
+2025-07-29 16:06:07,449 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0015, Rank = 128
+2025-07-29 16:06:07,449 - WARNING - Seed Word 'paid' for topic 'PE' was not in the final dictionary.
+2025-07-29 16:06:07,449 - INFO -   - Seed Word 'pin'
+2025-07-29 16:06:07,469 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0000, Rank = 1341
+2025-07-29 16:06:07,469 - INFO -   - Seed Word 'enough'
+2025-07-29 16:06:07,491 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0011, Rank = 176
+2025-07-29 16:06:07,506 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0024, Rank = 100
+2025-07-29 16:06:07,519 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0051, Rank = 25
+2025-07-29 16:06:07,536 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0016, Rank = 137
+2025-07-29 16:06:07,536 - WARNING - Seed Word 'pre' for topic 'PE' was not in the final dictionary.
+2025-07-29 16:06:07,536 - INFO -   - Seed Word 'acceptable'
+2025-07-29 16:06:07,558 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0000, Rank = 878
+2025-07-29 16:06:07,573 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 966
+2025-07-29 16:06:07,573 - INFO -   - Seed Word 'balancing'
+2025-07-29 16:06:07,583 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0003, Rank = 387
+2025-07-29 16:06:07,583 - INFO -   - Seed Word 'facility'
+2025-07-29 16:06:07,607 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0000, Rank = 1344
+2025-07-29 16:06:07,619 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0001, Rank = 669
+2025-07-29 16:06:07,619 - INFO -   - Seed Word 'repair'
+2025-07-29 16:06:07,637 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2594
+2025-07-29 16:06:07,637 - WARNING - Seed Word 'multi' for topic 'PE' was not in the final dictionary.
+2025-07-29 16:06:07,637 - INFO -   - Seed Word 'addition'
+2025-07-29 16:06:07,657 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0001, Rank = 596
+2025-07-29 16:06:07,677 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0007, Rank = 373
+2025-07-29 16:06:07,687 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0007, Rank = 325
+2025-07-29 16:06:07,711 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0002, Rank = 446
+2025-07-29 16:06:07,721 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0007, Rank = 230
+2025-07-29 16:06:07,721 - INFO - Seed Words: PO (Mapped to ID: 0)
+2025-07-29 16:06:07,721 - INFO -   - Seed Word 'web'
+2025-07-29 16:06:07,741 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0027, Rank = 83
+2025-07-29 16:06:07,761 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2565
+2025-07-29 16:06:07,774 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0088, Rank = 17
+2025-07-29 16:06:07,774 - INFO -   - Seed Word 'window'
+2025-07-29 16:06:07,791 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0002, Rank = 481
+2025-07-29 16:06:07,791 - INFO -   - Seed Word 'environment'
+2025-07-29 16:06:07,805 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0006, Rank = 326
+2025-07-29 16:06:07,825 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 492
+2025-07-29 16:06:07,845 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0011, Rank = 213
+2025-07-29 16:06:07,855 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0009, Rank = 191
+2025-07-29 16:06:07,875 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0008, Rank = 212
+2025-07-29 16:06:07,875 - INFO -   - Seed Word 'operating'
+2025-07-29 16:06:07,895 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0010, Rank = 174
+2025-07-29 16:06:07,895 - INFO -   - Seed Word 'compatible'
+2025-07-29 16:06:07,905 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0001, Rank = 574
+2025-07-29 16:06:07,913 - INFO -   - Seed Word 'platform'
+2025-07-29 16:06:07,927 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0013, Rank = 167
+2025-07-29 16:06:07,937 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0017, Rank = 142
+2025-07-29 16:06:07,957 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0094, Rank = 20
+2025-07-29 16:06:07,957 - INFO -   - Seed Word 'browser'
+2025-07-29 16:06:07,977 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 913
+2025-07-29 16:06:07,977 - INFO -   - Seed Word 'portable'
+2025-07-29 16:06:07,987 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0000, Rank = 1061
+2025-07-29 16:06:07,987 - INFO -   - Seed Word 'based'
+2025-07-29 16:06:08,013 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0012, Rank = 221
+2025-07-29 16:06:08,027 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0027, Rank = 66
+2025-07-29 16:06:08,027 - INFO -   - Seed Word 'via'
+2025-07-29 16:06:08,047 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0003, Rank = 352
+2025-07-29 16:06:08,057 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0007, Rank = 362
+2025-07-29 16:06:08,057 - INFO -   - Seed Word 'android'
+2025-07-29 16:06:08,079 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 923
+2025-07-29 16:06:08,079 - INFO -   - Seed Word 'end'
+2025-07-29 16:06:08,089 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0022, Rank = 102
+2025-07-29 16:06:08,109 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 962
+2025-07-29 16:06:08,124 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0050, Rank = 27
+2025-07-29 16:06:08,144 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 625
+2025-07-29 16:06:08,155 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0022, Rank = 90
+2025-07-29 16:06:08,155 - INFO -   - Seed Word 'palm'
+2025-07-29 16:06:08,175 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0000, Rank = 1591
+2025-07-29 16:06:08,175 - INFO -   - Seed Word 'popular'
+2025-07-29 16:06:08,185 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0007, Rank = 331
+2025-07-29 16:06:08,185 - INFO -   - Seed Word 'therefore'
+2025-07-29 16:06:08,204 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0001, Rank = 757
+2025-07-29 16:06:08,229 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 471
+2025-07-29 16:06:08,242 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 840
+2025-07-29 16:06:08,242 - INFO -   - Seed Word 'apache'
+2025-07-29 16:06:08,252 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0003, Rank = 376
+2025-07-29 16:06:08,262 - WARNING - Seed Word 'linux' for topic 'PO' was not in the final dictionary.
+2025-07-29 16:06:08,262 - INFO -   - Seed Word 'various'
+2025-07-29 16:06:08,272 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0005, Rank = 341
+2025-07-29 16:06:08,292 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0043, Rank = 34
+2025-07-29 16:06:08,302 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0019, Rank = 103
+2025-07-29 16:06:08,322 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0019, Rank = 106
+2025-07-29 16:06:08,322 - INFO -   - Seed Word 'goal'
+2025-07-29 16:06:08,342 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0005, Rank = 343
+2025-07-29 16:06:08,362 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0007, Rank = 321
+2025-07-29 16:06:08,372 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0004, Rank = 335
+2025-07-29 16:06:08,372 - INFO -   - Seed Word 'since'
+2025-07-29 16:06:08,392 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0014, Rank = 159
+2025-07-29 16:06:08,412 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0007, Rank = 269
+2025-07-29 16:06:08,431 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0034, Rank = 48
+2025-07-29 16:06:08,447 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0010, Rank = 242
+2025-07-29 16:06:08,447 - INFO -   - Seed Word 'wide'
+2025-07-29 16:06:08,457 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0024, Rank = 87
+2025-07-29 16:06:08,457 - INFO -   - Seed Word 'either'
+2025-07-29 16:06:08,477 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0013, Rank = 211
+2025-07-29 16:06:08,497 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 638
+2025-07-29 16:06:08,497 - INFO -   - Seed Word 'variety'
+2025-07-29 16:06:08,517 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0006, Rank = 403
+2025-07-29 16:06:08,534 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0012, Rank = 154
+2025-07-29 16:06:08,544 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0015, Rank = 135
+2025-07-29 16:06:08,544 - INFO -   - Seed Word 'usable'
+2025-07-29 16:06:08,564 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0003, Rank = 404
+2025-07-29 16:06:08,564 - INFO -   - Seed Word 'several'
+2025-07-29 16:06:08,584 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0007, Rank = 262
+2025-07-29 16:06:08,604 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0019, Rank = 121
+2025-07-29 16:06:08,627 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0012, Rank = 201
+2025-07-29 16:06:08,627 - INFO -   - Seed Word 'mobile'
+2025-07-29 16:06:08,648 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 837
+2025-07-29 16:06:08,648 - INFO -   - Seed Word 'may'
+2025-07-29 16:06:08,662 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0004, Rank = 339
+2025-07-29 16:06:08,682 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0035, Rank = 45
+2025-07-29 16:06:08,692 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0018, Rank = 110
+2025-07-29 16:06:08,712 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0006, Rank = 232
+2025-07-29 16:06:08,712 - INFO -   - Seed Word 'used'
+2025-07-29 16:06:08,734 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0010, Rank = 191
+2025-07-29 16:06:08,744 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0006, Rank = 230
+2025-07-29 16:06:08,764 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0028, Rank = 67
+2025-07-29 16:06:08,784 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0053, Rank = 23
+2025-07-29 16:06:08,794 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0032, Rank = 63
+2025-07-29 16:06:08,794 - INFO -   - Seed Word 'hardware'
+2025-07-29 16:06:08,820 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0004, Rank = 367
+2025-07-29 16:06:08,836 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 723
+2025-07-29 16:06:08,836 - INFO -   - Seed Word 'independence'
+2025-07-29 16:06:08,849 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2184
+2025-07-29 16:06:08,849 - INFO - Seed Words: SC (Mapped to ID: 0)
+2025-07-29 16:06:08,849 - INFO -   - Seed Word 'simultaneous'
+2025-07-29 16:06:08,874 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 2199
+2025-07-29 16:06:08,875 - INFO -   - Seed Word 'handle'
+2025-07-29 16:06:08,887 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0009, Rank = 206
+2025-07-29 16:06:08,907 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0004, Rank = 415
+2025-07-29 16:06:08,907 - INFO -   - Seed Word 'capable'
+2025-07-29 16:06:08,920 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0003, Rank = 445
+2025-07-29 16:06:08,943 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 774
+2025-07-29 16:06:08,943 - INFO -   - Seed Word 'server'
+2025-07-29 16:06:08,953 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 776
+2025-07-29 16:06:08,973 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0000, Rank = 944
+2025-07-29 16:06:08,973 - INFO -   - Seed Word 'number'
+2025-07-29 16:06:08,993 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0011, Rank = 232
+2025-07-29 16:06:09,003 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0006, Rank = 409
+2025-07-29 16:06:09,003 - INFO -   - Seed Word 'process'
+2025-07-29 16:06:09,023 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0009, Rank = 213
+2025-07-29 16:06:09,040 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0008, Rank = 198
+2025-07-29 16:06:09,060 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0011, Rank = 241
+2025-07-29 16:06:09,080 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0046, Rank = 31
+2025-07-29 16:06:09,092 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0008, Rank = 200
+2025-07-29 16:06:09,099 - INFO -   - Seed Word 'transaction'
+2025-07-29 16:06:09,109 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 703
+2025-07-29 16:06:09,109 - INFO -   - Seed Word 'concurrent'
+2025-07-29 16:06:09,109 - INFO -   - Seed Word 'per'
+2025-07-29 16:06:09,129 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0009, Rank = 275
+2025-07-29 16:06:09,129 - INFO -   - Seed Word 'hour'
+2025-07-29 16:06:09,144 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 431
+2025-07-29 16:06:09,144 - INFO -   - Seed Word 'streaming'
+2025-07-29 16:06:09,164 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1384
+2025-07-29 16:06:09,164 - INFO -   - Seed Word 'next'
+2025-07-29 16:06:09,174 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0110, Rank = 11
+2025-07-29 16:06:09,194 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0010, Rank = 258
+2025-07-29 16:06:09,194 - INFO -   - Seed Word 'minimum'
+2025-07-29 16:06:09,214 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0001, Rank = 615
+2025-07-29 16:06:09,224 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 732
+2025-07-29 16:06:09,224 - INFO -   - Seed Word 'state'
+2025-07-29 16:06:09,251 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0005, Rank = 353
+2025-07-29 16:06:09,265 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 910
+2025-07-29 16:06:09,279 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 622
+2025-07-29 16:06:09,279 - INFO -   - Seed Word 'request'
+2025-07-29 16:06:09,305 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0004, Rank = 535
+2025-07-29 16:06:09,317 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0002, Rank = 433
+2025-07-29 16:06:09,317 - INFO -   - Seed Word 'target'
+2025-07-29 16:06:09,337 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0001, Rank = 568
+2025-07-29 16:06:09,355 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 591
+2025-07-29 16:06:09,355 - INFO -   - Seed Word 'increase'
+2025-07-29 16:06:09,365 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0017, Rank = 131
+2025-07-29 16:06:09,390 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0006, Rank = 380
+2025-07-29 16:06:09,390 - INFO -   - Seed Word 'handling'
+2025-07-29 16:06:09,406 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0014, Rank = 140
+2025-07-29 16:06:09,406 - INFO -   - Seed Word 'nursing'
+2025-07-29 16:06:09,425 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0003, Rank = 399
+2025-07-29 16:06:09,425 - INFO -   - Seed Word 'country'
+2025-07-29 16:06:09,442 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0012, Rank = 197
+2025-07-29 16:06:09,442 - INFO -   - Seed Word 'market'
+2025-07-29 16:06:09,459 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0003, Rank = 517
+2025-07-29 16:06:09,469 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0016, Rank = 141
+2025-07-29 16:06:09,469 - WARNING - Seed Word 'scheduling' for topic 'SC' was not in the final dictionary.
+2025-07-29 16:06:09,469 - INFO -   - Seed Word 'maximum'
+2025-07-29 16:06:09,497 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 713
+2025-07-29 16:06:09,497 - INFO -   - Seed Word 'united'
+2025-07-29 16:06:09,508 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0008, Rank = 215
+2025-07-29 16:06:09,508 - WARNING - Seed Word 'number_grow' for topic 'SC' was not in the final dictionary.
+2025-07-29 16:06:09,508 - WARNING - Seed Word 'average_number_recycled' for topic 'SC' was not in the final dictionary.
+2025-07-29 16:06:09,508 - WARNING - Seed Word 'capable_handling_existing' for topic 'SC' was not in the final dictionary.
+2025-07-29 16:06:09,508 - INFO - Seed Words: SE (Mapped to ID: 0)
+2025-07-29 16:06:09,508 - INFO -   - Seed Word 'access'
+2025-07-29 16:06:09,528 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0015, Rank = 148
+2025-07-29 16:06:09,552 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0008, Rank = 314
+2025-07-29 16:06:09,563 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 609
+2025-07-29 16:06:09,563 - INFO -   - Seed Word 'customer'
+2025-07-29 16:06:09,583 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0035, Rank = 58
+2025-07-29 16:06:09,583 - INFO -   - Seed Word 'password'
+2025-07-29 16:06:09,603 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1802
+2025-07-29 16:06:09,603 - INFO -   - Seed Word 'authorized'
+2025-07-29 16:06:09,621 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0000, Rank = 929
+2025-07-29 16:06:09,621 - INFO -   - Seed Word 'ensure'
+2025-07-29 16:06:09,633 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0002, Rank = 407
+2025-07-29 16:06:09,650 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0006, Rank = 383
+2025-07-29 16:06:09,650 - INFO -   - Seed Word 'security'
+2025-07-29 16:06:09,670 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0015, Rank = 164
+2025-07-29 16:06:09,670 - INFO -   - Seed Word 'log'
+2025-07-29 16:06:09,689 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 897
+2025-07-29 16:06:09,689 - INFO -   - Seed Word 'login'
+2025-07-29 16:06:09,704 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1783
+2025-07-29 16:06:09,704 - INFO -   - Seed Word 'role'
+2025-07-29 16:06:09,726 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0017, Rank = 131
+2025-07-29 16:06:09,744 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0008, Rank = 203
+2025-07-29 16:06:09,744 - INFO -   - Seed Word 'secure'
+2025-07-29 16:06:09,755 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0002, Rank = 441
+2025-07-29 16:06:09,755 - WARNING - Seed Word 'encrypted' for topic 'SE' was not in the final dictionary.
+2025-07-29 16:06:09,755 - INFO -   - Seed Word 'supervisor'
+2025-07-29 16:06:09,775 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1595
+2025-07-29 16:06:09,775 - INFO -   - Seed Word 'computer'
+2025-07-29 16:06:09,795 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0018, Rank = 125
+2025-07-29 16:06:09,815 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0103, Rank = 16
+2025-07-29 16:06:09,815 - INFO -   - Seed Word 'company'
+2025-07-29 16:06:09,825 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0019, Rank = 105
+2025-07-29 16:06:09,825 - INFO -   - Seed Word 'prevent'
+2025-07-29 16:06:09,851 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0003, Rank = 503
+2025-07-29 16:06:09,851 - WARNING - Seed Word 'stored' for topic 'SE' was not in the final dictionary.
+2025-07-29 16:06:09,851 - WARNING - Seed Word 'secured' for topic 'SE' was not in the final dictionary.
+2025-07-29 16:06:09,851 - INFO -   - Seed Word 'card'
+2025-07-29 16:06:09,865 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0002, Rank = 415
+2025-07-29 16:06:09,865 - INFO -   - Seed Word 'credit'
+2025-07-29 16:06:09,885 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0004, Rank = 520
+2025-07-29 16:06:09,885 - INFO -   - Seed Word 'require'
+2025-07-29 16:06:09,895 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0010, Rank = 265
+2025-07-29 16:06:09,915 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0005, Rank = 431
+2025-07-29 16:06:09,915 - INFO -   - Seed Word 'policy'
+2025-07-29 16:06:09,935 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0006, Rank = 414
+2025-07-29 16:06:09,953 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0004, Rank = 315
+2025-07-29 16:06:09,953 - INFO -   - Seed Word 'level'
+2025-07-29 16:06:09,973 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0019, Rank = 119
+2025-07-29 16:06:09,993 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0082, Rank = 19
+2025-07-29 16:06:10,003 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0023, Rank = 97
+2025-07-29 16:06:10,023 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0039, Rank = 36
+2025-07-29 16:06:10,023 - INFO -   - Seed Word 'update'
+2025-07-29 16:06:10,043 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0012, Rank = 218
+2025-07-29 16:06:10,060 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 921
+2025-07-29 16:06:10,080 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0003, Rank = 361
+2025-07-29 16:06:10,080 - WARNING - Seed Word 'authenticated' for topic 'SE' was not in the final dictionary.
+2025-07-29 16:06:10,080 - WARNING - Seed Word 'containing' for topic 'SE' was not in the final dictionary.
+2025-07-29 16:06:10,080 - INFO -   - Seed Word 'automatic'
+2025-07-29 16:06:10,100 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1068
+2025-07-29 16:06:10,100 - WARNING - Seed Word 'cooky' for topic 'SE' was not in the final dictionary.
+2025-07-29 16:06:10,100 - INFO -   - Seed Word 'integrity'
+2025-07-29 16:06:10,110 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0000, Rank = 1324
+2025-07-29 16:06:10,130 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1720
+2025-07-29 16:06:10,130 - INFO -   - Seed Word 'accessible'
+2025-07-29 16:06:10,153 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0006, Rank = 300
+2025-07-29 16:06:10,171 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0021, Rank = 105
+2025-07-29 16:06:10,188 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0005, Rank = 434
+2025-07-29 16:06:10,198 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0007, Rank = 240
+2025-07-29 16:06:10,198 - INFO -   - Seed Word 'virus'
+2025-07-29 16:06:10,222 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0005, Rank = 294
+2025-07-29 16:06:10,222 - INFO - Seed Words: US (Mapped to ID: 0)
+2025-07-29 16:06:10,222 - INFO -   - Seed Word 'training'
+2025-07-29 16:06:10,238 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0008, Rank = 263
+2025-07-29 16:06:10,257 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0011, Rank = 156
+2025-07-29 16:06:10,270 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0006, Rank = 399
+2025-07-29 16:06:10,290 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0013, Rank = 178
+2025-07-29 16:06:10,306 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0027, Rank = 70
+2025-07-29 16:06:10,306 - INFO -   - Seed Word 'page'
+2025-07-29 16:06:10,326 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0007, Rank = 343
+2025-07-29 16:06:10,336 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0001, Rank = 529
+2025-07-29 16:06:10,336 - INFO -   - Seed Word 'report'
+2025-07-29 16:06:10,356 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0007, Rank = 211
+2025-07-29 16:06:10,356 - INFO -   - Seed Word 'language'
+2025-07-29 16:06:10,379 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0138, Rank = 6
+2025-07-29 16:06:10,396 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0051, Rank = 46
+2025-07-29 16:06:10,396 - INFO -   - Seed Word 'intuitive'
+2025-07-29 16:06:10,406 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0019, Rank = 118
+2025-07-29 16:06:10,426 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0011, Rank = 225
+2025-07-29 16:06:10,426 - INFO -   - Seed Word 'collision'
+2025-07-29 16:06:10,446 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0000, Rank = 1236
+2025-07-29 16:06:10,446 - INFO -   - Seed Word 'service'
+2025-07-29 16:06:10,462 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0001, Rank = 1444
+2025-07-29 16:06:10,482 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0019, Rank = 104
+2025-07-29 16:06:10,482 - INFO -   - Seed Word 'realtor'
+2025-07-29 16:06:10,482 - INFO -   - Seed Word 'click'
+2025-07-29 16:06:10,492 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 729
+2025-07-29 16:06:10,492 - INFO -   - Seed Word 'screen'
+2025-07-29 16:06:10,512 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0007, Rank = 351
+2025-07-29 16:06:10,512 - INFO -   - Seed Word 'estimator'
+2025-07-29 16:06:10,512 - INFO -   - Seed Word 'interface'
+2025-07-29 16:06:10,528 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0023, Rank = 83
+2025-07-29 16:06:10,528 - WARNING - Seed Word 'caller' for topic 'US' was not in the final dictionary.
+2025-07-29 16:06:10,528 - INFO -   - Seed Word 'community'
+2025-07-29 16:06:10,548 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0003, Rank = 427
+2025-07-29 16:06:10,566 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0015, Rank = 157
+2025-07-29 16:06:10,576 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 701
+2025-07-29 16:06:10,586 - WARNING - Seed Word 'internet' for topic 'US' was not in the final dictionary.
+2025-07-29 16:06:10,586 - INFO -   - Seed Word 'easily'
+2025-07-29 16:06:10,596 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0014, Rank = 160
+2025-07-29 16:06:10,618 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0071, Rank = 27
+2025-07-29 16:06:10,635 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0009, Rank = 271
+2025-07-29 16:06:10,653 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1311
+2025-07-29 16:06:10,653 - INFO -   - Seed Word 'find'
+2025-07-29 16:06:10,670 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0014, Rank = 161
+2025-07-29 16:06:10,689 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0018, Rank = 126
+2025-07-29 16:06:10,699 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0050, Rank = 26
+2025-07-29 16:06:10,723 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0013, Rank = 189
+2025-07-29 16:06:10,723 - INFO -   - Seed Word 'standard'
+2025-07-29 16:06:10,740 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 459
+2025-07-29 16:06:10,750 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0007, Rank = 216
+2025-07-29 16:06:10,750 - INFO -   - Seed Word 'self'
+2025-07-29 16:06:10,774 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0005, Rank = 319
+2025-07-29 16:06:10,784 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0014, Rank = 164
+2025-07-29 16:06:10,804 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0005, Rank = 502
+2025-07-29 16:06:10,830 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0003, Rank = 627
+2025-07-29 16:06:10,830 - INFO -   - Seed Word 'instruction'
+2025-07-29 16:06:10,847 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0020, Rank = 113
+2025-07-29 16:06:10,857 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0010, Rank = 255
+2025-07-29 16:06:10,879 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0001, Rank = 618
+2025-07-29 16:06:10,879 - INFO -   - Seed Word 'understandable'
+2025-07-29 16:06:10,889 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0067, Rank = 28
+2025-07-29 16:06:10,899 - INFO -   - Seed Word 'representative'
+2025-07-29 16:06:10,909 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 1683
+2025-07-29 16:06:10,923 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0000, Rank = 1222
+2025-07-29 16:06:10,923 - INFO -   - Seed Word 'symbol'
+2025-07-29 16:06:10,943 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0000, Rank = 2393
+2025-07-29 16:06:10,943 - INFO -   - Seed Word 'conference'
+2025-07-29 16:06:10,953 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0000, Rank = 1336
+2025-07-29 16:06:10,979 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0000, Rank = 1725
+2025-07-29 16:06:10,979 - INFO -   - Seed Word 'button'
+2025-07-29 16:06:10,992 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 782
+2025-07-29 16:06:10,992 - WARNING - Seed Word 'adjuster' for topic 'US' was not in the final dictionary.
+2025-07-29 16:06:10,992 - INFO -   - Seed Word 'navigation'
+2025-07-29 16:06:11,012 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0001, Rank = 1544
+2025-07-29 16:06:11,023 - INFO -     * Topic Topic_6 (ID: 6): Probability = 0.0002, Rank = 478
+2025-07-29 16:06:11,023 - INFO -   - Seed Word 'need'
+2025-07-29 16:06:11,048 - INFO -     * Topic Topic_0 (ID: 0): Probability = 0.0013, Rank = 162
+2025-07-29 16:06:11,065 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0119, Rank = 2
+2025-07-29 16:06:11,083 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0033, Rank = 47
+2025-07-29 16:06:11,097 - INFO -     * Topic Topic_5 (ID: 5): Probability = 0.0079, Rank = 25
+2025-07-29 16:06:11,097 - INFO -   - Seed Word 'map'
+2025-07-29 16:06:11,117 - INFO -     * Topic Topic_3 (ID: 3): Probability = 0.0002, Rank = 762
+2025-07-29 16:06:11,127 - INFO -     * Topic Topic_4 (ID: 4): Probability = 0.0002, Rank = 939
+2025-07-29 16:06:11,127 - INFO -   - Seed Word 'naturally'
+2025-07-29 16:06:11,147 - INFO -     * Topic Topic_1 (ID: 1): Probability = 0.0002, Rank = 591
+2025-07-29 16:06:11,167 - INFO -     * Topic Topic_2 (ID: 2): Probability = 0.0000, Rank = 741
+2025-07-29 16:06:11,179 - INFO - Started getting topic distributions
+2025-07-29 16:06:24,725 - INFO - Average topic entropy: 0.6172, Std: 0.4440
+2025-07-29 16:06:39,803 - INFO - All reviews with topic assignments saved to ../../../datasets/standard_lda_test_reviews_with_topic.csv
+2025-07-29 16:06:39,803 - INFO - Sample of saved data:
+2025-07-29 16:06:39,812 - INFO -                                                            processed_reviews  topic topic_name  confidence   entropy
+0  best course ever excel looking forward full series course great work team      0    Topic_0    0.718436  0.602810
+1        well content easily understandable highly recommend beginner python      2    Topic_2    0.998574  0.013326

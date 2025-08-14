@@ -1,0 +1,90 @@
+2025-07-03 15:23:33,436 - INFO - Using device: cuda
+2025-07-03 15:23:33,436 - INFO - GPU: Tesla P40
+2025-07-03 15:23:33,441 - INFO - Loading pseudo-labeled data...
+2025-07-03 15:23:34,740 - WARNING - Found 10698 duplicate texts in pseudo-labeled data
+2025-07-03 15:23:34,873 - INFO - Removed duplicates, new dataset size: 85185
+2025-07-03 15:23:36,590 - INFO - 
+=== Class Distribution and Weights ===
+2025-07-03 15:23:36,591 - INFO - Label 0: 'F' - 4569 samples (5.4%), Weight: 2.6634
+2025-07-03 15:23:36,591 - INFO - Label 1: 'FT' - 14187 samples (16.7%), Weight: 0.8578
+2025-07-03 15:23:36,591 - INFO - Label 2: 'PE' - 16000 samples (18.8%), Weight: 0.7606
+2025-07-03 15:23:36,599 - INFO - Label 3: 'PO' - 5219 samples (6.1%), Weight: 2.3317
+2025-07-03 15:23:36,599 - INFO - Label 4: 'SC' - 19242 samples (22.6%), Weight: 0.6324
+2025-07-03 15:23:36,599 - INFO - Label 5: 'SE' - 15099 samples (17.7%), Weight: 0.8060
+2025-07-03 15:23:36,599 - INFO - Label 6: 'US' - 10869 samples (12.8%), Weight: 1.1196
+2025-07-03 15:23:36,975 - INFO - No data leakage detected
+2025-07-03 15:23:38,529 - INFO - Data loaded - Train: 68148, Val: 17037, Unlabeled: 188412
+2025-07-03 15:23:38,529 - INFO - Initializing model...
+2025-07-03 15:23:48,921 - INFO - 
+=== Iteration 1 ===
+2025-07-03 15:36:18,077 - INFO - Epoch 1 Loss: 0.5724
+2025-07-03 15:37:34,863 - INFO - F1 Score for F: 0.8002
+2025-07-03 15:37:34,863 - INFO - F1 Score for FT: 0.9496
+2025-07-03 15:37:34,864 - INFO - F1 Score for PE: 0.9495
+2025-07-03 15:37:34,864 - INFO - F1 Score for PO: 0.8701
+2025-07-03 15:37:34,864 - INFO - F1 Score for SC: 0.9326
+2025-07-03 15:37:34,864 - INFO - F1 Score for SE: 0.9434
+2025-07-03 15:37:34,864 - INFO - F1 Score for US: 0.9228
+2025-07-03 15:40:54,868 - INFO - Metrics - Accuracy: 0.9287 | Precision: 0.9296 | Recall: 0.9287 | F1-Score: 0.9283
+2025-07-03 16:02:10,805 - INFO - Epoch 2 Loss: 0.2128
+2025-07-03 16:03:26,599 - INFO - F1 Score for F: 0.8662
+2025-07-03 16:03:26,599 - INFO - F1 Score for FT: 0.9668
+2025-07-03 16:03:26,600 - INFO - F1 Score for PE: 0.9633
+2025-07-03 16:03:26,600 - INFO - F1 Score for PO: 0.9055
+2025-07-03 16:03:26,600 - INFO - F1 Score for SC: 0.9592
+2025-07-03 16:03:26,600 - INFO - F1 Score for SE: 0.9649
+2025-07-03 16:03:26,600 - INFO - F1 Score for US: 0.9556
+2025-07-03 16:05:36,795 - INFO - Metrics - Accuracy: 0.9531 | Precision: 0.9545 | Recall: 0.9531 | F1-Score: 0.9535
+2025-07-03 16:18:08,827 - INFO - Epoch 3 Loss: 0.1338
+2025-07-03 16:19:25,429 - INFO - F1 Score for F: 0.8960
+2025-07-03 16:19:25,430 - INFO - F1 Score for FT: 0.9734
+2025-07-03 16:19:25,430 - INFO - F1 Score for PE: 0.9701
+2025-07-03 16:19:25,430 - INFO - F1 Score for PO: 0.9244
+2025-07-03 16:19:25,430 - INFO - F1 Score for SC: 0.9662
+2025-07-03 16:19:25,430 - INFO - F1 Score for SE: 0.9712
+2025-07-03 16:19:25,431 - INFO - F1 Score for US: 0.9646
+2025-07-03 16:21:16,522 - INFO - Metrics - Accuracy: 0.9623 | Precision: 0.9630 | Recall: 0.9623 | F1-Score: 0.9625
+2025-07-03 16:21:18,043 - INFO - Model saved to saved_models/iter_1 (Iteration 1)
+2025-07-03 16:21:18,044 - INFO - 
+=== Iteration 2 ===
+2025-07-03 16:35:22,426 - INFO - Epoch 1 Loss: 0.1075
+2025-07-03 16:38:17,247 - INFO - F1 Score for F: 0.8960
+2025-07-03 16:38:17,258 - INFO - F1 Score for FT: 0.9734
+2025-07-03 16:38:17,258 - INFO - F1 Score for PE: 0.9701
+2025-07-03 16:38:17,258 - INFO - F1 Score for PO: 0.9244
+2025-07-03 16:38:17,259 - INFO - F1 Score for SC: 0.9662
+2025-07-03 16:38:17,259 - INFO - F1 Score for SE: 0.9712
+2025-07-03 16:38:17,259 - INFO - F1 Score for US: 0.9646
+2025-07-03 16:42:12,479 - INFO - Metrics - Accuracy: 0.9623 | Precision: 0.9630 | Recall: 0.9623 | F1-Score: 0.9625
+2025-07-03 16:57:08,005 - INFO - Epoch 2 Loss: 0.1088
+2025-07-03 16:58:21,005 - INFO - F1 Score for F: 0.8960
+2025-07-03 16:58:21,006 - INFO - F1 Score for FT: 0.9734
+2025-07-03 16:58:21,006 - INFO - F1 Score for PE: 0.9701
+2025-07-03 16:58:21,006 - INFO - F1 Score for PO: 0.9244
+2025-07-03 16:58:21,006 - INFO - F1 Score for SC: 0.9662
+2025-07-03 16:58:21,006 - INFO - F1 Score for SE: 0.9712
+2025-07-03 16:58:21,006 - INFO - F1 Score for US: 0.9646
+2025-07-03 17:00:16,271 - INFO - Metrics - Accuracy: 0.9623 | Precision: 0.9630 | Recall: 0.9623 | F1-Score: 0.9625
+2025-07-03 17:12:42,140 - INFO - Epoch 3 Loss: 0.1085
+2025-07-03 17:13:57,847 - INFO - F1 Score for F: 0.8960
+2025-07-03 17:13:57,848 - INFO - F1 Score for FT: 0.9734
+2025-07-03 17:13:57,848 - INFO - F1 Score for PE: 0.9701
+2025-07-03 17:13:57,848 - INFO - F1 Score for PO: 0.9244
+2025-07-03 17:13:57,848 - INFO - F1 Score for SC: 0.9662
+2025-07-03 17:13:57,848 - INFO - F1 Score for SE: 0.9712
+2025-07-03 17:13:57,848 - INFO - F1 Score for US: 0.9646
+2025-07-03 17:15:46,736 - INFO - Metrics - Accuracy: 0.9623 | Precision: 0.9630 | Recall: 0.9623 | F1-Score: 0.9625
+2025-07-03 17:15:48,222 - INFO - Model saved to saved_models/iter_2 (Iteration 2)
+2025-07-03 17:15:48,222 - INFO - Model stabilized (F1 change < 0.010, F1 = 0.9625). Stopping pseudo-labeling.
+2025-07-03 17:17:07,513 - INFO - F1 Score for F: 0.8960
+2025-07-03 17:17:07,514 - INFO - F1 Score for FT: 0.9734
+2025-07-03 17:17:07,514 - INFO - F1 Score for PE: 0.9701
+2025-07-03 17:17:07,514 - INFO - F1 Score for PO: 0.9244
+2025-07-03 17:17:07,514 - INFO - F1 Score for SC: 0.9662
+2025-07-03 17:17:07,514 - INFO - F1 Score for SE: 0.9712
+2025-07-03 17:17:07,514 - INFO - F1 Score for US: 0.9646
+2025-07-03 17:20:44,752 - INFO - Metrics - Accuracy: 0.9623 | Precision: 0.9630 | Recall: 0.9623 | F1-Score: 0.9625
+2025-07-03 17:20:44,772 - INFO - 
+Final Metrics - Accuracy: 0.9623 | Precision: 0.9630 | Recall: 0.9623 | F1-Score: 0.9625
+2025-07-03 17:20:49,333 - INFO - Model saved to saved_models/final_model (Iteration final)
+2025-07-03 17:20:49,337 - INFO - Training completed successfully

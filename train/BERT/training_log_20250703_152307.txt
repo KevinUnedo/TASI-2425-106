@@ -1,0 +1,19 @@
+2025-07-03 15:23:07,364 - INFO - Using device: cuda
+2025-07-03 15:23:07,364 - INFO - GPU: Tesla P40
+2025-07-03 15:23:07,395 - INFO - Loading pseudo-labeled data...
+2025-07-03 15:23:08,972 - WARNING - Found 10698 duplicate texts in pseudo-labeled data
+2025-07-03 15:23:09,054 - INFO - Removed duplicates, new dataset size: 85185
+2025-07-03 15:23:10,748 - INFO - 
+=== Class Distribution and Weights ===
+2025-07-03 15:23:10,749 - INFO - Label 0: 'F' - 4569 samples (5.4%), Weight: 2.6634
+2025-07-03 15:23:10,749 - INFO - Label 1: 'FT' - 14187 samples (16.7%), Weight: 0.8578
+2025-07-03 15:23:10,749 - INFO - Label 2: 'PE' - 16000 samples (18.8%), Weight: 0.7606
+2025-07-03 15:23:10,749 - INFO - Label 3: 'PO' - 5219 samples (6.1%), Weight: 2.3317
+2025-07-03 15:23:10,749 - INFO - Label 4: 'SC' - 19242 samples (22.6%), Weight: 0.6324
+2025-07-03 15:23:10,750 - INFO - Label 5: 'SE' - 15099 samples (17.7%), Weight: 0.8060
+2025-07-03 15:23:10,750 - INFO - Label 6: 'US' - 10869 samples (12.8%), Weight: 1.1196
+2025-07-03 15:23:11,087 - INFO - No data leakage detected
+2025-07-03 15:23:12,787 - INFO - Data loaded - Train: 68148, Val: 17037, Unlabeled: 188412
+2025-07-03 15:23:12,788 - INFO - Initializing model...
+2025-07-03 15:23:29,619 - INFO - 
+=== Iteration 1 ===
