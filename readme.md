@@ -1,4 +1,4 @@
-# Semi-Automated Requirement Elicitation for MOOCs using Thematic Analysis
+# IDENTIFICATION OF FUNCTIONAL AND NON-FUNCTIONAL REQUIREMENTS IN MOOCS: INTEGRATING TOPIC MODELING AND THEMATIC ANALYSIS 
 
 This repository contains the research project for identifying functional and non-functional requirements from Massive Open Online Courses (MOOCs) user reviews. The project proposes a semi-automated approach combining a Systematic Literature Review (SLR) with advanced NLP models to create a relevant and contextual thematic map of user needs.
 
@@ -36,9 +36,7 @@ The research was conducted using a semi-automated thematic analysis framework.
 This research utilizes two primary datasets:
 
 1.  **Coursera User Reviews:** Sourced from Kaggle, this dataset contains user reviews, ratings, and course information.
-    * **Source:** [Coursera Course Reviews on Kaggle](https://www.kaggle.com/datasets/imuhammad/course-reviews-on-coursera)
 2.  **PROMISE Dataset:** Sourced from GitHub, this dataset provides labeled requirement texts used for model training and validation.
-    * **Source:** [PROMISE NFR Dataset](https://github.com/awsm-research/PROMISE_NFR_Dataset)
 
 ## 🔧 Technologies Used
 
