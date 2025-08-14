@@ -1,43 +1,55 @@
-# Identification of Functional and Non-Functional Requirements in MOOCs: Integrating Topic Modeling and Thematic Analysis
+# Semi-Automated Requirement Elicitation for MOOCs using Thematic Analysis
 
-## Overview
+This repository contains the research project for identifying functional and non-functional requirements from Massive Open Online Courses (MOOCs) user reviews. The project proposes a semi-automated approach combining a Systematic Literature Review (SLR) with advanced NLP models to create a relevant and contextual thematic map of user needs.
 
-This project aims to identify functional and non-functional requirements in Massive Open Online Courses (MOOCs) by integrating Topic Modeling and Thematic Analysis. The goal is to provide a more structured and comprehensive understanding of MOOCs user needs through the application of Seeded Latent Dirichlet Allocation (LDA) and Bidirectional Encoder Representations from Transformers (BERT). This approach uses a Systematic Literature Review (SLR) to identify relevant topics and categorize user reviews into Functional Requirements (FR) and Non-Functional Requirements (NFR).
+## 📝 Abstract
 
-## Abstract
+Requirement Engineering (RE) is a crucial initial stage in software development. In the context of MOOC platforms, user reviews are a rich source for requirement elicitation. However, a key challenge is effectively identifying relevant topics from massive datasets of user reviews. This research proposes a semi-automated approach that begins with an SLR to define relevant requirement topics, followed by a thematic analysis using a combination of **Seeded LDA** and **TinyBERT**. The results show that our approach is more effective at clustering user reviews into Functional Requirements (FR) and Non-Functional Requirements (NFR), providing a relevant and contextual thematic map of MOOC user needs.
 
-Requirement Engineering (RE) is a critical phase in the software development cycle, where understanding user needs is paramount. In the context of MOOCs, user reviews serve as valuable data for identifying user preferences and requirements. However, the requirement elicitation process can be prone to ambiguities. This study proposes a systematic approach using LDA and BERT to categorize user feedback into FR and NFR, ultimately enhancing the efficiency of the requirement elicitation process.
+## 🎯 Project Goals
 
-## Project Structure
+1.  **Identify Relevant Requirement Topics:** To discover and define key requirement topics (both Functional and Non-Functional) relevant to MOOCs and Learning Management Systems (LMS) through a Systematic Literature Review (SLR).
+2.  **Implement an Effective Elicitation Process:** To apply a thematic analysis pipeline using Seeded LDA and TinyBERT to automatically categorize user reviews based on the topics identified in the first goal.
 
-### 1. **Datasets Folder**
-This folder contains various datasets used in the analysis and modeling.
-- `Maalej_Dataset.csv`: Dataset used for user review analysis.
-- `PROMISE_exp.csv`: Experimental dataset from the PROMISE repository.
-- `PROMISE_exp_cleaned.csv`: Cleaned version of the PROMISE dataset.
-- `preprocessed_coursera_review.csv`: Preprocessed user reviews from Coursera.
-- `selected_pseudo_labeled_reviews.csv`: A subset of labeled reviews for training.
-- `text_requirement.csv`: Dataset containing requirement text for analysis.
+## 🚀 Key Findings
 
-### 2. **Data Understanding Folder**
-This folder contains Jupyter Notebooks for exploratory data analysis (EDA).
-- `EDA_Coursera_reviews_dataset.ipynb`: Analysis of the Coursera reviews dataset.
-- `EDA_PROMISE_Dataset_(Requirement_text).ipynb`: EDA on the PROMISE dataset focusing on requirement text.
+Our approach demonstrated superior performance compared to baseline methods:
 
-### 3. **Data Preprocessing Folder**
-This folder contains scripts for preprocessing and cleaning the datasets.
-- `coursera_review.ipynb`: Script for processing Coursera reviews.
-- `requirement_text_old.ipynb`: Older version of the requirement text processing script.
-- `requirement_text.ipynb`: Final version of the requirement text preprocessing script.
+* **Topic Coherence:** Seeded LDA achieved a **coherence score of 0.4862**, slightly outperforming the standard LDA baseline (0.4801).
+* **Cluster Quality:** TinyBERT, trained on pseudo-labels from Seeded LDA, achieved a **silhouette score of 0.6078**, significantly surpassing the TF-IDF + K-Means baseline (0.0194).
 
-### 4. **Model_LDA Folder**
-This folder contains files related to the implementation of the LDA model for topic modeling.
-- `lda_output.log`: Log file capturing the output of the LDA model.
-- `seed_lda_labeling.py`: Python script for labeling topics with the LDA model.
+This proves the effectiveness of the proposed model in accurately grouping user reviews into meaningful requirement categories.
 
-### 5. **Model_TinyBERT Folder**
-This folder contains files for training and using the TinyBERT model for requirement categorization.
-- `train_model.py`: Python script to train the TinyBERT model.
-- `training_TinyBERT.log`: Log file of the TinyBERT training process.
-- `embeddings_plots`: Folder containing visualizations of the embeddings.
-- `saved_models`: Folder containing saved models after training.
+
+
+## 🛠️ Methodology
+
+The research was conducted using a semi-automated thematic analysis framework.
+
+1.  **Systematic Literature Review (SLR):** An SLR was performed to establish a foundational set of relevant Functional (FR) and Non-Functional (NFR) requirement topics specific to the MOOCs domain.
+2.  **Thematic Analysis with Topic Modeling:**
+    * **Seeded LDA:** This model was used to perform initial topic modeling. Unlike standard LDA, it uses the predefined topics from the SLR as "seeds" to guide the topic discovery process, ensuring higher relevance.
+    * **TinyBERT:** The contextual embeddings from a pre-trained TinyBERT model were used to represent the user reviews. The model was fine-tuned using pseudo-labels generated by the Seeded LDA, allowing it to accurately classify reviews based on deep contextual understanding.
+
+## 📦 Datasets
+
+This research utilizes two primary datasets:
+
+1.  **Coursera User Reviews:** Sourced from Kaggle, this dataset contains user reviews, ratings, and course information.
+    * **Source:** [Coursera Course Reviews on Kaggle](https://www.kaggle.com/datasets/imuhammad/course-reviews-on-coursera)
+2.  **PROMISE Dataset:** Sourced from GitHub, this dataset provides labeled requirement texts used for model training and validation.
+    * **Source:** [PROMISE NFR Dataset](https://github.com/awsm-research/PROMISE_NFR_Dataset)
+
+## 🔧 Technologies Used
+
+* **Language:** Python
+* **Core Libraries:** Pandas, Scikit-learn, Gensim, Transformers
+* **Models:** Seeded LDA, TinyBERT, Standard LDA (Baseline), TF-IDF + K-Means (Baseline)
+
+## 📂 Repository Structure
+
+├── datasets/             # Raw and processed datasets
+├── notebooks/        # Jupyter notebooks for SLR, analysis, and modeling
+├── src/              # Source code for helper functions and pipelines
+├── results/          # Model outputs, coherence scores, and visualizations
+└── README.md         # This file
