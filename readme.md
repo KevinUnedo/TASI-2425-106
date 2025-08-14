@@ -47,9 +47,10 @@ This research utilizes two primary datasets:
 * **Models:** Seeded LDA, TinyBERT, Standard LDA (Baseline), TF-IDF + K-Means (Baseline)
 
 ## 📂 Repository Structure
-
-├── datasets/             # Raw and processed datasets
-├── notebooks/        # Jupyter notebooks for SLR, analysis, and modeling
-├── src/              # Source code for helper functions and pipelines
-├── results/          # Model outputs, coherence scores, and visualizations
-└── README.md         # This file
+.
+├── data/       # Berisi dataset mentah dan yang telah diproses
+├── notebooks/    # Kumpulan Jupyter Notebooks untuk analisis dan pemodelan
+├── src/        # Kode sumber (.py) untuk fungsi pembantu dan pipeline
+├── results/      # Hasil keluaran seperti gambar, CSV, dan model yang disimpan
+├── LICENSE       # File lisensi proyek (misalnya, MIT)
+└── README.md     # File yang sedang Anda baca
